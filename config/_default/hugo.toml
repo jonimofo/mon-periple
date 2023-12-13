@@ -1,7 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://jonimofo.gitlab.io/mon-periple"
-#baseURL = "https://demo.gethugothemes.com/logbook/site/"
-
+baseURL = "https://demo.gethugothemes.com/logbook/site/"
 title = "LogBook | Hugo Personal Blog Template"
 theme = "logbook-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
