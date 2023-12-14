@@ -41,12 +41,14 @@ jobs:
        
       # - name: Install Dart Sass
       #   run: sudo snap install dart-sass
-      
+
+      # TODO remove this ??
       - name: Download npx
         run: curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
       - name: Install npx
         run: sudo apt install nodejs -y
       
+      # TODO remove this ??
       - name: Install postcss-cli
         run: npm install postcss-cli
 
