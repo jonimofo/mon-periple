@@ -13,8 +13,8 @@ googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read th
 # disqus short name
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
-
+defaultContentLanguage = "fr"
+disableLanguages = ["en"] # desable language from here
 
 ############################# Modules ############################
 [module]
