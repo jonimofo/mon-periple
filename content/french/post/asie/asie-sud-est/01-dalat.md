@@ -142,6 +142,10 @@ This is a simple warning.
 
 {{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
+<br>
+toto
+<br>
+
 {{< 
   gallery dir="images/post/asie/asie-sud-est/01-vietnam" 
   class="" 

@@ -1,6 +1,6 @@
 module gethugothemes.com
 
-go 1.20
+go 1.21.6
 
 require (
 	github.com/gethugothemes/hugo-modules/adsense v0.0.0-20230705095442-1f2d5ac8b18d // indirect
@@ -35,4 +35,6 @@ require (
 	github.com/gethugothemes/hugo-modules/shortcodes/vimeo-lite v0.0.0-20230705095442-1f2d5ac8b18d // indirect
 	github.com/gethugothemes/hugo-modules/shortcodes/youtube-lite v0.0.0-20230705095442-1f2d5ac8b18d // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 // indirect
+	github.com/mfg92/hugo-shortcode-gallery v1.1.0 // indirect
+	github.com/rootwork/hugo-module-gallery-grid v0.0.0-20220917024433-da422b21895a // indirect
 )

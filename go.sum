@@ -63,4 +63,8 @@ github.com/gethugothemes/hugo-modules/shortcodes/youtube-lite v0.0.0-20230705095
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 h1:pt/JGVD5YYRsVVijOHPZI6YKTUvbR4e0hgV9B0S6rbI=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003/go.mod h1:mvM05r93HiefwoaxQTaYiJxtJAhTebwQtU1Xh/J+Okk=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/mfg92/hugo-shortcode-gallery v1.1.0 h1:cg4ukvn+0Oy87togWEGe2BpuUXHXp+64n9P/NhUQugY=
+github.com/mfg92/hugo-shortcode-gallery v1.1.0/go.mod h1:zKnMCx7OJJPTfVNalUAFGkNVABLCqIuPl57NeBtSFc0=
+github.com/rootwork/hugo-module-gallery-grid v0.0.0-20220917024433-da422b21895a h1:GVF7IhtxP4tFK9wwm7Hs677b2LjzyC7/mXqj1RuONkc=
+github.com/rootwork/hugo-module-gallery-grid v0.0.0-20220917024433-da422b21895a/go.mod h1:iSieZp2e6r27jYGeX7MlQwayPfzAwYWMcnkRXgNopsA=
 github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

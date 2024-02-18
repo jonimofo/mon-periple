@@ -11,10 +11,34 @@
                 <span class="text-primary">{{ .Title }}</span>
               </h1>
             </div>
+
+
+          <!-- {{ $text := readFile "static/countries/vietnam.txt" }}
+          <div>{{ $text | safeHTML }}</div> -->
+
+                      <!-- Determine the file path based on the category title -->
+                      {{ $filePath := printf "static/countries/%s.txt" (urlize .Title) }}
+                      {{ if (fileExists $filePath) }}
+                        {{ $text := readFile $filePath }}
+                        <div>{{ $text | safeHTML }}</div>
+                      {{ else }}
+                        <div>No content available for this category.</div>
+                      {{ end }}
+
+
+                      <br><br>
+                      <!-- Determine the image file path based on the category title -->
+                    {{ $imagePath := printf "images/covers/%s.jpg" (urlize .Title) }}
+                    <!-- {{ $imagePath := printf "static/countries/%s.jpg" (urlize .Title) }} -->
+                    <img src="{{ $imagePath | relURL }}" alt="{{ .Title }}" class="category-image">
+
+
+
           </div>
         </div>
       </div>
     </section>
+
 
     {{ .Scratch.Set "where" .Data.Pages }}
     {{ partial "default.html" . }}
