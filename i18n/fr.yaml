@@ -1,23 +1,27 @@
 - id: continue_reading
-  translation: Relecture Continue
+  translation: Lire la suite
+  # translation: Relecture Continue
 
 - id: search_placeholder
   translation: Tapez et appuyez sur Entrée ...
 
 - id: latest_article
-  translation: Dernier article
+  translation: Derniers articles
 
 - id: categories
-  translation: Les catégories
+  translation: Catégories
+  # translation: Les catégories
 
 - id: tags
-  translation: Mots clés
+  translation: Mots-clefs
+  # translation: Mots clés
 
 - id: search
   translation: Chercher
 
 - id: date
-  translation: Date
+  translation: Publié le
+  # translation: Date
 
 - id: posted_by
   translation: Publié par cet auteur
@@ -56,7 +60,8 @@
   translation: À propos de moi
 
 - id: page_not_found
-  translation: Ooops! This Page Is Not Available
+  translation: Oups ! Cette page n'existe pas !
+  # translation: Ooops! This Page Is Not Available
 
 - id: search_input_placeholder
   translation: Recherche Logbook ..

@@ -5,28 +5,45 @@ body {
   font-family: $font-primary;
   -webkit-font-smoothing: antialiased;
   color: $text-color;
-  font-size: 0.875rem;
+  font-size: 1rem;
+  // font-size: 0.875rem;
+  margin-top: -50px;
 }
 
 p,
 .paragraph {
   font-weight: 400;
   color: $text-color;
-  font-size: 0.875rem;
+  font-size: 1rem;
+  // font-size: 0.875rem;
   line-height: 1.7;
   font-family: $font-primary;
+  text-align: justify; // added on 29/12/2023
 }
 
-h1,
+
+// h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: $text-dark;
+  color: $color_primary;
+  // color: $text-dark;
   font-family: $font-secondary;
   font-weight: 600;
   line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 // List in descending order to prevent extra sort function

@@ -27,6 +27,7 @@ source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
 
 
+
 ############################# Build ##############################
 [build]
 noJSConfigInAssets = false
@@ -92,3 +93,7 @@ mediaType = "application/json"
 baseName = "searchindex"
 isPlainText = true
 notAlternative = true
+
+
+
+

@@ -97,3 +97,4 @@ path = "github.com/gethugothemes/hugo-modules/gzip-caching"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/adsense"
+
