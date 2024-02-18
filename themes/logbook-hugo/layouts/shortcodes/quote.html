@@ -1,10 +1,19 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 
-
-<div class="quote">
+<div class="quote"
+    style="position: relative; 
+          margin: 10px 0; 
+          box-sizing: border-box;">
   <i class="fas fa-quote-left" style="color: #ce8460;"></i>
   <div>
-    <p style="color: #ce8460; font-weight: bold;">{{ .Inner | markdownify }}</p>
-    <!-- <span class="quote-by"> -{{ .Get "by" }}</span> -->
-  </div>
+      <br>
+      <p style="color: #ce8460; font-weight: bold; font-size: 1.2rem;">{{ .Inner | markdownify }}</p>
+      <br>
+      <!-- <span class="quote-by"> -{{ .Get "by" }}</span> -->
+    </div>
+    <i class="fas fa-quote-right" style="color: #ce8460; position: absolute; bottom: 10%; right: 0;"></i>
+  <!-- Optionally, uncomment and use the following if you wish to add another quote or text at the bottom right -->
+  <!-- <div class="quote-bottom-right" style="position: absolute; bottom: 10px; right: 10px; color: #ce8460; font-style: italic;">
+      Additional text or quote here
+  </div> -->
 </div>

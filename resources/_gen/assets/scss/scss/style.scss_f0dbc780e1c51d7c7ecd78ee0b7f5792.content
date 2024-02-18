@@ -9413,7 +9413,7 @@ body.dark .tab-content {
 
 .gallery-slider .swiper-button-prev,
 .gallery-slider .swiper-button-next {
-  #color: white;
+  color: white;
   opacity: 0;
   transition: 0.3s; }
 

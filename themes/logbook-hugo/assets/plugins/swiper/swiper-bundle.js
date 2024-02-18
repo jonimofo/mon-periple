@@ -9839,7 +9839,7 @@
     extendParams({
       autoplay: {
         enabled: false,
-        delay: 3000,
+        delay: 600,
         waitForTransition: true,
         disableOnInteraction: true,
         stopOnLastSlide: false,
