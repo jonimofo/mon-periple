@@ -82,11 +82,12 @@
 }
 
 .post-title {
-  color: $text-dark;
+  // color: $text-dark;
+  color: $color-primary;
   font-weight: 500;
 
   &:hover {
-    color: $color-primary;
+    color: $text-dark;
   }
 }
 
@@ -97,11 +98,13 @@
   }
 
   a {
-    color: $text-color;
+    color: $color-primary;
+    // color: $text-color;
     border-bottom: 1px dotted $border-color;
 
     &:hover {
-      color: $color-primary;
+      color: $text-color;
+
     }
   }
 }

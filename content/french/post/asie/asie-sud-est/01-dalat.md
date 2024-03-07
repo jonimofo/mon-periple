@@ -15,6 +15,8 @@ type: "regular"
 draft: false
 ---
 
+<br>
+
 ## C'est pas trop tôt !
 
 
@@ -38,6 +40,7 @@ Selon Wikipedia : *“Đà Lạt est l’une des villes surnommées « ville de 
 En me promenant un peu dehors, je comprends très vite la décision des autorités françaises : il fait au moins 10 °C de moins qu’à Hô Chi Minh Ville et les nuits y sont même fraîches. Cette ville est une destination prisée par les Vietnamiens pour y passer leurs vacances au frais ou même le temps d’un week-end. Le centre ville est concentré autour d’un la, et s’anime particulièrement la nuit, avec une nuée de 2 roues dans tous les sens. Mais ça on pourra en reparler plus tard tellement il y en a dans ce pays et que c’est quelque chose qui me choque à chaque fois…
 Je rejoins rapidement Giang, mon amie que j’ai rencontrée via la convention à laquelle j’ai participé au Japon en 2016 : [l’APCC](https://www.apcc.gr.jp/e/) (pour Asian Pacific Children Convention). Grâce à elle, je vais pouvoir véritablement rencontrer des locaux, apprendre les us et coutumes de ce pays et mieux encore, tester un large échantillon de leur délicieuse nourriture ! Giang est membre du JCI (Junior Chamber International), une organisation à but non lucratif fondée en 1915. Elle est principalement tournée vers les personnes de 18 à 40 ans (même si on peut toujours en faire partie par la suite) et destinée à créer un impact dans les communautés locales. Le JCI est un véritable réseau international, très (très) présent et actif en Asie. Par exemple, ce sont des jeunes faisant partie de ce réseau qui ont créé l’APCC dont j’ai parlé juste avant.
 
+<br>
 
 ## La maison de Papa
 
@@ -58,6 +61,8 @@ Je partage avec Nha mon impression de la ville de Đà Lạt et il me confirme m
 - est agriculteur
 
 Cette vision très philosophique et pas du tout réductrice conclut une super soirée passée en la compagnie de LP Nha, que j’aurais l’occasion de revoir par la suite, pendant des événements du JCI bien entendu.
+
+<br>
 
 
 ## Tête d'intrus

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asie on Mon Périple</title>
+    <link>http://192.168.1.249:1313/mon-periple/tags/asie/</link>
+    <description>Recent content in Asie on Mon Périple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://192.168.1.249:1313/mon-periple/tags/asie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Light Project : et la lumière fut !</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/</guid>
+      <description>Q uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.</description>
+    </item>
+    <item>
+      <title>Da Lat : arrivée en douceur</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/</link>
+      <pubDate>Sun, 04 Sep 2022 15:40:24 +0600</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/</guid>
+      <description>C&amp;rsquo;est pas trop tôt ! A près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de mon périple.</description>
+    </item>
+  </channel>
+</rss>

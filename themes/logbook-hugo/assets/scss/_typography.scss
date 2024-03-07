@@ -41,10 +41,10 @@ h6 {
   margin-bottom: 20px;
 }
 
-hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
+// hr {
+//   margin-top: 2rem;
+//   margin-bottom: 2rem;
+// }
 
 // List in descending order to prevent extra sort function
 $type-levels: 6, 5, 4, 3, 2, 1;
@@ -64,3 +64,40 @@ $type-levels: 6, 5, 4, 3, 2, 1;
     }
   }
 }
+
+// hr
+.custom-hr {
+  color: $color_primary !important;
+  height: 5px;
+}
+
+
+// Quote shortcode
+.quote {
+  position: relative; 
+  margin: 10px 0; 
+  box-sizing: border-box;
+  background-color: transparent !important;
+  text-align: center !important;
+}
+.shortcode-quote-main-div {
+  background-color: white !important;
+  position: relative; 
+  margin: 10px 0; 
+  box-sizing: border-box;
+}
+.shortcode-quote-text {
+  color: $color_primary !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.shortcode-quote-icon-left {
+  color: $color_primary;
+}
+.shortcode-quote-icon-right {
+  color: $color_primary;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+}
+

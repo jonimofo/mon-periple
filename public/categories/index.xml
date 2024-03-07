@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mon Périple</title>
+    <link>http://192.168.1.249:1313/mon-periple/categories/</link>
+    <description>Recent content in Categories on Mon Périple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://192.168.1.249:1313/mon-periple/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vietnam</title>
+      <link>http://192.168.1.249:1313/mon-periple/categories/vietnam/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/categories/vietnam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photography</title>
+      <link>http://192.168.1.249:1313/mon-periple/categories/photography/</link>
+      <pubDate>Sun, 15 Mar 2020 15:40:24 +0600</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/categories/photography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Four Seasone</title>
+      <link>http://192.168.1.249:1313/mon-periple/categories/four-seasone/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/categories/four-seasone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Newyork City</title>
+      <link>http://192.168.1.249:1313/mon-periple/categories/newyork-city/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/categories/newyork-city/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photobooth</title>
+      <link>http://192.168.1.249:1313/mon-periple/categories/photobooth/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/categories/photobooth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Videography</title>
+      <link>http://192.168.1.249:1313/mon-periple/categories/videography/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/categories/videography/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
