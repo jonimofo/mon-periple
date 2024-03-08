@@ -76,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.123.7">
+<meta name="generator" content="Hugo 0.123.8">
 
 
 
@@ -20001,10 +20001,6 @@ h6,
   line-height: 1.2;
   text-transform: uppercase; }
 
-.h2 {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
 h6,
 .h6 {
   font-size: calc(19.2px * 0.8);
@@ -21031,9 +21027,13 @@ header {
   color: #ce8460; }
 
 .quote {
-  background-color: #f0f0f0;
+  background-color: transparent !important;
+  text-align: center !important;
   display: flex;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
   .quote svg {
     font-size: 24px;
     color: #ce8460;
@@ -21042,6 +21042,26 @@ header {
     font-style: italic; }
   .quote-by {
     color: #ce8460; }
+
+.shortcode-quote-main-div {
+  background-color: white !important;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  font-weight: bold;
+  font-size: 1.2rem; }
+
+.shortcode-quote-icon-left {
+  color: #ce8460; }
+
+.shortcode-quote-icon-right {
+  color: #ce8460;
+  position: absolute;
+  bottom: 10%;
+  right: 0; }
 
 .scroll-top {
   border-top: 1px solid #ddd;
@@ -21085,6 +21105,15 @@ header {
 
 .search-page .search-wrapper-body {
   padding: 0 !important; }
+
+.bigletter {
+  font-size: 60px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 15px 0;
+  color: #ce8460;
+  /* color is set inline due to its dynamic nature */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22742,469 +22771,25 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
       
       
       
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
     
       
       
       
     
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/01.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/01.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
+      
+      
       
     
       
       
       
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
     
       
       
       
     
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/02.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/02.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
       
       
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/03.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/03.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/04.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/04.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/05.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/05.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/06.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/06.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
       
     
     

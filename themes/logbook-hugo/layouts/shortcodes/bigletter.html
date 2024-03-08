@@ -1,11 +1,3 @@
-{{ $color := .Get "color" | default $.Site.Params.color_primary }}
-<span style="
-    font-size: 60px;
-    font-family: $font-primary;
-    display: block;
-    float: left;
-    line-height: 0.5;
-    margin: 15px 15px 15px 0px;
-    color: {{ $color }}">
-{{ .Inner }}
+<span class="bigletter" style="color: {{ with .Get "color" }}{{ . }}{{ else }}{{ $.Site.Params.color_primary }}{{ end }}; font-family: {{ $.Site.Params.font_primary }};">
+    {{ .Inner }}
 </span>

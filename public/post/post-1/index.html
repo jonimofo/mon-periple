@@ -76,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.123.7">
+<meta name="generator" content="Hugo 0.123.8">
 
 
 
@@ -20010,14 +20010,6 @@ h6,
   line-height: 1.2;
   text-transform: uppercase; }
 
-.h2 {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-
 h6,
 .h6 {
   font-size: calc(19.2px * 0.8);
@@ -20072,7 +20064,7 @@ h1,
   .h1:not(h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6) {
     font-size: calc(47.775744px * 1); }
 
-.hr {
+.custom-hr {
   color: #ce8460 !important;
   height: 5px; }
 
@@ -20767,20 +20759,20 @@ header {
         .featured-post-content .post-meta a {
           color: #000; } }
 .post-title {
-  color: #1c1d1f;
+  color: #ce8460;
   font-weight: 500; }
   .post-title:hover {
-    color: #ce8460; }
+    color: #1c1d1f; }
 
 .post-meta li {
   margin-right: 0.62rem;
   font-size: 90%; }
 
 .post-meta a {
-  color: #696c6d;
+  color: #ce8460;
   border-bottom: 1px dotted #ddd; }
   .post-meta a:hover {
-    color: #ce8460; }
+    color: #696c6d; }
 
 .recent-thumb-alt {
   font-size: 0;
@@ -20891,22 +20883,6 @@ header {
   border: 1px solid #ddd;
   border-radius: 2.5rem;
   padding: 2px; }
-  .title-bordered h1, .title-bordered .h1,
-  .title-bordered h2,
-  .title-bordered .h2,
-  .title-bordered h3,
-  .title-bordered .h3,
-  .title-bordered h4,
-  .title-bordered .h4,
-  .title-bordered h5,
-  .title-bordered .h5,
-  .title-bordered h6,
-  .title-bordered .h6 {
-    background: #f0f0f0;
-    padding: 10px 25px;
-    margin-bottom: 0;
-    border-radius: inherit;
-    display: inline-block; }
 
 .form-group label {
   font-size: 14px;
@@ -21044,9 +21020,13 @@ header {
   color: #ce8460; }
 
 .quote {
-  background-color: #f0f0f0;
+  background-color: transparent !important;
+  text-align: center !important;
   display: flex;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
   .quote svg {
     font-size: 24px;
     color: #ce8460;
@@ -21055,6 +21035,26 @@ header {
     font-style: italic; }
   .quote-by {
     color: #ce8460; }
+
+.shortcode-quote-main-div {
+  background-color: white !important;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  font-weight: bold;
+  font-size: 1.2rem; }
+
+.shortcode-quote-icon-left {
+  color: #ce8460; }
+
+.shortcode-quote-icon-right {
+  color: #ce8460;
+  position: absolute;
+  bottom: 10%;
+  right: 0; }
 
 .scroll-top {
   border-top: 1px solid #ddd;
@@ -21098,6 +21098,15 @@ header {
 
 .search-page .search-wrapper-body {
   padding: 0 !important; }
+
+.bigletter {
+  font-size: 60px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 15px 0;
+  color: #ce8460;
+  /* color is set inline due to its dynamic nature */ }
 
 .notice {
   margin-bottom: 1.5rem;

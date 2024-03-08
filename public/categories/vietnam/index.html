@@ -76,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.123.7">
+<meta name="generator" content="Hugo 0.123.8">
 
 
 
@@ -20000,10 +20000,6 @@ h6,
   line-height: 1.2;
   text-transform: uppercase; }
 
-.h2 {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
 h6,
 .h6 {
   font-size: calc(19.2px * 0.8);
@@ -21030,9 +21026,13 @@ header {
   color: #ce8460; }
 
 .quote {
-  background-color: #f0f0f0;
+  background-color: transparent !important;
+  text-align: center !important;
   display: flex;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
   .quote svg {
     font-size: 24px;
     color: #ce8460;
@@ -21041,6 +21041,26 @@ header {
     font-style: italic; }
   .quote-by {
     color: #ce8460; }
+
+.shortcode-quote-main-div {
+  background-color: white !important;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  font-weight: bold;
+  font-size: 1.2rem; }
+
+.shortcode-quote-icon-left {
+  color: #ce8460; }
+
+.shortcode-quote-icon-right {
+  color: #ce8460;
+  position: absolute;
+  bottom: 10%;
+  right: 0; }
 
 .scroll-top {
   border-top: 1px solid #ddd;
@@ -21084,6 +21104,15 @@ header {
 
 .search-page .search-wrapper-body {
   padding: 0 !important; }
+
+.bigletter {
+  font-size: 60px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 15px 0;
+  color: #ce8460;
+  /* color is set inline due to its dynamic nature */ }
 
 .notice {
   margin-bottom: 1.5rem;

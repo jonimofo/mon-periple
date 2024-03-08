@@ -15,12 +15,10 @@ type: "regular"
 draft: false
 ---
 
-<br>
-
 ## C'est pas trop tôt !
 
 
-{{% bigletter color="#ce8460" %}}A{{% /bigletter %}}près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de mon périple.
+{{% bigletter %}}A{{% /bigletter %}}près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de mon périple.
 Je ne suis pas encore descendu de l’avion fraîchement atterri à l’aéroport d’Hô Chi Minh Ville que mon voisin de siège me demande d’où je viens. Quand je lui réponds que je suis Français, ce dernier se met alors à me parler en français. Il s’appelle Théo (en tout cas j’imagine que c’est le nom qu’il utilise en Europe vu que les prénoms vietnamiens sont vachement compliqués à prononcer et à retenir pour nous), vit et travaille en Belgique depuis une trentaine d’années environ. Nous discutons longuement tous les deux (en français) et vu que je n’ai rien à faire d’autre qu’attendre plus de trois heures supplémentaires à l’aéroport, je reste avec lui et patiente même quand il se fait longuement arrêter par les douanes vietnamiennes : chose qu’il avait prédite par ailleurs, sachant qu’il avait embarqué tout un tas de montres “toutes pourries” selon ses termes. Nous continuons à discuter et il propose de m’offrir un café à la sortie de l’aéroport.
 Il est environ 10 heures du matin et bien que mentalement préparé à cela, la chaleur est tout simplement étouffante. Je sirote mon café tout en continuant de papoter avec Théo, en attendant que son cousin vienne le chercher. Théo m’explique que cela fait plus de trois ans qu’il n’est pas rentré au VIetnam à cause du COVID. Son cousin arrive enfin et nous discutons un peu tous les trois avant qu’il soit temps de se séparer. Nous échangeons nos numéros : je me suis déjà fait un pote vietnamien, le voyage commence très bien !
 
@@ -39,8 +37,6 @@ Selon Wikipedia : *“Đà Lạt est l’une des villes surnommées « ville de 
 
 En me promenant un peu dehors, je comprends très vite la décision des autorités françaises : il fait au moins 10 °C de moins qu’à Hô Chi Minh Ville et les nuits y sont même fraîches. Cette ville est une destination prisée par les Vietnamiens pour y passer leurs vacances au frais ou même le temps d’un week-end. Le centre ville est concentré autour d’un la, et s’anime particulièrement la nuit, avec une nuée de 2 roues dans tous les sens. Mais ça on pourra en reparler plus tard tellement il y en a dans ce pays et que c’est quelque chose qui me choque à chaque fois…
 Je rejoins rapidement Giang, mon amie que j’ai rencontrée via la convention à laquelle j’ai participé au Japon en 2016 : [l’APCC](https://www.apcc.gr.jp/e/) (pour Asian Pacific Children Convention). Grâce à elle, je vais pouvoir véritablement rencontrer des locaux, apprendre les us et coutumes de ce pays et mieux encore, tester un large échantillon de leur délicieuse nourriture ! Giang est membre du JCI (Junior Chamber International), une organisation à but non lucratif fondée en 1915. Elle est principalement tournée vers les personnes de 18 à 40 ans (même si on peut toujours en faire partie par la suite) et destinée à créer un impact dans les communautés locales. Le JCI est un véritable réseau international, très (très) présent et actif en Asie. Par exemple, ce sont des jeunes faisant partie de ce réseau qui ont créé l’APCC dont j’ai parlé juste avant.
-
-<br>
 
 ## La maison de Papa
 
@@ -61,9 +57,6 @@ Je partage avec Nha mon impression de la ville de Đà Lạt et il me confirme m
 - est agriculteur
 
 Cette vision très philosophique et pas du tout réductrice conclut une super soirée passée en la compagnie de LP Nha, que j’aurais l’occasion de revoir par la suite, pendant des événements du JCI bien entendu.
-
-<br>
-
 
 ## Tête d'intrus
 
@@ -146,10 +139,6 @@ This is a simple warning.
 ### Gallery
 
 {{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<br>
-toto
-<br>
 
 {{< 
   gallery dir="images/post/asie/asie-sud-est/01-vietnam" 

@@ -7682,9 +7682,11 @@ h6,
   line-height: 1.2;
   text-transform: uppercase; }
 
-.h2 {
-  margin-top: 20px;
-  margin-bottom: 20px; }
+.post-title {
+  color: #ce8460;
+  font-family: "Coming Soon", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 h6,
 .h6 {
@@ -7739,6 +7741,10 @@ h1,
   h1:not(h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6),
   .h1:not(h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6) {
     font-size: calc(47.775744px * 1); }
+
+h2, .h2 {
+  margin-top: 3rem;
+  /* or rem */ }
 
 .custom-hr {
   color: #ce8460 !important;
@@ -8559,22 +8565,6 @@ header {
   border: 1px solid #ddd;
   border-radius: 2.5rem;
   padding: 2px; }
-  .title-bordered h1, .title-bordered .h1,
-  .title-bordered h2,
-  .title-bordered .h2,
-  .title-bordered h3,
-  .title-bordered .h3,
-  .title-bordered h4,
-  .title-bordered .h4,
-  .title-bordered h5,
-  .title-bordered .h5,
-  .title-bordered h6,
-  .title-bordered .h6 {
-    background: #f0f0f0;
-    padding: 10px 25px;
-    margin-bottom: 0;
-    border-radius: inherit;
-    display: inline-block; }
 
 .form-group label {
   font-size: 14px;
@@ -8712,9 +8702,13 @@ header {
   color: #ce8460; }
 
 .quote {
-  background-color: #f0f0f0;
+  background-color: transparent !important;
+  text-align: center !important;
   display: flex;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
   .quote svg {
     font-size: 24px;
     color: #ce8460;
@@ -8723,6 +8717,26 @@ header {
     font-style: italic; }
   .quote-by {
     color: #ce8460; }
+
+.shortcode-quote-main-div {
+  background-color: white !important;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  font-weight: bold;
+  font-size: 1.2rem; }
+
+.shortcode-quote-icon-left {
+  color: #ce8460; }
+
+.shortcode-quote-icon-right {
+  color: #ce8460;
+  position: absolute;
+  bottom: 10%;
+  right: 0; }
 
 .scroll-top {
   border-top: 1px solid #ddd;
@@ -8766,6 +8780,15 @@ header {
 
 .search-page .search-wrapper-body {
   padding: 0 !important; }
+
+.bigletter {
+  font-size: 60px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 15px 0;
+  color: #ce8460;
+  /* color is set inline due to its dynamic nature */ }
 
 .notice {
   margin-bottom: 1.5rem;

@@ -76,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.123.7">
+<meta name="generator" content="Hugo 0.123.8">
 
 
 
@@ -20010,9 +20010,11 @@ h6,
   line-height: 1.2;
   text-transform: uppercase; }
 
-.h2 {
-  margin-top: 20px;
-  margin-bottom: 20px; }
+.post-title {
+  color: #ce8460;
+  font-family: "Coming Soon", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 h6,
 .h6 {
@@ -20067,6 +20069,10 @@ h1,
   h1:not(h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6),
   .h1:not(h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6) {
     font-size: calc(47.775744px * 1); }
+
+h2, .h2 {
+  margin-top: 3rem;
+  /* or rem */ }
 
 .custom-hr {
   color: #ce8460 !important;
@@ -20887,22 +20893,6 @@ header {
   border: 1px solid #ddd;
   border-radius: 2.5rem;
   padding: 2px; }
-  .title-bordered h1, .title-bordered .h1,
-  .title-bordered h2,
-  .title-bordered .h2,
-  .title-bordered h3,
-  .title-bordered .h3,
-  .title-bordered h4,
-  .title-bordered .h4,
-  .title-bordered h5,
-  .title-bordered .h5,
-  .title-bordered h6,
-  .title-bordered .h6 {
-    background: #f0f0f0;
-    padding: 10px 25px;
-    margin-bottom: 0;
-    border-radius: inherit;
-    display: inline-block; }
 
 .form-group label {
   font-size: 14px;
@@ -21040,9 +21030,13 @@ header {
   color: #ce8460; }
 
 .quote {
-  background-color: #f0f0f0;
+  background-color: transparent !important;
+  text-align: center !important;
   display: flex;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
   .quote svg {
     font-size: 24px;
     color: #ce8460;
@@ -21051,6 +21045,26 @@ header {
     font-style: italic; }
   .quote-by {
     color: #ce8460; }
+
+.shortcode-quote-main-div {
+  background-color: white !important;
+  position: relative;
+  margin: 10px 0;
+  box-sizing: border-box; }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  font-weight: bold;
+  font-size: 1.2rem; }
+
+.shortcode-quote-icon-left {
+  color: #ce8460; }
+
+.shortcode-quote-icon-right {
+  color: #ce8460;
+  position: absolute;
+  bottom: 10%;
+  right: 0; }
 
 .scroll-top {
   border-top: 1px solid #ddd;
@@ -21094,6 +21108,15 @@ header {
 
 .search-page .search-wrapper-body {
   padding: 0 !important; }
+
+.bigletter {
+  font-size: 60px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 15px 0;
+  color: #ce8460;
+  /* color is set inline due to its dynamic nature */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22092,8 +22115,8 @@ body.dark .tab-content {
 
 
 
+<section class="section">
 
-<section class="section" style="margin-top: -20px;">
   <div class="container">
     <article class="row mb-4">
       
@@ -22103,7 +22126,8 @@ body.dark .tab-content {
       <div
         class="col-lg-8 mx-auto ">
         <div class=" mb-4">
-          <h1 class="h2 mb-3">Da Lat : arrivée en douceur</h1>
+          <h1 class="post-title mb-3">Da Lat : arrivée en douceur</h1>
+          
           <ul class="list-inline post-meta mb-3">
             <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : Benji
               
@@ -22245,21 +22269,13 @@ body.dark .tab-content {
         </div>
         
         <div class="">
-          <div class="content"><br>
-<h2 id="cest-pas-trop-tôt-">C&rsquo;est pas trop tôt !</h2>
-<p><span style="
-font-size: 60px;
-font-family: $font-primary;
-display: block;
-float: left;
-line-height: 0.5;
-margin: 15px 15px 15px 0px;
-color: #ce8460">
-A
+          <div class="content"><h2 id="cest-pas-trop-tôt-">C&rsquo;est pas trop tôt !</h2>
+<span class="bigletter" style="color: ; font-family: ;">
+    A
 </span>
 près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de mon périple.
 Je ne suis pas encore descendu de l’avion fraîchement atterri à l’aéroport d’Hô Chi Minh Ville que mon voisin de siège me demande d’où je viens. Quand je lui réponds que je suis Français, ce dernier se met alors à me parler en français. Il s’appelle Théo (en tout cas j’imagine que c’est le nom qu’il utilise en Europe vu que les prénoms vietnamiens sont vachement compliqués à prononcer et à retenir pour nous), vit et travaille en Belgique depuis une trentaine d’années environ. Nous discutons longuement tous les deux (en français) et vu que je n’ai rien à faire d’autre qu’attendre plus de trois heures supplémentaires à l’aéroport, je reste avec lui et patiente même quand il se fait longuement arrêter par les douanes vietnamiennes : chose qu’il avait prédite par ailleurs, sachant qu’il avait embarqué tout un tas de montres “toutes pourries” selon ses termes. Nous continuons à discuter et il propose de m’offrir un café à la sortie de l’aéroport.
-Il est environ 10 heures du matin et bien que mentalement préparé à cela, la chaleur est tout simplement étouffante. Je sirote mon café tout en continuant de papoter avec Théo, en attendant que son cousin vienne le chercher. Théo m’explique que cela fait plus de trois ans qu’il n’est pas rentré au VIetnam à cause du COVID. Son cousin arrive enfin et nous discutons un peu tous les trois avant qu’il soit temps de se séparer. Nous échangeons nos numéros : je me suis déjà fait un pote vietnamien, le voyage commence très bien !</p>
+Il est environ 10 heures du matin et bien que mentalement préparé à cela, la chaleur est tout simplement étouffante. Je sirote mon café tout en continuant de papoter avec Théo, en attendant que son cousin vienne le chercher. Théo m’explique que cela fait plus de trois ans qu’il n’est pas rentré au VIetnam à cause du COVID. Son cousin arrive enfin et nous discutons un peu tous les trois avant qu’il soit temps de se séparer. Nous échangeons nos numéros : je me suis déjà fait un pote vietnamien, le voyage commence très bien !
 <p>Il est temps ensuite de prendre mon dernier vol, direction Đà Lạt. Juste avant de monter dans l’avion, une dame vietnamienne me demande d’où je viens. Quand je lui dis que je suis français, elle paraît ravie en me disant que son mari est professeur d’université et qu’il enseigne souvent en France. Je suis un peu surpris que certaines personnes m’abordent juste en remarquant ma tête d’européen mais quand je regarde autour de moi, je constate que je suis le seul représentant du vieux continent dans l’avion.  Ce sentiment de me sentir un peu différent va continuer à m’accompagner pendant la première partie de mon séjour au Vietnam.</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11687429.334949337!2d106.59353266155628!3d15.68456452162562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317112fef20988b1%3A0xad5f228b672bf930!2zxJDDoCBM4bqhdCwgTMOibSDEkOG7k25nLCBWaWV0bmFt!5e0!3m2!1sfr!2sfr!4v1703696882021!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <p>J’arrive finalement à Đà Lạt pour enfin pouvoir savourer mes vacances. Pour la petite histoire, Đà Lạt est une ville construite par les français. Les autorités françaises cherchaient un endroit plus frais pour que leurs officiers puissent échapper un peu à la chaleur étouffante du Vietnam.</p>
@@ -22276,7 +22292,6 @@ Je rejoins rapidement Giang, mon amie que j’ai rencontrée via la convention �
 
 >l’APCC</a>
  (pour Asian Pacific Children Convention). Grâce à elle, je vais pouvoir véritablement rencontrer des locaux, apprendre les us et coutumes de ce pays et mieux encore, tester un large échantillon de leur délicieuse nourriture ! Giang est membre du JCI (Junior Chamber International), une organisation à but non lucratif fondée en 1915. Elle est principalement tournée vers les personnes de 18 à 40 ans (même si on peut toujours en faire partie par la suite) et destinée à créer un impact dans les communautés locales. Le JCI est un véritable réseau international, très (très) présent et actif en Asie. Par exemple, ce sont des jeunes faisant partie de ce réseau qui ont créé l’APCC dont j’ai parlé juste avant.</p>
-<br>
 <h2 id="la-maison-de-papa">La maison de Papa</h2>
 <p>Le JCI est un réseau humain avant tout, et via cette connexion, nous sommes invités à manger chez le président du chapitre local, c’est à dire celui de Đà Lạt. C’est quoi un chapitre me direz-vous ? On aura l’occasion d’en reparler plus en détail un peu plus tard, dans un article dédié au JCI. En attendant, dites-vous juste qu’un pays est divisé en plusieurs chapitres, selon certaines conditions. Parce que s’il y a bien un truc à retenir en premier lieu vis-à-vis du JCI, c’est que c’est vraiment très protocolaire et que les gens aiment bien s’adresser entre eux par leurs titres. Dans notre cas, nous allons donc manger chez LP Nha (LP pour Local President).
 Et là, on peut dire que je me sens un peu comme au pays puisqu’au portail d’entrée je vois ça :</p>
@@ -22291,13 +22306,11 @@ Ce soir-là Nha nous a cuisiné des “mì quảng chay“ : nouilles végétari
 <li>est agriculteur</li>
 </ul>
 <p>Cette vision très philosophique et pas du tout réductrice conclut une super soirée passée en la compagnie de LP Nha, que j’aurais l’occasion de revoir par la suite, pendant des événements du JCI bien entendu.</p>
-<br>
 <h2 id="tête-dintrus">Tête d&rsquo;intrus</h2>
 <p>Au fur et à mesure de mes sorties dans Đà Lạt et ses alentours, j’ai quand même l’impression que soit beaucoup des gens qui y vivent n’ont jamais vu de blanc/européen, soit le COVID a fermé les frontières trop longtemps. En tous les cas, je vis souvent des situations où des gens me disent spontanément “Hello !”. Ce sont surtout des enfants, qui bien souvent me fixent longuement en me faisant un grand sourire. Bon j’avoue c’est un peu perturbant des fois comme par exemple quand au supermarché une mère de famille me voit et fait exprès de faire demi-tour avec tous ses enfants dans son caddie pour venir me saluer à grands coups de “Hellooooo !”. Ou bien ces enfants qui me fixaient longuement en s’approchant de plus en plus de moi, alors que je dégustais une glace Kem Tràng Tiền, marque typique de Hanoi, parfum « kem cốm » (jeune riz : type de riz que j’avais déjà eu l’occasion de goûter à Hanoi en 2019). Mais à chaque fois c’est très bienveillant et ça me fait bien rire. La palme de ce genre d’interactions revient à cette dame dans une petite épicerie où nous étions allés acheter de l’eau et qui en me voyant a déclaré :</p>
 
 
 <div class="quote">
-    
   <i class="fas fa-quote-left shortcode-quote-icon-left"></i>
   <div class="shortcode-div">
       <br>
@@ -22595,469 +22608,25 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
       
       
       
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
     
       
       
       
     
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/01.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/01.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
+      
+      
       
     
       
       
       
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
     
       
       
       
     
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/02.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/02.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
       
       
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/03.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/03.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/04.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/04.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/05.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/05.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/06.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/06.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
       
     
     
@@ -23066,9 +22635,6 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
   
 
 
-<br>
-toto
-<br>
 
 
 
@@ -23096,79 +22662,6 @@ toto
     
       
       
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1536x1152_resize_q90_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/post/asie/asie-sud-est/01-vietnam/dalat_cover.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1536x1152_resize_q90_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
       
     
     

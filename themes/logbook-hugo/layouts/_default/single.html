@@ -7,8 +7,8 @@
 {{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq
 .Section "categories") (eq .Section "tags") }}
 
-<!-- <section class="section""> -->
-<section class="section" style="margin-top: -20px;">
+<section class="section">
+<!-- <section class="section" style="margin-top: -20px;"> -->
   <div class="container">
     <article class="row mb-4">
       <!-- left sidebar -->
@@ -25,7 +25,8 @@
       {{if or (eq $sidebar `left`) (eq $sidebar `right`)}}<div
         class="col-lg-8 mx-auto {{if eq $sidebar `left`}}order-1 order-lg-2{{end}}">{{end}}
         <div class="{{if not (or (eq $sidebar `left`) (eq $sidebar `right`))}}col-lg-10 mx-auto{{end}} mb-4">
-          <h1 class="h2 mb-3">{{ .Title }}</h1>
+          <h1 class="post-title mb-3">{{ .Title }}</h1>
+          <!-- <h1 class="h2 mb-3">{{ .Title }}</h1> -->
           <ul class="list-inline post-meta mb-3">
             <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : {{ .Params.author }}
               <!-- <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.author }}</a> -->
