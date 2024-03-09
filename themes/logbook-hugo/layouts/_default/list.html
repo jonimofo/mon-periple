@@ -12,36 +12,36 @@
             <!-- Showing items from -->
             <span class="text-primary">{{ .Title }}</span>
           </h1>
-        </div>
+        </div container-flex>
         <div class="category-cover-image">
-        <!-- <div class="category-cover-image" style="padding-top: 30px;"> -->
-          <!-- Assuming you want to dynamically select an image based on the category displayed -->
-          <!-- Determine the image file path based on the category title -->
           {{ $imagePath := printf "/images/covers/%s.jpg" (urlize .Title) }}
-          <!-- Use the imagePath with your image partial -->
           {{ partial "image.html" (dict "Src" $imagePath "Context" .Page ) }}
         </div>
-        <div style="  color: #ce8460;
-					font-weight: bold;
-					font-size: 1.2rem;
-					text-align: center;
-					/* margin-top: 1.2em; */
-					">
-          <!-- Get content dynamically to match the Category displayed -->
-          <!-- Determine the file path based on the category title -->
-          {{ $filePath := printf "static/countries/%s.txt" (urlize .Title) }}
-          {{ if (fileExists $filePath) }}
-          {{ $text := readFile $filePath }}
-          <div>{{ $text | safeHTML }}</div>
-          {{ else }}
-          <div>No content available for this category.</div>
-          {{ end }}
-        </div>
       </div>
-      
-      <hr>
-
     </div>
+
+    <div class="category-text">
+      <i class="fas fa-quote-left category-quote-left"></i>
+      <!-- Get content dynamically to match the Category displayed -->
+      <!-- Determine the file path based on the category title -->
+      {{ $filePath := printf "static/countries/%s.txt" (urlize .Title) }}
+      {{ if (fileExists $filePath) }}
+        <!-- {{ $text := readFile $filePath }} -->
+        {{ $text := readFile $filePath | markdownify }}
+        <!-- <div>{{ $text | safeHTML }}</div> -->
+        <div class="category-markdown-content">{{ $text | markdownify }}</div>
+
+        <i class="fas fa-quote-right category-quote-right"></i>
+      {{ else }}
+      <div>No content available for this category.</div>
+      {{ end }}
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+  </div>
   </div>
   </div>
 </section>

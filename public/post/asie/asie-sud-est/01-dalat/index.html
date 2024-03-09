@@ -20804,6 +20804,13 @@ header {
   .post-title:hover {
     color: #1c1d1f; }
 
+.post-title-blog {
+  color: #ce8460;
+  font-family: "Coming Soon", sans-serif;
+  font-size: 2.4rem !important;
+  font-weight: 500;
+  text-transform: uppercase; }
+
 .post-meta li {
   margin-right: 0.62rem;
   font-size: 90%; }
@@ -21159,22 +21166,80 @@ header {
 .search-page .search-wrapper-body {
   padding: 0 !important; }
 
-.category-cover-image {
-  padding-top: 1rem;
+/* Container setup for Flexbox */
+.container-flex {
   display: flex;
   /* Enables Flexbox */
-  justify-content: center;
-  /* Centers the child horizontally */
-  height: 100%;
-  /* Optional: Adjust based on your requirements */ }
+  flex-wrap: wrap;
+  /* Allows items to wrap as needed */
+  justify-content: space-between;
+  /* Distributes space between the elements on smaller screens */
+  align-items: stretch;
+  /* Stretches items to fill the container */ }
 
+.category-cover-image,
+.category-text {
+  flex-basis: 100%;
+  /* Takes full width on smaller screens */
+  display: flex;
+  /* Enables Flexbox for centering content */
+  justify-content: center;
+  /* Centers content horizontally */
+  align-items: center;
+  /* Centers content vertically */
+  padding: 1rem;
+  /* Adds some padding around the content */
+  text-align: center;
+  /* Ensure the text within .category-text is centered */ }
+
+.category-cover-image {
+  /* Adjusts the size and alignment of the image within */
+  justify-content: center;
+  /* Keeps image horizontally centered */
+  align-items: center;
+  /* Keeps image vertically centered */ }
+
+.category-text {
+  color: #ce8460 !important;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+  /* This makes the absolute positioning of the children relative to this container */
+  padding: 2rem;
+  /* Add padding to ensure the text does not overlap the quote icons */
+  padding-top: 3rem; }
+
+/* Responsive adjustments for larger screens */
 @media (min-width: 1200px) {
-  /* Adjusts for large displays */
-  .image-container img {
-    width: 80%;
-    /* Reduces image size to 80% on large screens */
+  .container-flex {
+    flex-direction: row;
+    /* Layout items in a row for larger screens */
+    justify-content: center;
+    /* Centers the child elements (flex items) */ }
+  .category-cover-image,
+  .category-text {
+    flex: 1 1 50%;
+    /* Allows each item to take up half the container's width on larger screens */ }
+  .category-cover-image img {
+    max-width: 90%;
+    /* Adjusts the image size to be no more than 80% of its flex container */
     height: auto;
     /* Maintains aspect ratio */ } }
+
+.category-quote-left, .category-quote-right {
+  font-size: 2.2rem;
+  color: #ce8460; }
+
+.category-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.category-quote-right {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
 
 .bigletter {
   font-size: 60px;
@@ -21184,6 +21249,44 @@ header {
   margin: 15px 15px 15px 0;
   color: #ce8460;
   /* color is set inline due to its dynamic nature */ }
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem; }
+
+.nav-previous, .nav-next {
+  flex: 1;
+  text-align: center;
+  /* Center align the content for each navigation direction */ }
+
+.nav-previous {
+  text-align: left; }
+
+.nav-next {
+  text-align: right; }
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  /* Adds a small margin below the button for spacing */ }
+
+.prev-title a, .next-title a {
+  font-weight: normal;
+  color: #007bff;
+  /* Color to match the button for consistency, adjust as needed */
+  text-decoration: none;
+  /* Removes underline from links */ }
+
+.prev-title, .next-title {
+  margin: 0;
+  /* Removes default margin from h4 */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22183,7 +22286,6 @@ body.dark .tab-content {
 
 
 <section class="section">
-
   <div class="container">
     <article class="row mb-4">
       
@@ -22193,7 +22295,7 @@ body.dark .tab-content {
       <div
         class="col-lg-8 mx-auto ">
         <div class=" mb-4">
-          <h1 class="post-title mb-3">Da Lat : arrivée en douceur</h1>
+          <h1 class="post-title-blog mb-3">Da Lat : arrivée en douceur</h1>
           
           <ul class="list-inline post-meta mb-3">
             <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : Benji
@@ -22849,8 +22951,7 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
       
       
       <aside class="col-lg-4 mt-5 mt-lg-0">
-        
-        <div class="ps-0 ps-lg-4" style="margin-top: 25px;"><!-- latest post -->
+        <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
   <h5 class="widget-title"><span>Derniers articles</span></h5>
   <!-- post-item -->
@@ -23360,6 +23461,26 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
       </aside>
       
       
+
+
+      <div class="post-navigation">
+        
+        <div class="nav-previous">
+            <a href="http://192.168.1.249:1313/mon-periple/shop/product-3/" class="btn btn-secondary">&larr; Previous Article</a>
+            <h4 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-3/">School Bag</a></h4>
+        </div>
+        
+        
+        <div class="nav-next">
+            <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/" class="btn btn-primary">Next Article &rarr;</a>
+            <h4 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Light Project : et la lumière fut !</a></h4>
+        </div>
+        
+    </div>
+    
+
+
+
     </article>
     
     

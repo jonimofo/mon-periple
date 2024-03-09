@@ -82,7 +82,6 @@
 }
 
 .post-title {
-  // color: $text-dark;
   color: $color-primary;
   font-weight: 500;
 
@@ -90,6 +89,16 @@
     color: $text-dark;
   }
 }
+
+// Custom Post TItle
+.post-title-blog {
+  color: $color-primary;
+  font-family: $font-secondary;
+  font-size: 2.4rem !important;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 
 .post-meta {
   li {
@@ -619,21 +628,77 @@
 
 
 
-
-.category-cover-image {
-  padding-top: 1rem;
-
+// -----------------------------------------------------------------------------
+// CATEGORY PAGES
+// -----------------------------------------------------------------------------
+/* Container setup for Flexbox */
+.container-flex {
   display: flex; /* Enables Flexbox */
-  justify-content: center; /* Centers the child horizontally */
-  // align-items: center; /* Centers the child vertically */
-  height: 100%; /* Optional: Adjust based on your requirements */
+  flex-wrap: wrap; /* Allows items to wrap as needed */
+  justify-content: space-between; /* Distributes space between the elements on smaller screens */
+  align-items: stretch; /* Stretches items to fill the container */
 }
 
-@media (min-width: 1200px) { /* Adjusts for large displays */
-  .image-container img {
-    width: 80%; /* Reduces image size to 80% on large screens */
+.category-cover-image,
+.category-text {
+  flex-basis: 100%; /* Takes full width on smaller screens */
+  display: flex; /* Enables Flexbox for centering content */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  padding: 1rem; /* Adds some padding around the content */
+  text-align: center; /* Ensure the text within .category-text is centered */
+}
+
+.category-cover-image {
+  // background-color: orange;
+  /* Adjusts the size and alignment of the image within */
+  justify-content: center; /* Keeps image horizontally centered */
+  align-items: center; /* Keeps image vertically centered */
+}
+
+.category-text {
+  color: $color-primary !important;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative; /* This makes the absolute positioning of the children relative to this container */
+  padding: 2rem; /* Add padding to ensure the text does not overlap the quote icons */
+  padding-top: 3rem;
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 1200px) {
+  .container-flex {
+    flex-direction: row; /* Layout items in a row for larger screens */
+    justify-content: center; /* Centers the child elements (flex items) */
+  }
+  
+  .category-cover-image,
+  .category-text {
+    flex: 1 1 50%; /* Allows each item to take up half the container's width on larger screens */
+  }
+  
+  .category-cover-image img {
+    max-width: 90%; /* Adjusts the image size to be no more than 80% of its flex container */
     height: auto; /* Maintains aspect ratio */
   }
+}
+
+.category-quote-left, .category-quote-right {
+  font-size: 2.2rem;
+  color: $color-primary;
+}
+
+.category-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.category-quote-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 
@@ -650,3 +715,52 @@
   color: $color-primary;
   /* color is set inline due to its dynamic nature */
 }
+
+
+
+
+
+// -----------------------------------------------------------------------------
+// POST NAVIGATION
+// -----------------------------------------------------------------------------
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.nav-previous, .nav-next {
+  flex: 1;
+  text-align: center; /* Center align the content for each navigation direction */
+}
+
+.nav-previous {
+  text-align: left;
+}
+
+.nav-next {
+  text-align: right;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem; /* Adds a small margin below the button for spacing */
+}
+
+.prev-title a, .next-title a {
+  font-weight: normal;
+  color: #007bff; /* Color to match the button for consistency, adjust as needed */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.prev-title, .next-title {
+  margin: 0; /* Removes default margin from h4 */
+}
+
+

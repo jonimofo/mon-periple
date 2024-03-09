@@ -8,13 +8,11 @@
 .Section "categories") (eq .Section "tags") }}
 
 <section class="section">
-<!-- <section class="section" style="margin-top: -20px;"> -->
   <div class="container">
     <article class="row mb-4">
       <!-- left sidebar -->
       {{ if eq $sidebar `left` }}
-      <aside class="col-lg-4 order-2 order-lg-1 mt-5 mt-lg-0" style="margin-top: -80px;">
-      <!-- <aside class="col-lg-4 order-2 order-lg-1 mt-5 mt-lg-0"> -->
+      <aside class="col-lg-4 order-2 order-lg-1 mt-5 mt-lg-0">
         <div class="pr-0 pr-lg-4">
           {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
         </div>
@@ -25,7 +23,7 @@
       {{if or (eq $sidebar `left`) (eq $sidebar `right`)}}<div
         class="col-lg-8 mx-auto {{if eq $sidebar `left`}}order-1 order-lg-2{{end}}">{{end}}
         <div class="{{if not (or (eq $sidebar `left`) (eq $sidebar `right`))}}col-lg-10 mx-auto{{end}} mb-4">
-          <h1 class="post-title mb-3">{{ .Title }}</h1>
+          <h1 class="post-title-blog mb-3">{{ .Title }}</h1>
           <!-- <h1 class="h2 mb-3">{{ .Title }}</h1> -->
           <ul class="list-inline post-meta mb-3">
             <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : {{ .Params.author }}
@@ -78,13 +76,32 @@
       <!-- right sidebar -->
       {{ if eq $sidebar `right` }}
       <aside class="col-lg-4 mt-5 mt-lg-0">
-        <!-- <div class="ps-0 ps-lg-4"> -->
-        <div class="ps-0 ps-lg-4" style="margin-top: 25px;">
+        <div class="ps-0 ps-lg-4">
           {{- partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) -}}
         </div>
       </aside>
       {{ end }}
       <!-- /right sidebar -->
+
+
+      <div class="post-navigation">
+        {{ if .Prev }}
+        <div class="nav-previous">
+            <a href="{{ .Prev.Permalink }}" class="btn btn-secondary">&larr; Previous Article</a>
+            <h4 class="prev-title"><a href="{{ .Prev.Permalink }}">{{ .Prev.Title }}</a></h4>
+        </div>
+        {{ end }}
+        {{ if .Next }}
+        <div class="nav-next">
+            <a href="{{ .Next.Permalink }}" class="btn btn-primary">Next Article &rarr;</a>
+            <h4 class="next-title"><a href="{{ .Next.Permalink }}">{{ .Next.Title }}</a></h4>
+        </div>
+        {{ end }}
+    </div>
+    
+
+
+
     </article>
     <!-- comments -->
     {{ if site.DisqusShortname }}
