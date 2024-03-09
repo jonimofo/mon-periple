@@ -7746,10 +7746,6 @@ h2, .h2 {
   margin-top: 3rem;
   /* or rem */ }
 
-.custom-hr {
-  color: #ce8460 !important;
-  height: 5px; }
-
 .quote {
   position: relative;
   margin: 10px 0;
@@ -7776,6 +7772,40 @@ h2, .h2 {
   position: absolute;
   bottom: 10%;
   right: 0; }
+
+.special-link {
+  /* Styles for links inside paragraphs in Markdown content */
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s; }
+
+.markdown p a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: orange;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease; }
+
+.markdown p a:hover, .markdown p a:focus {
+  color: black; }
+
+.markdown p a:hover::after, .markdown p a:focus::after {
+  height: calc(100% - 0.4em);
+  bottom: 100%;
+  animation: slideUp 0.3s ease forwards; }
+
+@keyframes slideUp {
+  from {
+    bottom: 0;
+    height: 3px; }
+  to {
+    bottom: 100%;
+    height: calc(100% - 0.4em); } }
 
 /* Button style */
 .btn {
@@ -8562,9 +8592,29 @@ header {
     padding: 1.25rem 0.9rem; }
 
 .title-bordered {
+  text-align: center;
   border: 1px solid #ddd;
   border-radius: 2.5rem;
-  padding: 2px; }
+  margin-top: -1rem; }
+  .title-bordered h1, .title-bordered .h1,
+  .title-bordered h2,
+  .title-bordered .h2,
+  .title-bordered h3,
+  .title-bordered .h3,
+  .title-bordered h4,
+  .title-bordered .h4,
+  .title-bordered h5,
+  .title-bordered .h5,
+  .title-bordered h6,
+  .title-bordered .h6 {
+    font-size: 30px;
+    font-weight: bolder;
+    background: transparent;
+    padding: 10px 25px;
+    margin-bottom: 0;
+    border-radius: 1 px;
+    border-color: #ce8460;
+    display: inline-block; }
 
 .form-group label {
   font-size: 14px;
@@ -8780,6 +8830,23 @@ header {
 
 .search-page .search-wrapper-body {
   padding: 0 !important; }
+
+.category-cover-image {
+  padding-top: 1rem;
+  display: flex;
+  /* Enables Flexbox */
+  justify-content: center;
+  /* Centers the child horizontally */
+  height: 100%;
+  /* Optional: Adjust based on your requirements */ }
+
+@media (min-width: 1200px) {
+  /* Adjusts for large displays */
+  .image-container img {
+    width: 80%;
+    /* Reduces image size to 80% on large screens */
+    height: auto;
+    /* Maintains aspect ratio */ } }
 
 .bigletter {
   font-size: 60px;

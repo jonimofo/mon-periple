@@ -22,6 +22,13 @@ draft: false
 Je ne suis pas encore descendu de l’avion fraîchement atterri à l’aéroport d’Hô Chi Minh Ville que mon voisin de siège me demande d’où je viens. Quand je lui réponds que je suis Français, ce dernier se met alors à me parler en français. Il s’appelle Théo (en tout cas j’imagine que c’est le nom qu’il utilise en Europe vu que les prénoms vietnamiens sont vachement compliqués à prononcer et à retenir pour nous), vit et travaille en Belgique depuis une trentaine d’années environ. Nous discutons longuement tous les deux (en français) et vu que je n’ai rien à faire d’autre qu’attendre plus de trois heures supplémentaires à l’aéroport, je reste avec lui et patiente même quand il se fait longuement arrêter par les douanes vietnamiennes : chose qu’il avait prédite par ailleurs, sachant qu’il avait embarqué tout un tas de montres “toutes pourries” selon ses termes. Nous continuons à discuter et il propose de m’offrir un café à la sortie de l’aéroport.
 Il est environ 10 heures du matin et bien que mentalement préparé à cela, la chaleur est tout simplement étouffante. Je sirote mon café tout en continuant de papoter avec Théo, en attendant que son cousin vienne le chercher. Théo m’explique que cela fait plus de trois ans qu’il n’est pas rentré au VIetnam à cause du COVID. Son cousin arrive enfin et nous discutons un peu tous les trois avant qu’il soit temps de se séparer. Nous échangeons nos numéros : je me suis déjà fait un pote vietnamien, le voyage commence très bien !
 
+<br><br>
+
+Here is a paragraph with a [standard link](#) and here is a specially styled link: <a href="#" class="special-link">Special Link</a>.
+
+<br>
+
+
 Il est temps ensuite de prendre mon dernier vol, direction Đà Lạt. Juste avant de monter dans l’avion, une dame vietnamienne me demande d’où je viens. Quand je lui dis que je suis français, elle paraît ravie en me disant que son mari est professeur d’université et qu’il enseigne souvent en France. Je suis un peu surpris que certaines personnes m’abordent juste en remarquant ma tête d’européen mais quand je regarde autour de moi, je constate que je suis le seul représentant du vieux continent dans l’avion.  Ce sentiment de me sentir un peu différent va continuer à m’accompagner pendant la première partie de mon séjour au Vietnam.
 
 

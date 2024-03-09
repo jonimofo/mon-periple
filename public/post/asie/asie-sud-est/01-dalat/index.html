@@ -20074,10 +20074,6 @@ h2, .h2 {
   margin-top: 3rem;
   /* or rem */ }
 
-.custom-hr {
-  color: #ce8460 !important;
-  height: 5px; }
-
 .quote {
   position: relative;
   margin: 10px 0;
@@ -20104,6 +20100,40 @@ h2, .h2 {
   position: absolute;
   bottom: 10%;
   right: 0; }
+
+.special-link {
+  /* Styles for links inside paragraphs in Markdown content */
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s; }
+
+.markdown p a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: orange;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease; }
+
+.markdown p a:hover, .markdown p a:focus {
+  color: black; }
+
+.markdown p a:hover::after, .markdown p a:focus::after {
+  height: calc(100% - 0.4em);
+  bottom: 100%;
+  animation: slideUp 0.3s ease forwards; }
+
+@keyframes slideUp {
+  from {
+    bottom: 0;
+    height: 3px; }
+  to {
+    bottom: 100%;
+    height: calc(100% - 0.4em); } }
 
 /* Button style */
 .btn {
@@ -20890,9 +20920,29 @@ header {
     padding: 1.25rem 0.9rem; }
 
 .title-bordered {
+  text-align: center;
   border: 1px solid #ddd;
   border-radius: 2.5rem;
-  padding: 2px; }
+  margin-top: -1rem; }
+  .title-bordered h1, .title-bordered .h1,
+  .title-bordered h2,
+  .title-bordered .h2,
+  .title-bordered h3,
+  .title-bordered .h3,
+  .title-bordered h4,
+  .title-bordered .h4,
+  .title-bordered h5,
+  .title-bordered .h5,
+  .title-bordered h6,
+  .title-bordered .h6 {
+    font-size: 30px;
+    font-weight: bolder;
+    background: transparent;
+    padding: 10px 25px;
+    margin-bottom: 0;
+    border-radius: 1 px;
+    border-color: #ce8460;
+    display: inline-block; }
 
 .form-group label {
   font-size: 14px;
@@ -21108,6 +21158,23 @@ header {
 
 .search-page .search-wrapper-body {
   padding: 0 !important; }
+
+.category-cover-image {
+  padding-top: 1rem;
+  display: flex;
+  /* Enables Flexbox */
+  justify-content: center;
+  /* Centers the child horizontally */
+  height: 100%;
+  /* Optional: Adjust based on your requirements */ }
+
+@media (min-width: 1200px) {
+  /* Adjusts for large displays */
+  .image-container img {
+    width: 80%;
+    /* Reduces image size to 80% on large screens */
+    height: auto;
+    /* Maintains aspect ratio */ } }
 
 .bigletter {
   font-size: 60px;
@@ -22276,6 +22343,17 @@ body.dark .tab-content {
 près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de mon périple.
 Je ne suis pas encore descendu de l’avion fraîchement atterri à l’aéroport d’Hô Chi Minh Ville que mon voisin de siège me demande d’où je viens. Quand je lui réponds que je suis Français, ce dernier se met alors à me parler en français. Il s’appelle Théo (en tout cas j’imagine que c’est le nom qu’il utilise en Europe vu que les prénoms vietnamiens sont vachement compliqués à prononcer et à retenir pour nous), vit et travaille en Belgique depuis une trentaine d’années environ. Nous discutons longuement tous les deux (en français) et vu que je n’ai rien à faire d’autre qu’attendre plus de trois heures supplémentaires à l’aéroport, je reste avec lui et patiente même quand il se fait longuement arrêter par les douanes vietnamiennes : chose qu’il avait prédite par ailleurs, sachant qu’il avait embarqué tout un tas de montres “toutes pourries” selon ses termes. Nous continuons à discuter et il propose de m’offrir un café à la sortie de l’aéroport.
 Il est environ 10 heures du matin et bien que mentalement préparé à cela, la chaleur est tout simplement étouffante. Je sirote mon café tout en continuant de papoter avec Théo, en attendant que son cousin vienne le chercher. Théo m’explique que cela fait plus de trois ans qu’il n’est pas rentré au VIetnam à cause du COVID. Son cousin arrive enfin et nous discutons un peu tous les trois avant qu’il soit temps de se séparer. Nous échangeons nos numéros : je me suis déjà fait un pote vietnamien, le voyage commence très bien !
+<p><br><br></p>
+<p>Here is a paragraph with a <a href="#"
+
+
+
+ 
+
+
+>standard link</a>
+ and here is a specially styled link: <a href="#" class="special-link">Special Link</a>.</p>
+<br>
 <p>Il est temps ensuite de prendre mon dernier vol, direction Đà Lạt. Juste avant de monter dans l’avion, une dame vietnamienne me demande d’où je viens. Quand je lui dis que je suis français, elle paraît ravie en me disant que son mari est professeur d’université et qu’il enseigne souvent en France. Je suis un peu surpris que certaines personnes m’abordent juste en remarquant ma tête d’européen mais quand je regarde autour de moi, je constate que je suis le seul représentant du vieux continent dans l’avion.  Ce sentiment de me sentir un peu différent va continuer à m’accompagner pendant la première partie de mon séjour au Vietnam.</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11687429.334949337!2d106.59353266155628!3d15.68456452162562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317112fef20988b1%3A0xad5f228b672bf930!2zxJDDoCBM4bqhdCwgTMOibSDEkOG7k25nLCBWaWV0bmFt!5e0!3m2!1sfr!2sfr!4v1703696882021!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <p>J’arrive finalement à Đà Lạt pour enfin pouvoir savourer mes vacances. Pour la petite histoire, Đà Lạt est une ville construite par les français. Les autorités françaises cherchaient un endroit plus frais pour que leurs officiers puissent échapper un peu à la chaleur étouffante du Vietnam.</p>

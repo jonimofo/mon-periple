@@ -110,12 +110,12 @@ h2 {
 
 
 
-
+// TODO
 // hr
-.custom-hr {
-  color: $color_primary !important;
-  height: 5px;
-}
+// .custom-hr {
+//   color: $color_primary !important;
+//   height: 5px;
+// }
 
 
 // Quote shortcode
@@ -147,3 +147,46 @@ h2 {
   right: 0;
 }
 
+
+
+// LINKS
+.special-link {
+  /* Styles for links inside paragraphs in Markdown content */
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.markdown p a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: orange;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.markdown p a:hover, .markdown p a:focus {
+  color: black;
+}
+
+.markdown p a:hover::after, .markdown p a:focus::after {
+  height: calc(100% - 0.4em);
+  bottom: 100%;
+  animation: slideUp 0.3s ease forwards;
+}
+
+@keyframes slideUp {
+  from {
+    bottom: 0;
+    height: 3px;
+  }
+  to {
+    bottom: 100%;
+    height: calc(100% - 0.4em);
+  }
+}

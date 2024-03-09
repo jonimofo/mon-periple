@@ -9,11 +9,12 @@
         <!-- <div class="title"> -->
         <div class="title-bordered">
           <h1 class="h4 fw-normal">
-            Showing items from
+            <!-- Showing items from -->
             <span class="text-primary">{{ .Title }}</span>
           </h1>
         </div>
-        <div>
+        <div class="category-cover-image">
+        <!-- <div class="category-cover-image" style="padding-top: 30px;"> -->
           <!-- Assuming you want to dynamically select an image based on the category displayed -->
           <!-- Determine the image file path based on the category title -->
           {{ $imagePath := printf "/images/covers/%s.jpg" (urlize .Title) }}
