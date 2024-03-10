@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = ""
+baseURL = "https://monperiple.com"
 title = "Mon Périple"
 theme = "logbook-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
@@ -14,7 +14,7 @@ googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read th
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
 defaultContentLanguage = "fr"
-disableLanguages = ["en"] # desable language from here
+disableLanguages = ["en"] # disable language from here
 
 ############################# Modules ############################
 [module]

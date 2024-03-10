@@ -7,8 +7,8 @@
 {{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq
 .Section "categories") (eq .Section "tags") }}
 
-<section class="section">
-  <div class="container">
+<section class="section section-blog-post">
+  <div class="container container-blog-post">
     <article class="row mb-4">
       <!-- left sidebar -->
       {{ if eq $sidebar `left` }}
@@ -26,19 +26,21 @@
           <h1 class="post-title-blog mb-3">{{ .Title }}</h1>
           <!-- <h1 class="h2 mb-3">{{ .Title }}</h1> -->
           <ul class="list-inline post-meta mb-3">
-            <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : {{ .Params.author }}
-              <!-- <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.author }}</a> -->
-            </li>
+            <!-- <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : {{ .Params.author }} -->
+            <!-- <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.author }}</a> -->
+            <!-- </li> -->
 
-            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>{{ i18n "date"}} : {{ .PublishDate.Format "2 janvier 2006" }}</li>
+            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>{{ .PublishDate.Format "2 janvier 2006" }}
+            </li>
             <!-- <li class="list-inline-item">{{ i18n "date"}} : {{ .PublishDate.Format "January 2, 2006" }}</li> -->
             <li class="list-inline-item"><i class="fas fa-globe "></i>
-            <!-- <li class="list-inline-item"><i class="fas fa-tags me-2"></i>{{ i18n "categories" }} : -->
+              <!-- <li class="list-inline-item"><i class="fas fa-tags me-2"></i>{{ i18n "categories" }} : -->
               {{ range $i,$p:= .Params.Categories }}{{if ne $i 0}},{{end}}<a
                 href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-1">{{ . | humanize }} </a>
               {{end}}</li>
-            <li class="list-inline-item"><i class="fas fa-tags me-2"></i>{{i18n "tags"}} : {{ range $i,$p:= .Params.Tags }}{{if ne $i 0}},{{end}}<a
-                href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-1">{{ . | humanize }} </a> {{end}}
+            <li class="list-inline-item"><i class="fas fa-tags me-2"></i>{{ range $i,$p:= .Params.Tags }}{{if ne $i
+              0}},{{end}}<a href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-1">{{ . | humanize }}
+              </a> {{end}}
             </li>
           </ul>
         </div>
@@ -83,36 +85,34 @@
       {{ end }}
       <!-- /right sidebar -->
 
-
+      <!-- Boutons Articles Précédents / Suivants -->
       <div class="post-navigation">
         {{ if .Prev }}
         <div class="nav-previous">
-            <a href="{{ .Prev.Permalink }}" class="btn btn-secondary">&larr; Previous Article</a>
-            <h4 class="prev-title"><a href="{{ .Prev.Permalink }}">{{ .Prev.Title }}</a></h4>
+          <small class="small-nav"><a href="{{ .Prev.Permalink }}">&larr; Article Précédent</a></small>
+          <h6 class="prev-title"><a href="{{ .Prev.Permalink }}">{{ .Prev.Title }}</a></h4>
         </div>
         {{ end }}
         {{ if .Next }}
         <div class="nav-next">
-            <a href="{{ .Next.Permalink }}" class="btn btn-primary">Next Article &rarr;</a>
-            <h4 class="next-title"><a href="{{ .Next.Permalink }}">{{ .Next.Title }}</a></h4>
+          <small class="small-nav"><a href="{{ .Next.Permalink }}">Article Suivant &rarr;</a></small>
+          <h6 class="next-title"><a href="{{ .Next.Permalink }}">{{ .Next.Title }}</a></h4>
         </div>
         {{ end }}
-    </div>
-    
-
-
-
-    </article>
-    <!-- comments -->
-    {{ if site.DisqusShortname }}
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="mt-5">
-          {{ template "_internal/disqus.html" . }}
-        </div>
+      </div>
+      
+  </div>
+  </article>
+  <!-- comments -->
+  {{ if site.DisqusShortname }}
+  <div class="row">
+    <div class="col-lg-10 mx-auto">
+      <div class="mt-5">
+        {{ template "_internal/disqus.html" . }}
       </div>
     </div>
-    {{ end }}
+  </div>
+  {{ end }}
   </div>
 </section>
 

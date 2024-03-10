@@ -1,3 +1,11 @@
+body {
+  margin-top: -2rem;
+}
+
+.container-blog-post {
+  margin-top: -2.4rem !important;
+}
+
 .featured-post {
   position: relative;
 
@@ -90,7 +98,7 @@
   }
 }
 
-// Custom Post TItle
+// Custom Post TItle on single pages
 .post-title-blog {
   color: $color-primary;
   font-family: $font-secondary;
@@ -98,7 +106,6 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-
 
 .post-meta {
   li {
@@ -108,7 +115,6 @@
 
   a {
     color: $color-primary;
-    // color: $text-color;
     border-bottom: 1px dotted $border-color;
 
     &:hover {
@@ -249,7 +255,6 @@
   }
 }
 
-// code-tab
 .code-tabs {
   border: 1px solid $border-color;
   overflow: hidden;
@@ -713,54 +718,30 @@
   line-height: 0.5;
   margin: 15px 15px 15px 0;
   color: $color-primary;
-  /* color is set inline due to its dynamic nature */
 }
-
 
 
 
 
 // -----------------------------------------------------------------------------
 // POST NAVIGATION
-// -----------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// TODO style
 .post-navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem;
+  gap: 10px;
+  flex-wrap: nowrap; /* Ensure they stay in one line */
+  background-color: orange;
 }
 
 .nav-previous, .nav-next {
-  flex: 1;
-  text-align: center; /* Center align the content for each navigation direction */
+  flex: 1; /* Allow these items to grow */
+  text-align: center;
 }
 
-.nav-previous {
-  text-align: left;
+.flex-spacer {
+  flex: 1; /* Takes up the same amount of space as one of the nav items */
+  visibility: hidden; /* Makes the spacer invisible */
 }
-
-.nav-next {
-  text-align: right;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #fff;
-  background-color: #007bff;
-  border-radius: 0.25rem;
-  margin-bottom: 0.5rem; /* Adds a small margin below the button for spacing */
-}
-
-.prev-title a, .next-title a {
-  font-weight: normal;
-  color: #007bff; /* Color to match the button for consistency, adjust as needed */
-  text-decoration: none; /* Removes underline from links */
-}
-
-.prev-title, .next-title {
-  margin: 0; /* Removes default margin from h4 */
-}
-
-

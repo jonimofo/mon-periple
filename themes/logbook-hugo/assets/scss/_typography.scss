@@ -6,8 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   color: $text-color;
   font-size: 1rem;
-  // font-size: 0.875rem;
-  margin-top: -50px;
 }
 
 p,
@@ -15,21 +13,18 @@ p,
   font-weight: 400;
   color: $text-color;
   font-size: 1rem;
-  // font-size: 0.875rem;
   line-height: 1.7;
   font-family: $font-primary;
-  text-align: justify; // added on 29/12/2023
+  text-align: justify;
 }
 
-
-// h1,
-
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: $color_primary;
+  color: $color-primary;
   // color: $text-dark;
   font-family: $font-secondary;
   font-weight: 600;
@@ -37,16 +32,15 @@ h6 {
   text-transform: uppercase;
 }
 
-.post-title {
-  color: $color_primary;
-  // color: $text-dark;
-  font-family: $font-secondary;
-  font-weight: 600;
-  // line-height: 1.2;
-  text-transform: uppercase;
-  // font-size: 1.2rem;
+// .post-title {
+//   color: $color_primary;
+//   font-family: $font-secondary;
+//   font-weight: 600;
+//   // line-height: 1.2;
+//   text-transform: uppercase;
+//   // font-size: 1.2rem;
 
-}
+// }
 
 
 // h1,
@@ -87,39 +81,48 @@ h2 {
   margin-top: 3rem; /* or rem */
 }
 
-
+// -----------------------------------------------
 // Quote shortcode
+// -----------------------------------------------
 .quote {
-  position: relative; 
+  display: flex;
+  align-items: center; /* Vertically center the contents */
+  justify-content: center; /* Horizontally center the contents */
+  position: relative; /* Needed for absolute positioning of children */
   margin: 10px 0; 
   box-sizing: border-box;
   background-color: transparent !important;
-  text-align: center !important;
 }
-.shortcode-quote-main-div {
-  background-color: white !important;
-  position: relative; 
-  margin: 10px 0; 
-  box-sizing: border-box;
+
+.shortcode-quote-icon-left {
+  position: absolute;
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  color: $color_primary; /* Assuming $color_primary is defined elsewhere in your CSS */
 }
+
+.shortcode-quote-icon-right {
+  color: $color_primary; /* Assuming $color_primary is defined elsewhere in your CSS */
+}
+
+.shortcode-div {
+  flex-grow: 1; /* Allows the div to take up the available space */
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
 .shortcode-quote-text {
-  color: $color_primary !important;
+  color: $color_primary !important; /* Assuming $color_primary is defined elsewhere in your CSS */
   font-weight: bold;
   font-size: 1.2rem;
-}
-.shortcode-quote-icon-left {
-  color: $color_primary;
-}
-.shortcode-quote-icon-right {
-  color: $color_primary;
-  position: absolute;
-  bottom: 10%;
-  right: 0;
+  text-align: center; /* Centers text */
+  margin: 0; /* Removes default margin */
 }
 
 
 
+// -----------------------------------------------
 // LINKS
+// -----------------------------------------------
 .special-link {
   /* Styles for links inside paragraphs in Markdown content */
   position: relative;

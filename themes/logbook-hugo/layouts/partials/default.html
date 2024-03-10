@@ -78,19 +78,19 @@
                   >
                 </h3>
                 <ul class="list-inline post-meta mb-2">
-                  <li class="list-inline-item">
+                  <!-- <li class="list-inline-item">
                     <i class="fas fa-user me-2"></i
                     ><a
                       href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/"
                       >{{ .Params.author }}</a
-                    >
+                    > -->
                   </li>
                   <li class="list-inline-item">
-                    {{ i18n "date" }} :
-                    {{ .PublishDate.Format "January 2, 2006" }}
-                  </li>
+                    <i class="fas fa-calendar calendar-icon " style="color: blue;"></i>&nbsp;{{ partial "french-date.html" . }}</li>
+                     <!-- {{ i18n "date" }} : -->
                   <li class="list-inline-item">
-                    {{ i18n "categories" }} :
+                    <i class="fas fa-globe "></i>
+                    <!-- {{ i18n "categories" }} : -->
                     {{ range $i,$p:= .Params.Categories }}
                       {{ if ne $i 0 }},{{ end }}<a
                         href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
@@ -100,7 +100,8 @@
                     {{ end }}
                   </li>
                   <li class="list-inline-item">
-                    {{ i18n "tags" }} :
+                    <i class="fas fa-key "></i>
+                    <!-- {{ i18n "tags" }} : -->
                     {{ range $i,$p:= .Params.Tags }}
                       {{ if ne $i 0 }},{{ end }}<a
                         href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
@@ -110,7 +111,7 @@
                     {{ end }}
                   </li>
                 </ul>
-                <p>
+                <!-- <p>
                   {{ if .Params.Images }}
                     {{ if or (eq $sidebar `left`) (eq $sidebar `right`) }}
                       {{ .Summary | truncate 100 }}
@@ -123,9 +124,8 @@
                     {{ .Summary | truncate 300 }}
                   {{ end }}
                 </p>
-                <a href="{{ .RelPermalink }}" class="btn btn-outline-primary"
-                  >{{ i18n "continue_reading" }}</a
-                >
+                <a href="{{ .RelPermalink }}" class="btn btn-outline-primary" >
+                  {{ i18n "continue_reading" }}</a> -->
               </div>
             </article>
           {{ end }}
@@ -182,19 +182,19 @@
                       >
                     </h3>
                     <ul class="list-inline post-meta mb-4">
-                      <li class="list-inline-item">
+                      <!-- <li class="list-inline-item">
                         <i class="fas fa-user me-2"></i>
                         <a
                           href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/"
                           >{{ .Params.author }}</a
                         >
-                      </li>
+                      </li> -->
                       <li class="list-inline-item">
-                        {{ i18n "date" }} :
-                        {{ .PublishDate.Format "January 2, 2006" }}
-                      </li>
+                        <i class="fas fa-calendar calendar-icon "></i>&nbsp;{{ partial "french-date.html" . }}</li>
+                      <!-- {{ i18n "date" }} : -->
                       <li class="list-inline-item">
-                        {{ i18n "categories" }} :
+                        <i class="fas fa-globe "></i>
+                        <!-- {{ i18n "categories" }} : -->
                         {{ range $i,$p:= .Params.Categories }}
                           {{ if ne $i 0 }},{{ end }}<a
                             href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
@@ -204,7 +204,8 @@
                         {{ end }}
                       </li>
                       <li class="list-inline-item">
-                        {{ i18n "tags" }} :
+                        <i class="fas fa-key "></i>
+                        <!-- {{ i18n "tags" }} : -->
                         {{ range $i,$p:= .Params.Tags }}
                           {{ if ne $i 0 }},{{ end }}<a
                             href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
@@ -214,12 +215,11 @@
                         {{ end }}
                       </li>
                     </ul>
-                    <p>{{ .Summary | truncate 150 }}</p>
+                    <!-- <p>{{ .Summary | truncate 150 }}</p>
                     <a
                       href="{{ .RelPermalink }}"
-                      class="btn btn-outline-primary"
-                      >{{ i18n "continue_reading" }}</a
-                    >
+                      class="btn btn-outline-primary" >{{ i18n "continue_reading" }}
+                    </a> -->
                   </div>
                 </article>
               </div>
@@ -257,19 +257,19 @@
                   >
                 </h3>
                 <ul class="list-inline post-meta mb-4">
-                  <li class="list-inline-item">
+                  <!-- <li class="list-inline-item">
                     <i class="fas fa-user me-2"></i>
                     <a
                       href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/"
                       >{{ .Params.author }}</a
                     >
-                  </li>
+                  </li> -->
                   <li class="list-inline-item">
-                    {{ i18n "date" }} :
-                    {{ .PublishDate.Format "January 2, 2006" }}
-                  </li>
+                    <i class="fas fa-calendar calendar-icon "></i>&nbsp;{{ partial "french-date.html" . }}</li>
+                    <!-- {{ i18n "date" }} : -->
                   <li class="list-inline-item">
-                    {{ i18n "categories" }} :
+                    <i class="fas fa-globe "></i>
+                     <!-- {{ i18n "categories" }} : -->
                     {{ range $i,$p:= .Params.Categories }}
                       {{ if ne $i 0 }},{{ end }}<a
                         href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
@@ -279,7 +279,8 @@
                     {{ end }}
                   </li>
                   <li class="list-inline-item">
-                    {{ i18n "tags" }} :
+                    <i class="fas fa-key "></i>
+                    <!-- {{ i18n "tags" }} : -->
                     {{ range $i,$p:= .Params.Tags }}
                       {{ if ne $i 0 }},{{ end }}<a
                         href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
@@ -289,10 +290,10 @@
                     {{ end }}
                   </li>
                 </ul>
-                <p>{{ .Summary }}</p>
+                <!-- <p>{{ .Summary }}</p>
                 <a href="{{ .RelPermalink }}" class="btn btn-outline-primary"
-                  >{{ i18n "continue_reading" }}</a
-                >
+                  >{{ i18n "continue_reading" }}
+                </a> -->
               </div>
             </article>
           {{ end }}

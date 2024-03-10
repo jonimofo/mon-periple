@@ -19973,8 +19973,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #696c6d;
-  font-size: 1rem;
-  margin-top: -50px; }
+  font-size: 1rem; }
 
 p,
 .paragraph {
@@ -19985,7 +19984,9 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
-h2, .h2,
+h1, .h1,
+h2,
+.h2,
 h3,
 .h3,
 h4,
@@ -19998,12 +19999,6 @@ h6,
   font-family: "Coming Soon", sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  text-transform: uppercase; }
-
-.post-title {
-  color: #ce8460;
-  font-family: "Coming Soon", sans-serif;
-  font-weight: 600;
   text-transform: uppercase; }
 
 h6,
@@ -20065,31 +20060,45 @@ h2, .h2 {
   /* or rem */ }
 
 .quote {
+  display: flex;
+  align-items: center;
+  /* Vertically center the contents */
+  justify-content: center;
+  /* Horizontally center the contents */
   position: relative;
+  /* Needed for absolute positioning of children */
   margin: 10px 0;
   box-sizing: border-box;
-  background-color: transparent !important;
-  text-align: center !important; }
-
-.shortcode-quote-main-div {
-  background-color: white !important;
-  position: relative;
-  margin: 10px 0;
-  box-sizing: border-box; }
-
-.shortcode-quote-text {
-  color: #ce8460 !important;
-  font-weight: bold;
-  font-size: 1.2rem; }
+  background-color: transparent !important; }
 
 .shortcode-quote-icon-left {
-  color: #ce8460; }
+  position: absolute;
+  top: 0;
+  /* Align to the top */
+  left: 0;
+  /* Align to the left */
+  color: #ce8460;
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
 
 .shortcode-quote-icon-right {
   color: #ce8460;
-  position: absolute;
-  bottom: 10%;
-  right: 0; }
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
+
+.shortcode-div {
+  flex-grow: 1;
+  /* Allows the div to take up the available space */
+  padding: 0 20px;
+  /* Adjust padding as needed */ }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  /* Assuming $color_primary is defined elsewhere in your CSS */
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  /* Centers text */
+  margin: 0;
+  /* Removes default margin */ }
 
 .special-link {
   /* Styles for links inside paragraphs in Markdown content */
@@ -20737,6 +20746,12 @@ header {
     box-shadow: none;
     outline: 0; }
 
+body {
+  margin-top: -2rem; }
+
+.container-blog-post {
+  margin-top: -2.4rem !important; }
+
 .featured-post {
   position: relative; }
   .featured-post-slider .slick-dots {
@@ -20793,6 +20808,13 @@ header {
   font-weight: 500; }
   .post-title:hover {
     color: #1c1d1f; }
+
+.post-title-blog {
+  color: #ce8460;
+  font-family: "Coming Soon", sans-serif;
+  font-size: 2.4rem !important;
+  font-weight: 500;
+  text-transform: uppercase; }
 
 .post-meta li {
   margin-right: 0.62rem;
@@ -21183,11 +21205,15 @@ header {
   /* Keeps image vertically centered */ }
 
 .category-text {
-  background-color: cyan;
+  color: #ce8460 !important;
   font-style: italic;
   font-weight: bold;
-  font-size: 1.4rem;
-  color: #ce8460 !important; }
+  font-size: 1.2rem;
+  position: relative;
+  /* This makes the absolute positioning of the children relative to this container */
+  padding: 2rem;
+  /* Add padding to ensure the text does not overlap the quote icons */
+  padding-top: 3rem; }
 
 /* Responsive adjustments for larger screens */
 @media (min-width: 1200px) {
@@ -21206,14 +21232,47 @@ header {
     height: auto;
     /* Maintains aspect ratio */ } }
 
+.category-quote-left, .category-quote-right {
+  font-size: 2.2rem;
+  color: #ce8460; }
+
+.category-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.category-quote-right {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
 .bigletter {
   font-size: 60px;
   display: block;
   float: left;
   line-height: 0.5;
   margin: 15px 15px 15px 0;
-  color: #ce8460;
-  /* color is set inline due to its dynamic nature */ }
+  color: #ce8460; }
+
+.post-navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  /* Ensure they stay in one line */
+  background-color: orange; }
+
+.nav-previous, .nav-next {
+  flex: 1;
+  /* Allow these items to grow */
+  text-align: center; }
+
+.flex-spacer {
+  flex: 1;
+  /* Takes up the same amount of space as one of the nav items */
+  visibility: hidden;
+  /* Makes the spacer invisible */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22263,9 +22322,7 @@ body.dark .tab-content {
     </div>
 
     <div class="category-text">
-      <i class="fas fa-quote-left"></i>
-
-      
+      <i class="fas fa-quote-left category-quote-left"></i>
       
       
       
@@ -22441,19 +22498,16 @@ body.dark .tab-content {
                       >
                     </h3>
                     <ul class="list-inline post-meta mb-4">
+                      
                       <li class="list-inline-item">
-                        <i class="fas fa-user me-2"></i>
-                        <a
-                          href="/mon-periple/author/john-doe/"
-                          >John Doe</a
-                        >
-                      </li>
+                        <i class="fas fa-calendar calendar-icon "></i>&nbsp;
+
+<span>14 mars 2020</span>
+</li>
+                      
                       <li class="list-inline-item">
-                        Publié le :
-                        March 14, 2020
-                      </li>
-                      <li class="list-inline-item">
-                        Catégories :
+                        <i class="fas fa-globe "></i>
+                        
                         
                           <a
                             href="/mon-periple/categories/four-seasone/"
@@ -22463,7 +22517,8 @@ body.dark .tab-content {
                         
                       </li>
                       <li class="list-inline-item">
-                        Mots-clefs :
+                        <i class="fas fa-key "></i>
+                        
                         
                           <a
                             href="/mon-periple/tags/seasone/"
@@ -22479,12 +22534,7 @@ body.dark .tab-content {
                         
                       </li>
                     </ul>
-                    <p>It’s no secret that the digital industry is booming. From exciting startups to global brands, companies are reaching out to digital agencies, …</p>
-                    <a
-                      href="/mon-periple/post/post-4/"
-                      class="btn btn-outline-primary"
-                      >Lire la suite</a
-                    >
+                    
                   </div>
                 </article>
               </div>
@@ -22510,7 +22560,7 @@ body.dark .tab-content {
         <aside class="col-lg-4">
           <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     
@@ -22634,7 +22684,10 @@ body.dark .tab-content {
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Light Project : et la lumière fut !</a></h5>
-          <small>September 25, 2022</small>
+          
+
+<span>25 septembre 2022</span>
+
         </div>
       </li>
     
@@ -22758,7 +22811,10 @@ body.dark .tab-content {
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/">Da Lat : arrivée en douceur</a></h5>
-          <small>September 4, 2022</small>
+          
+
+<span>4 septembre 2022</span>
+
         </div>
       </li>
     
@@ -22882,7 +22938,264 @@ body.dark .tab-content {
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/elements/">Elements That You Can Use To Create A New Post On This Template.</a></h5>
-          <small>March 15, 2020</small>
+          
+
+<span>15 mars 2020</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/post-1/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_545x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_600x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_700x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_lanczos.jpg"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="1403"
+            height="638" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-1/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
+          
+
+<span>14 mars 2020</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/post-2/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_545x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_600x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_700x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_lanczos.jpg"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="1382"
+            height="628" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
+          
+
+<span>14 mars 2020</span>
+
         </div>
       </li>
     

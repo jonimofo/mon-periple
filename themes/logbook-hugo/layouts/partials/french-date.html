@@ -1,0 +1,3 @@
+{{ $month_names := slice "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" }}
+{{ $month := sub .PublishDate.Month 1 }}
+<span>{{ .PublishDate.Day }} {{ index $month_names $month }} {{ .PublishDate.Year }}</span>

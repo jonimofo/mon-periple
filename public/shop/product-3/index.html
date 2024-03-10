@@ -19983,8 +19983,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #696c6d;
-  font-size: 1rem;
-  margin-top: -50px; }
+  font-size: 1rem; }
 
 p,
 .paragraph {
@@ -19995,7 +19994,9 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
-h2, .h2,
+h1, .h1,
+h2,
+.h2,
 h3,
 .h3,
 h4,
@@ -20008,12 +20009,6 @@ h6,
   font-family: "Coming Soon", sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  text-transform: uppercase; }
-
-.post-title {
-  color: #ce8460;
-  font-family: "Coming Soon", sans-serif;
-  font-weight: 600;
   text-transform: uppercase; }
 
 h6,
@@ -20747,6 +20742,12 @@ header {
     box-shadow: none;
     outline: 0; }
 
+body {
+  margin-top: -2rem; }
+
+.container-blog-post {
+  margin-top: -2.4rem !important; }
+
 .featured-post {
   position: relative; }
   .featured-post-slider .slick-dots {
@@ -21247,46 +21248,31 @@ header {
   float: left;
   line-height: 0.5;
   margin: 15px 15px 15px 0;
-  color: #ce8460;
-  /* color is set inline due to its dynamic nature */ }
+  color: #ce8460; }
 
 .post-navigation {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 2rem; }
+  /* Align items on the cross-axis */
+  flex-wrap: wrap;
+  /* Allows items to wrap as needed */ }
 
 .nav-previous, .nav-next {
-  flex: 1;
+  flex: 1 1 auto;
+  /* Gives the items the ability to grow and shrink but initially bases them off their auto size */
   text-align: center;
-  /* Center align the content for each navigation direction */ }
+  /* Center the text within each nav */
+  margin: 0 10px;
+  /* Adds a little space between the two navs */ }
 
-.nav-previous {
-  text-align: left; }
+/* Additional styling to ensure consistency */
+.nav-previous span, .nav-next span {
+  display: block;
+  /* Makes the span behave like a block element */ }
 
-.nav-next {
-  text-align: right; }
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #fff;
-  background-color: #007bff;
-  border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
-  /* Adds a small margin below the button for spacing */ }
-
-.prev-title a, .next-title a {
-  font-weight: normal;
-  color: #007bff;
-  /* Color to match the button for consistency, adjust as needed */
-  text-decoration: none;
-  /* Removes underline from links */ }
-
-.prev-title, .next-title {
-  margin: 0;
-  /* Removes default margin from h4 */ }
+.small-nav {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic; }
 
 .notice {
   margin-bottom: 1.5rem;

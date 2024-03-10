@@ -1,12 +1,9 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
-
 <div class="quote">
   <i class="fas fa-quote-left shortcode-quote-icon-left"></i>
   <div class="shortcode-div">
-      <br>
-      <p class="shortcode-quote-text">{{ .Inner | markdownify }}</p>
-      <br>
-      <!-- <span class="quote-by"> -{{ .Get "by" }}</span> -->
-    </div>
-    <i class="fas fa-quote-right shortcode-quote-icon-right"></i>
+    <p class="shortcode-quote-text">{{ .Inner | markdownify }}</p>
+  </div>
+  <i class="fas fa-quote-right shortcode-quote-icon-right"></i>
 </div>
+

@@ -19983,8 +19983,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #696c6d;
-  font-size: 1rem;
-  margin-top: -50px; }
+  font-size: 1rem; }
 
 p,
 .paragraph {
@@ -19995,7 +19994,9 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
-h2, .h2,
+h1, .h1,
+h2,
+.h2,
 h3,
 .h3,
 h4,
@@ -20008,12 +20009,6 @@ h6,
   font-family: "Coming Soon", sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  text-transform: uppercase; }
-
-.post-title {
-  color: #ce8460;
-  font-family: "Coming Soon", sans-serif;
-  font-weight: 600;
   text-transform: uppercase; }
 
 h6,
@@ -20075,31 +20070,45 @@ h2, .h2 {
   /* or rem */ }
 
 .quote {
+  display: flex;
+  align-items: center;
+  /* Vertically center the contents */
+  justify-content: center;
+  /* Horizontally center the contents */
   position: relative;
+  /* Needed for absolute positioning of children */
   margin: 10px 0;
   box-sizing: border-box;
-  background-color: transparent !important;
-  text-align: center !important; }
-
-.shortcode-quote-main-div {
-  background-color: white !important;
-  position: relative;
-  margin: 10px 0;
-  box-sizing: border-box; }
-
-.shortcode-quote-text {
-  color: #ce8460 !important;
-  font-weight: bold;
-  font-size: 1.2rem; }
+  background-color: transparent !important; }
 
 .shortcode-quote-icon-left {
-  color: #ce8460; }
+  position: absolute;
+  top: 0;
+  /* Align to the top */
+  left: 0;
+  /* Align to the left */
+  color: #ce8460;
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
 
 .shortcode-quote-icon-right {
   color: #ce8460;
-  position: absolute;
-  bottom: 10%;
-  right: 0; }
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
+
+.shortcode-div {
+  flex-grow: 1;
+  /* Allows the div to take up the available space */
+  padding: 0 20px;
+  /* Adjust padding as needed */ }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  /* Assuming $color_primary is defined elsewhere in your CSS */
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  /* Centers text */
+  margin: 0;
+  /* Removes default margin */ }
 
 .special-link {
   /* Styles for links inside paragraphs in Markdown content */
@@ -20747,6 +20756,12 @@ header {
     box-shadow: none;
     outline: 0; }
 
+body {
+  margin-top: -2rem; }
+
+.container-blog-post {
+  margin-top: -2.4rem !important; }
+
 .featured-post {
   position: relative; }
   .featured-post-slider .slick-dots {
@@ -21247,46 +21262,27 @@ header {
   float: left;
   line-height: 0.5;
   margin: 15px 15px 15px 0;
-  color: #ce8460;
-  /* color is set inline due to its dynamic nature */ }
+  color: #ce8460; }
 
 .post-navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem; }
+  gap: 10px;
+  flex-wrap: nowrap;
+  /* Ensure they stay in one line */
+  background-color: orange; }
 
 .nav-previous, .nav-next {
   flex: 1;
-  text-align: center;
-  /* Center align the content for each navigation direction */ }
+  /* Allow these items to grow */
+  text-align: center; }
 
-.nav-previous {
-  text-align: left; }
-
-.nav-next {
-  text-align: right; }
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #fff;
-  background-color: #007bff;
-  border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
-  /* Adds a small margin below the button for spacing */ }
-
-.prev-title a, .next-title a {
-  font-weight: normal;
-  color: #007bff;
-  /* Color to match the button for consistency, adjust as needed */
-  text-decoration: none;
-  /* Removes underline from links */ }
-
-.prev-title, .next-title {
-  margin: 0;
-  /* Removes default margin from h4 */ }
+.flex-spacer {
+  flex: 1;
+  /* Takes up the same amount of space as one of the nav items */
+  visibility: hidden;
+  /* Makes the spacer invisible */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22285,8 +22281,8 @@ body.dark .tab-content {
 
 
 
-<section class="section">
-  <div class="container">
+<section class="section section-blog-post">
+  <div class="container container-blog-post">
     <article class="row mb-4">
       
       
@@ -22298,21 +22294,22 @@ body.dark .tab-content {
           <h1 class="post-title-blog mb-3">Da Lat : arrivée en douceur</h1>
           
           <ul class="list-inline post-meta mb-3">
-            <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : Benji
-              
-            </li>
+            
+            
+            
 
-            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>Publié le : 4 janvier 2022</li>
+            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>4 janvier 2022
+            </li>
             
             <li class="list-inline-item"><i class="fas fa-globe "></i>
-            
+              
               <a
                 href="/mon-periple/categories/vietnam/" class="ms-1">Vietnam </a>
               </li>
-            <li class="list-inline-item"><i class="fas fa-tags me-2"></i>Mots-clefs : <a
-                href="/mon-periple/tags/asie/" class="ms-1">Asie </a> ,<a
-                href="/mon-periple/tags/asie-sud-est/" class="ms-1">Asie sud est </a> ,<a
-                href="/mon-periple/tags/vietnam/" class="ms-1">Vietnam </a> 
+            <li class="list-inline-item"><i class="fas fa-tags me-2"></i><a href="/mon-periple/tags/asie/" class="ms-1">Asie
+              </a> ,<a href="/mon-periple/tags/asie-sud-est/" class="ms-1">Asie sud est
+              </a> ,<a href="/mon-periple/tags/vietnam/" class="ms-1">Vietnam
+              </a> 
             </li>
           </ul>
         </div>
@@ -22489,17 +22486,14 @@ Ce soir-là Nha nous a cuisiné des “mì quảng chay“ : nouilles végétari
 <h2 id="tête-dintrus">Tête d&rsquo;intrus</h2>
 <p>Au fur et à mesure de mes sorties dans Đà Lạt et ses alentours, j’ai quand même l’impression que soit beaucoup des gens qui y vivent n’ont jamais vu de blanc/européen, soit le COVID a fermé les frontières trop longtemps. En tous les cas, je vis souvent des situations où des gens me disent spontanément “Hello !”. Ce sont surtout des enfants, qui bien souvent me fixent longuement en me faisant un grand sourire. Bon j’avoue c’est un peu perturbant des fois comme par exemple quand au supermarché une mère de famille me voit et fait exprès de faire demi-tour avec tous ses enfants dans son caddie pour venir me saluer à grands coups de “Hellooooo !”. Ou bien ces enfants qui me fixaient longuement en s’approchant de plus en plus de moi, alors que je dégustais une glace Kem Tràng Tiền, marque typique de Hanoi, parfum « kem cốm » (jeune riz : type de riz que j’avais déjà eu l’occasion de goûter à Hanoi en 2019). Mais à chaque fois c’est très bienveillant et ça me fait bien rire. La palme de ce genre d’interactions revient à cette dame dans une petite épicerie où nous étions allés acheter de l’eau et qui en me voyant a déclaré :</p>
 
-
 <div class="quote">
   <i class="fas fa-quote-left shortcode-quote-icon-left"></i>
   <div class="shortcode-div">
-      <br>
-      <p class="shortcode-quote-text">Người gì mà đẹp quá vậy!?<br>Quel genre de personne est aussi beau ?</p>
-      <br>
-      
-    </div>
-    <i class="fas fa-quote-right shortcode-quote-icon-right"></i>
+    <p class="shortcode-quote-text">Người gì mà đẹp quá vậy!?<br>Quel genre de personne est aussi beau ?</p>
+  </div>
+  <i class="fas fa-quote-right shortcode-quote-icon-right"></i>
 </div>
+
 
 <p>De quoi me donner un petit boost d’égo pendant au moins les 10 jours suivants, vous l’aurez compris.</p>
 <h2 id="chez-chi-tram">Chez Chi TRAM</h2>
@@ -22953,7 +22947,7 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
       <aside class="col-lg-4 mt-5 mt-lg-0">
         <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     
@@ -23077,7 +23071,10 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Light Project : et la lumière fut !</a></h5>
-          <small>September 25, 2022</small>
+          
+
+<span>25 septembre 2022</span>
+
         </div>
       </li>
     
@@ -23201,7 +23198,10 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/">Da Lat : arrivée en douceur</a></h5>
-          <small>September 4, 2022</small>
+          
+
+<span>4 septembre 2022</span>
+
         </div>
       </li>
     
@@ -23325,7 +23325,264 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/elements/">Elements That You Can Use To Create A New Post On This Template.</a></h5>
-          <small>March 15, 2020</small>
+          
+
+<span>15 mars 2020</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/post-1/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_545x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_600x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_700x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_lanczos.jpg"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="1403"
+            height="638" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-1/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
+          
+
+<span>14 mars 2020</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/post-2/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_545x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_600x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_700x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_lanczos.jpg"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="1382"
+            height="628" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
+          
+
+<span>14 mars 2020</span>
+
         </div>
       </li>
     
@@ -23462,32 +23719,30 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
       
       
 
-
+      
       <div class="post-navigation">
         
         <div class="nav-previous">
-            <a href="http://192.168.1.249:1313/mon-periple/shop/product-3/" class="btn btn-secondary">&larr; Previous Article</a>
-            <h4 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-3/">School Bag</a></h4>
+          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/shop/product-3/">&larr; Article Précédent</a></small>
+          <h6 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-3/">School Bag</a></h4>
         </div>
         
         
         <div class="nav-next">
-            <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/" class="btn btn-primary">Next Article &rarr;</a>
-            <h4 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Light Project : et la lumière fut !</a></h4>
+          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Article Suivant &rarr;</a></small>
+          <h6 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Light Project : et la lumière fut !</a></h4>
         </div>
         
-    </div>
-    
-
-
-
-    </article>
-    
-    
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="mt-5">
-          <div id="disqus_thread"></div>
+      </div>
+      
+  </div>
+  </article>
+  
+  
+  <div class="row">
+    <div class="col-lg-10 mx-auto">
+      <div class="mt-5">
+        <div id="disqus_thread"></div>
 <script>
     window.disqus_config = function () {
     
@@ -23507,10 +23762,10 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        </div>
       </div>
     </div>
-    
+  </div>
+  
   </div>
 </section>
 

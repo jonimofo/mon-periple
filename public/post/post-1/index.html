@@ -19983,8 +19983,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #696c6d;
-  font-size: 1rem;
-  margin-top: -50px; }
+  font-size: 1rem; }
 
 p,
 .paragraph {
@@ -19995,7 +19994,9 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
-h2, .h2,
+h1, .h1,
+h2,
+.h2,
 h3,
 .h3,
 h4,
@@ -20008,12 +20009,6 @@ h6,
   font-family: "Coming Soon", sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  text-transform: uppercase; }
-
-.post-title {
-  color: #ce8460;
-  font-family: "Coming Soon", sans-serif;
-  font-weight: 600;
   text-transform: uppercase; }
 
 h6,
@@ -20747,6 +20742,12 @@ header {
     box-shadow: none;
     outline: 0; }
 
+body {
+  margin-top: -2rem; }
+
+.container-blog-post {
+  margin-top: -2.4rem !important; }
+
 .featured-post {
   position: relative; }
   .featured-post-slider .slick-dots {
@@ -21247,8 +21248,32 @@ header {
   float: left;
   line-height: 0.5;
   margin: 15px 15px 15px 0;
-  color: #ce8460;
-  /* color is set inline due to its dynamic nature */ }
+  color: #ce8460; }
+
+.post-navigation {
+  display: flex;
+  justify-content: center;
+  /* Centers items on the main-axis */
+  align-items: center;
+  /* Align items on the cross-axis */
+  flex-wrap: wrap;
+  /* Allows items to wrap as needed */ }
+
+.nav-previous, .nav-next {
+  flex: 1 1 auto;
+  /* Gives the items the ability to grow and shrink but initially bases them off their auto size */
+  text-align: center;
+  /* Center the text within each nav */
+  margin: 0 10px;
+  /* Adds a little space between the two navs */ }
+
+/* Additional styling to ensure consistency */
+.nav-previous span, .nav-next span {
+  display: block;
+  /* Makes the span behave like a block element */ }
+
+.small-nav {
+  font-family: "Open Sans", sans-serif; }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22247,8 +22272,8 @@ body.dark .tab-content {
 
 
 
-<section class="section">
-  <div class="container">
+<section class="section section-blog-post">
+  <div class="container container-blog-post">
     <article class="row mb-4">
       
       
@@ -22260,20 +22285,21 @@ body.dark .tab-content {
           <h1 class="post-title-blog mb-3">Joyeux Couple Amoureux Boulangers Boire Du Café</h1>
           
           <ul class="list-inline post-meta mb-3">
-            <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : John Doe
-              
-            </li>
+            
+            
+            
 
-            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>Publié le : 14 janvier 2020</li>
+            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>14 janvier 2020
+            </li>
             
             <li class="list-inline-item"><i class="fas fa-globe "></i>
-            
+              
               <a
                 href="/mon-periple/categories/photography/" class="ms-1">Photography </a>
               </li>
-            <li class="list-inline-item"><i class="fas fa-tags me-2"></i>Mots-clefs : <a
-                href="/mon-periple/tags/photo/" class="ms-1">Photo </a> ,<a
-                href="/mon-periple/tags/image/" class="ms-1">Image </a> 
+            <li class="list-inline-item"><i class="fas fa-tags me-2"></i><a href="/mon-periple/tags/photo/" class="ms-1">Photo
+              </a> ,<a href="/mon-periple/tags/image/" class="ms-1">Image
+              </a> 
             </li>
           </ul>
         </div>
@@ -22427,10 +22453,9 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
       
       
       <aside class="col-lg-4 mt-5 mt-lg-0">
-        
-        <div class="ps-0 ps-lg-4" style="margin-top: 25px;"><!-- latest post -->
+        <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     
@@ -22554,7 +22579,10 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Light Project : et la lumière fut !</a></h5>
-          <small>September 25, 2022</small>
+          
+
+<span>25 septembre 2022</span>
+
         </div>
       </li>
     
@@ -22678,7 +22706,10 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/">Da Lat : arrivée en douceur</a></h5>
-          <small>September 4, 2022</small>
+          
+
+<span>4 septembre 2022</span>
+
         </div>
       </li>
     
@@ -22802,7 +22833,264 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
         </a>
         <div class="media-body">
           <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/elements/">Elements That You Can Use To Create A New Post On This Template.</a></h5>
-          <small>March 15, 2020</small>
+          
+
+<span>15 mars 2020</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/post-1/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_545x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_600x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_700x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_lanczos.jpg"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="1403"
+            height="638" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-1/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
+          
+
+<span>14 mars 2020</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/post-2/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_545x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_600x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_700x0_resize_q90_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_lanczos.jpg"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="1382"
+            height="628" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
+          
+
+<span>14 mars 2020</span>
+
         </div>
       </li>
     
@@ -22938,13 +23226,30 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
       </aside>
       
       
-    </article>
-    
-    
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="mt-5">
-          <div id="disqus_thread"></div>
+
+
+      <div class="post-navigation">
+        
+        <div class="nav-previous">
+          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">&larr; Article Précédent</a></small>
+          <h6 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h4>
+        </div>
+        
+        
+        <div class="nav-next">
+          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/shop/product-6/">Article Suivant &rarr;</a></small>
+          <h6 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-6/">Cotton T-Shirt</a></h4>
+        </div>
+        
+      </div>
+  </div>
+  </article>
+  
+  
+  <div class="row">
+    <div class="col-lg-10 mx-auto">
+      <div class="mt-5">
+        <div id="disqus_thread"></div>
 <script>
     window.disqus_config = function () {
     
@@ -22964,10 +23269,10 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        </div>
       </div>
     </div>
-    
+  </div>
+  
   </div>
 </section>
 

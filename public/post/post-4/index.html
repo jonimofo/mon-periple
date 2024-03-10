@@ -19983,8 +19983,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #696c6d;
-  font-size: 1rem;
-  margin-top: -50px; }
+  font-size: 1rem; }
 
 p,
 .paragraph {
@@ -19995,7 +19994,9 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
-h2, .h2,
+h1, .h1,
+h2,
+.h2,
 h3,
 .h3,
 h4,
@@ -20008,12 +20009,6 @@ h6,
   font-family: "Coming Soon", sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  text-transform: uppercase; }
-
-.post-title {
-  color: #ce8460;
-  font-family: "Coming Soon", sans-serif;
-  font-weight: 600;
   text-transform: uppercase; }
 
 h6,
@@ -20747,6 +20742,9 @@ header {
     box-shadow: none;
     outline: 0; }
 
+.container-blog-post {
+  margin-top: -2.4rem !important; }
+
 .featured-post {
   position: relative; }
   .featured-post-slider .slick-dots {
@@ -20803,6 +20801,13 @@ header {
   font-weight: 500; }
   .post-title:hover {
     color: #1c1d1f; }
+
+.post-title-blog {
+  color: #ce8460;
+  font-family: "Coming Soon", sans-serif;
+  font-size: 2.4rem !important;
+  font-weight: 500;
+  text-transform: uppercase; }
 
 .post-meta li {
   margin-right: 0.62rem;
@@ -21193,11 +21198,15 @@ header {
   /* Keeps image vertically centered */ }
 
 .category-text {
-  background-color: cyan;
+  color: #ce8460 !important;
   font-style: italic;
   font-weight: bold;
-  font-size: 1.4rem;
-  color: #ce8460 !important; }
+  font-size: 1.2rem;
+  position: relative;
+  /* This makes the absolute positioning of the children relative to this container */
+  padding: 2rem;
+  /* Add padding to ensure the text does not overlap the quote icons */
+  padding-top: 3rem; }
 
 /* Responsive adjustments for larger screens */
 @media (min-width: 1200px) {
@@ -21216,6 +21225,20 @@ header {
     height: auto;
     /* Maintains aspect ratio */ } }
 
+.category-quote-left, .category-quote-right {
+  font-size: 2.2rem;
+  color: #ce8460; }
+
+.category-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.category-quote-right {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
 .bigletter {
   font-size: 60px;
   display: block;
@@ -21224,6 +21247,37 @@ header {
   margin: 15px 15px 15px 0;
   color: #ce8460;
   /* color is set inline due to its dynamic nature */ }
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem; }
+
+.nav-previous, .nav-next {
+  flex: 1;
+  text-align: center;
+  /* Center align the content for each navigation direction */ }
+
+.nav-previous {
+  text-align: left; }
+
+.nav-next {
+  text-align: right; }
+
+.prev-title a, .next-title a {
+  font-weight: normal;
+  color: #007bff;
+  /* Color to match the button for consistency, adjust as needed */
+  text-decoration: none;
+  /* Removes underline from links */ }
+
+.prev-title, .next-title {
+  margin: 0;
+  /* Removes default margin from h4 */ }
+
+body {
+  margin-top: -2rem; }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22223,8 +22277,7 @@ body.dark .tab-content {
 
 
 <section class="section">
-
-  <div class="container">
+  <div class="container container-blog-post">
     <article class="row mb-4">
       
       
@@ -22233,7 +22286,7 @@ body.dark .tab-content {
       <div
         class="col-lg-8 mx-auto ">
         <div class=" mb-4">
-          <h1 class="post-title mb-3">Joyeux Couple Amoureux Boulangers Boire Du Café</h1>
+          <h1 class="post-title-blog mb-3">Joyeux Couple Amoureux Boulangers Boire Du Café</h1>
           
           <ul class="list-inline post-meta mb-3">
             <li class="list-inline-item"><i class="fas fa-user me-2"></i>Par : John Doe
@@ -22403,10 +22456,9 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
       
       
       <aside class="col-lg-4 mt-5 mt-lg-0">
-        
-        <div class="ps-0 ps-lg-4" style="margin-top: 25px;"><!-- latest post -->
+        <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     
@@ -22914,6 +22966,26 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
       </aside>
       
       
+
+
+      <div class="post-navigation">
+        
+        <div class="nav-previous">
+            <a href="http://192.168.1.249:1313/mon-periple/post/post-5/" class="btn btn-secondary">&larr; Previous Article</a>
+            <h4 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/post/post-5/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h4>
+        </div>
+        
+        
+        <div class="nav-next">
+            <a href="http://192.168.1.249:1313/mon-periple/post/post-3/" class="btn btn-primary">Next Article &rarr;</a>
+            <h4 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/post/post-3/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h4>
+        </div>
+        
+    </div>
+    
+
+
+
     </article>
     
     
