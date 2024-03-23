@@ -76,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.123.8">
+<meta name="generator" content="Hugo 0.124.1">
 
 
 
@@ -20070,31 +20070,45 @@ h2, .h2 {
   /* or rem */ }
 
 .quote {
+  display: flex;
+  align-items: center;
+  /* Vertically center the contents */
+  justify-content: center;
+  /* Horizontally center the contents */
   position: relative;
+  /* Needed for absolute positioning of children */
   margin: 10px 0;
   box-sizing: border-box;
-  background-color: transparent !important;
-  text-align: center !important; }
-
-.shortcode-quote-main-div {
-  background-color: white !important;
-  position: relative;
-  margin: 10px 0;
-  box-sizing: border-box; }
-
-.shortcode-quote-text {
-  color: #ce8460 !important;
-  font-weight: bold;
-  font-size: 1.2rem; }
+  background-color: transparent !important; }
 
 .shortcode-quote-icon-left {
-  color: #ce8460; }
+  position: absolute;
+  top: 0;
+  /* Align to the top */
+  left: 0;
+  /* Align to the left */
+  color: #ce8460;
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
 
 .shortcode-quote-icon-right {
   color: #ce8460;
-  position: absolute;
-  bottom: 10%;
-  right: 0; }
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
+
+.shortcode-div {
+  flex-grow: 1;
+  /* Allows the div to take up the available space */
+  padding: 0 20px;
+  /* Adjust padding as needed */ }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  /* Assuming $color_primary is defined elsewhere in your CSS */
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  /* Centers text */
+  margin: 0;
+  /* Removes default margin */ }
 
 .special-link {
   /* Styles for links inside paragraphs in Markdown content */
@@ -21252,28 +21266,21 @@ body {
 
 .post-navigation {
   display: flex;
-  justify-content: center;
-  /* Centers items on the main-axis */
-  align-items: center;
-  /* Align items on the cross-axis */
-  flex-wrap: wrap;
-  /* Allows items to wrap as needed */ }
+  justify-content: space-between;
+  /* Adjusted for better spacing between the items */
+  align-items: flex-start;
+  /* Align items at the top */
+  gap: 10px;
+  flex-wrap: nowrap;
+  /* Ensure they stay in one line */ }
 
 .nav-previous, .nav-next {
-  flex: 1 1 auto;
-  /* Gives the items the ability to grow and shrink but initially bases them off their auto size */
-  text-align: center;
-  /* Center the text within each nav */
-  margin: 0 10px;
-  /* Adds a little space between the two navs */ }
+  flex: 1;
+  /* Allow these items to grow */
+  text-align: center; }
 
-/* Additional styling to ensure consistency */
-.nav-previous span, .nav-next span {
-  display: block;
-  /* Makes the span behave like a block element */ }
-
-.small-nav {
-  font-family: "Open Sans", sans-serif; }
+.prev-title {
+  color: #ce8460; }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -23228,25 +23235,469 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
       
       
       
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
     
       
       
       
     
-      
-      
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/gallery/01.jpg"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/gallery/01.jpg"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
+            </a>
+          
+        </div>
       
     
       
       
       
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
     
       
       
       
     
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/gallery/02.jpg"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_h2_lanczos.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/gallery/02.jpg"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg'" />
+            </a>
+          
+        </div>
+      
+    
       
       
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/gallery/03.jpg"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_h2_lanczos.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/gallery/03.jpg"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg'" />
+            </a>
+          
+        </div>
+      
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/gallery/04.jpg"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_h2_lanczos.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/gallery/04.jpg"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg'" />
+            </a>
+          
+        </div>
+      
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/gallery/05.jpg"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_h2_lanczos.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/gallery/05.jpg"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg'" />
+            </a>
+          
+        </div>
+      
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/gallery/06.jpg"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/gallery/06.jpg"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
+            </a>
+          
+        </div>
       
     
     
@@ -24044,21 +24495,22 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
       
       
 
-
+      
       <div class="post-navigation">
         
         <div class="nav-previous">
-          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/shop/product-7/">&larr; Article Précédent</a></small>
-          <h6 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-7/">Blue Jacket</a></h4>
+          <small class="small-nav">Article Précédent</small>
+          <h6 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-7/">&larr; Blue Jacket</a></h4>
         </div>
         
         
         <div class="nav-next">
-          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/shop/product-3/">Article Suivant &rarr;</a></small>
-          <h6 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-3/">School Bag</a></h4>
+          <small class="small-nav">Article Suivant</small>
+          <h6 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-3/">School Bag</a>&rarr;</h4>
         </div>
         
       </div>
+      
   </div>
   </article>
   
@@ -24238,7 +24690,7 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
       <button id="scrollTop" aria-label="scroll to top"><i class="fas fa-angle-up"></i></a>
     </div>
     <div class="text-center">
-      <p class="content">
+      <p class="content" style="text-align: center;">
         Suivez Mon Périple à travers le monde !
         
       </p>

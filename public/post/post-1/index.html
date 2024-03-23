@@ -76,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.123.8">
+<meta name="generator" content="Hugo 0.124.1">
 
 
 
@@ -20070,31 +20070,45 @@ h2, .h2 {
   /* or rem */ }
 
 .quote {
+  display: flex;
+  align-items: center;
+  /* Vertically center the contents */
+  justify-content: center;
+  /* Horizontally center the contents */
   position: relative;
+  /* Needed for absolute positioning of children */
   margin: 10px 0;
   box-sizing: border-box;
-  background-color: transparent !important;
-  text-align: center !important; }
-
-.shortcode-quote-main-div {
-  background-color: white !important;
-  position: relative;
-  margin: 10px 0;
-  box-sizing: border-box; }
-
-.shortcode-quote-text {
-  color: #ce8460 !important;
-  font-weight: bold;
-  font-size: 1.2rem; }
+  background-color: transparent !important; }
 
 .shortcode-quote-icon-left {
-  color: #ce8460; }
+  position: absolute;
+  top: 0;
+  /* Align to the top */
+  left: 0;
+  /* Align to the left */
+  color: #ce8460;
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
 
 .shortcode-quote-icon-right {
   color: #ce8460;
-  position: absolute;
-  bottom: 10%;
-  right: 0; }
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
+
+.shortcode-div {
+  flex-grow: 1;
+  /* Allows the div to take up the available space */
+  padding: 0 20px;
+  /* Adjust padding as needed */ }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  /* Assuming $color_primary is defined elsewhere in your CSS */
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  /* Centers text */
+  margin: 0;
+  /* Removes default margin */ }
 
 .special-link {
   /* Styles for links inside paragraphs in Markdown content */
@@ -21252,28 +21266,27 @@ body {
 
 .post-navigation {
   display: flex;
-  justify-content: center;
-  /* Centers items on the main-axis */
-  align-items: center;
-  /* Align items on the cross-axis */
-  flex-wrap: wrap;
-  /* Allows items to wrap as needed */ }
+  justify-content: space-between;
+  /* Adjusted for better spacing between the items */
+  align-items: flex-start;
+  /* Align items at the top */
+  gap: 10px;
+  flex-wrap: nowrap;
+  /* Ensure they stay in one line */ }
 
 .nav-previous, .nav-next {
-  flex: 1 1 auto;
-  /* Gives the items the ability to grow and shrink but initially bases them off their auto size */
-  text-align: center;
-  /* Center the text within each nav */
-  margin: 0 10px;
-  /* Adds a little space between the two navs */ }
+  flex: 1;
+  /* Allow these items to grow */
+  text-align: center; }
 
-/* Additional styling to ensure consistency */
-.nav-previous span, .nav-next span {
-  display: block;
-  /* Makes the span behave like a block element */ }
+.next-title, .prev-title {
+  color: #ce8460; }
 
-.small-nav {
-  font-family: "Open Sans", sans-serif; }
+.flex-spacer {
+  flex: 1;
+  /* Takes up the same amount of space as one of the nav items */
+  visibility: hidden;
+  /* Makes the spacer invisible */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -23227,21 +23240,22 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
       
       
 
-
+      
       <div class="post-navigation">
         
         <div class="nav-previous">
-          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">&larr; Article Précédent</a></small>
-          <h6 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h4>
+          <small class="small-nav">Article Précédent</small>
+          <h6 class="prev-title"><a class="next-title" href="http://192.168.1.249:1313/mon-periple/post/post-2/">&larr; Joyeux Couple Amoureux Boulangers Boire Du Café</a></h4>
         </div>
         
         
         <div class="nav-next">
-          <small class="small-nav"><a href="http://192.168.1.249:1313/mon-periple/shop/product-6/">Article Suivant &rarr;</a></small>
-          <h6 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-6/">Cotton T-Shirt</a></h4>
+          <small class="small-nav">Article Suivant</small>
+          <h6 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-6/">Cotton T-Shirt</a>&rarr;</h4>
         </div>
         
       </div>
+      
   </div>
   </article>
   
@@ -23421,7 +23435,7 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
       <button id="scrollTop" aria-label="scroll to top"><i class="fas fa-angle-up"></i></a>
     </div>
     <div class="text-center">
-      <p class="content">
+      <p class="content" style="text-align: center;">
         Suivez Mon Périple à travers le monde !
         
       </p>

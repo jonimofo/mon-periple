@@ -8938,17 +8938,26 @@ body {
 
 .post-navigation {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  /* Adjusted for better spacing between the items */
+  align-items: flex-start;
+  /* Align items at the top */
   gap: 10px;
   flex-wrap: nowrap;
-  /* Ensure they stay in one line */
-  background-color: orange; }
+  /* Ensure they stay in one line */ }
+
+.small-nav {
+  font-style: italic; }
 
 .nav-previous, .nav-next {
   flex: 1;
   /* Allow these items to grow */
   text-align: center; }
+
+.next-title, .prev-title {
+  color: #ce8460; }
+  .next-title:hover, .prev-title:hover {
+    color: #1c1d1f; }
 
 .flex-spacer {
   flex: 1;

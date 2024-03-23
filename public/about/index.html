@@ -76,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.123.8">
+<meta name="generator" content="Hugo 0.124.1">
 
 
 
@@ -20067,31 +20067,45 @@ h2, .h2 {
   /* or rem */ }
 
 .quote {
+  display: flex;
+  align-items: center;
+  /* Vertically center the contents */
+  justify-content: center;
+  /* Horizontally center the contents */
   position: relative;
+  /* Needed for absolute positioning of children */
   margin: 10px 0;
   box-sizing: border-box;
-  background-color: transparent !important;
-  text-align: center !important; }
-
-.shortcode-quote-main-div {
-  background-color: white !important;
-  position: relative;
-  margin: 10px 0;
-  box-sizing: border-box; }
-
-.shortcode-quote-text {
-  color: #ce8460 !important;
-  font-weight: bold;
-  font-size: 1.2rem; }
+  background-color: transparent !important; }
 
 .shortcode-quote-icon-left {
-  color: #ce8460; }
+  position: absolute;
+  top: 0;
+  /* Align to the top */
+  left: 0;
+  /* Align to the left */
+  color: #ce8460;
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
 
 .shortcode-quote-icon-right {
   color: #ce8460;
-  position: absolute;
-  bottom: 10%;
-  right: 0; }
+  /* Assuming $color_primary is defined elsewhere in your CSS */ }
+
+.shortcode-div {
+  flex-grow: 1;
+  /* Allows the div to take up the available space */
+  padding: 0 20px;
+  /* Adjust padding as needed */ }
+
+.shortcode-quote-text {
+  color: #ce8460 !important;
+  /* Assuming $color_primary is defined elsewhere in your CSS */
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  /* Centers text */
+  margin: 0;
+  /* Removes default margin */ }
 
 .special-link {
   /* Styles for links inside paragraphs in Markdown content */
@@ -21249,27 +21263,32 @@ body {
 
 .post-navigation {
   display: flex;
-  align-items: center;
-  /* Align items on the cross-axis */
-  flex-wrap: wrap;
-  /* Allows items to wrap as needed */ }
-
-.nav-previous, .nav-next {
-  flex: 1 1 auto;
-  /* Gives the items the ability to grow and shrink but initially bases them off their auto size */
-  text-align: center;
-  /* Center the text within each nav */
-  margin: 0 10px;
-  /* Adds a little space between the two navs */ }
-
-/* Additional styling to ensure consistency */
-.nav-previous span, .nav-next span {
-  display: block;
-  /* Makes the span behave like a block element */ }
+  justify-content: space-between;
+  /* Adjusted for better spacing between the items */
+  align-items: flex-start;
+  /* Align items at the top */
+  gap: 10px;
+  flex-wrap: nowrap;
+  /* Ensure they stay in one line */ }
 
 .small-nav {
-  font-family: "Open Sans", sans-serif;
   font-style: italic; }
+
+.nav-previous, .nav-next {
+  flex: 1;
+  /* Allow these items to grow */
+  text-align: center; }
+
+.next-title, .prev-title {
+  color: #ce8460; }
+  .next-title:hover, .prev-title:hover {
+    color: #1c1d1f; }
+
+.flex-spacer {
+  flex: 1;
+  /* Takes up the same amount of space as one of the nav items */
+  visibility: hidden;
+  /* Makes the spacer invisible */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22390,17 +22409,14 @@ body.dark .tab-content {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum in urna justo elit turpis risus vitae viverra enim. Augue quis vitae in non nisi, posuere ultrices tempus. Feugiat consequat suspendisse laoreet vitae enim adipiscing cursus. Duis nunc vitae tincidunt sed nibh id. Egestas erat consequat, ornare etiam donec faucibus. Lorem ut enim nunc, senectus adipiscing sed. Lobortis commodo aliquet pulvinar molestie faucibus diam. Semper porttitor justo, et dictum</p>
 <p>Faucibus duis urna, consequat morbi imperdiet pulvinar. Mauris vitae sed aliquet eu tincidunt id. Nulla leo eget erat vel pharetra. Morbi nullam morbi non purus, augue. Massa cras odio ante cursus a mauris. Volutpat faucibus feugiat feugiat euismod congue ridiculus. Et ipsum euismod nulla et aenean diam duis. Sem molestie est mauris sit. Et eleifend odio</p>
 
-
 <div class="quote">
   <i class="fas fa-quote-left shortcode-quote-icon-left"></i>
   <div class="shortcode-div">
-      <br>
-      <p class="shortcode-quote-text">Life is a series of natural and spontaneous changes. Don’t resist them – that only create sorrow. Let reality changes be reality. Let things flow naturally way they like.</p>
-      <br>
-      
-    </div>
-    <i class="fas fa-quote-right shortcode-quote-icon-right"></i>
+    <p class="shortcode-quote-text">Life is a series of natural and spontaneous changes. Don’t resist them – that only create sorrow. Let reality changes be reality. Let things flow naturally way they like.</p>
+  </div>
+  <i class="fas fa-quote-right shortcode-quote-icon-right"></i>
 </div>
+
 
 <hr>
 <h1 id="my-skills--experiences">My Skills &amp; Experiences:</h1>
@@ -22536,7 +22552,7 @@ body.dark .tab-content {
       <button id="scrollTop" aria-label="scroll to top"><i class="fas fa-angle-up"></i></a>
     </div>
     <div class="text-center">
-      <p class="content">
+      <p class="content" style="text-align: center;">
         Suivez Mon Périple à travers le monde !
         
       </p>

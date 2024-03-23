@@ -89,14 +89,14 @@
       <div class="post-navigation">
         {{ if .Prev }}
         <div class="nav-previous">
-          <small class="small-nav"><a href="{{ .Prev.Permalink }}">&larr; Article Précédent</a></small>
-          <h6 class="prev-title"><a href="{{ .Prev.Permalink }}">{{ .Prev.Title }}</a></h4>
+          <small class="small-nav">Article Précédent</small>
+          <h6 class="prev-title"><a class="prev-title" href="{{ .Prev.Permalink }}">&larr; {{ .Prev.Title }}</a></h4>
         </div>
         {{ end }}
         {{ if .Next }}
         <div class="nav-next">
-          <small class="small-nav"><a href="{{ .Next.Permalink }}">Article Suivant &rarr;</a></small>
-          <h6 class="next-title"><a href="{{ .Next.Permalink }}">{{ .Next.Title }}</a></h4>
+          <small class="small-nav">Article Suivant</small>
+          <h6 class="next-title"><a class="next-title" href="{{ .Next.Permalink }}">{{ .Next.Title }}</a>&rarr;</h4>
         </div>
         {{ end }}
       </div>

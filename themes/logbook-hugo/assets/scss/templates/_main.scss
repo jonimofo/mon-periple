@@ -726,14 +726,16 @@ body {
 // -----------------------------------------------------------------------------
 // POST NAVIGATION
 // ---------------------------------------------------------------------------
-// TODO style
 .post-navigation {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between; /* Adjusted for better spacing between the items */
+  align-items: flex-start; /* Align items at the top */
   gap: 10px;
   flex-wrap: nowrap; /* Ensure they stay in one line */
-  background-color: orange;
+}
+
+.small-nav {
+  font-style: italic;
 }
 
 .nav-previous, .nav-next {
@@ -741,7 +743,15 @@ body {
   text-align: center;
 }
 
+.next-title, .prev-title {
+  color: $color-primary;
+  
+  &:hover {
+    color:  $text-dark;
+  }
+}
 .flex-spacer {
   flex: 1; /* Takes up the same amount of space as one of the nav items */
   visibility: hidden; /* Makes the spacer invisible */
 }
+
