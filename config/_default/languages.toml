@@ -6,7 +6,7 @@ contentDir = "content/french"
 weight = 1
 # footer content
 [fr.params]
-footer_content = "que la douleur soit grande, que l'elitr triste soit réglée, mais le diam nonumy qu'ils envient depuis longtemps, comme avec le travail et la douleur c'était grand pour certains, mais le plaisir du diam."
+footer_content = ""
 
 
 ################################### English language #####################################

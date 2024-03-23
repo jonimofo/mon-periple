@@ -21257,17 +21257,26 @@ body {
 
 .post-navigation {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  /* Adjusted for better spacing between the items */
+  align-items: flex-start;
+  /* Align items at the top */
   gap: 10px;
   flex-wrap: nowrap;
-  /* Ensure they stay in one line */
-  background-color: orange; }
+  /* Ensure they stay in one line */ }
+
+.small-nav {
+  font-style: italic; }
 
 .nav-previous, .nav-next {
   flex: 1;
   /* Allow these items to grow */
   text-align: center; }
+
+.next-title, .prev-title {
+  color: #ce8460; }
+  .next-title:hover, .prev-title:hover {
+    color: #1c1d1f; }
 
 .flex-spacer {
   flex: 1;
@@ -23877,7 +23886,7 @@ body.dark .tab-content {
 
 
         </a>
-        <p>que la douleur soit grande, que l&#39;elitr triste soit réglée, mais le diam nonumy qu&#39;ils envient depuis longtemps, comme avec le travail et la douleur c&#39;était grand pour certains, mais le plaisir du diam.</p>
+        <p></p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mb-4">
         <h6 class="mb-4 fw-semibold">Liens rapides</h6>
@@ -23913,7 +23922,7 @@ body.dark .tab-content {
       <button id="scrollTop" aria-label="scroll to top"><i class="fas fa-angle-up"></i></a>
     </div>
     <div class="text-center">
-      <p class="content">
+      <p class="content" style="text-align: center;">
         Suivez Mon Périple à travers le monde !
         
       </p>

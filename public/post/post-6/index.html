@@ -21265,13 +21265,24 @@ body {
   flex-wrap: nowrap;
   /* Ensure they stay in one line */ }
 
+.small-nav {
+  font-style: italic; }
+
 .nav-previous, .nav-next {
   flex: 1;
   /* Allow these items to grow */
   text-align: center; }
 
-.prev-title {
-  color: #ce8460 !important; }
+.next-title, .prev-title {
+  color: #ce8460; }
+  .next-title:hover, .prev-title:hover {
+    color: #1c1d1f; }
+
+.flex-spacer {
+  flex: 1;
+  /* Takes up the same amount of space as one of the nav items */
+  visibility: hidden;
+  /* Makes the spacer invisible */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -23110,13 +23121,13 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
         
         <div class="nav-previous">
           <small class="small-nav">Article Précédent</small>
-          <h6 class="prev-title"><a href="http://192.168.1.249:1313/mon-periple/shop/product-1/">&larr; Linen Bag</a></h4>
+          <h6 class="prev-title"><a class="prev-title" href="http://192.168.1.249:1313/mon-periple/shop/product-1/">&larr; Linen Bag</a></h4>
         </div>
         
         
         <div class="nav-next">
           <small class="small-nav">Article Suivant</small>
-          <h6 class="next-title"><a href="http://192.168.1.249:1313/mon-periple/post/post-5/">Joyeux Couple Amoureux Boulangers Boire Du Café</a>&rarr;</h4>
+          <h6 class="next-title"><a class="next-title" href="http://192.168.1.249:1313/mon-periple/post/post-5/">Joyeux Couple Amoureux Boulangers Boire Du Café</a>&rarr;</h4>
         </div>
         
       </div>
@@ -23124,33 +23135,6 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
   </div>
   </article>
   
-  
-  <div class="row">
-    <div class="col-lg-10 mx-auto">
-      <div class="mt-5">
-        <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "themefisher-template" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      </div>
-    </div>
-  </div>
   
   </div>
 </section>
@@ -23264,7 +23248,7 @@ innovate, but balancing commercially and creatively lucrative work is tricky. So
 
 
         </a>
-        <p>que la douleur soit grande, que l&#39;elitr triste soit réglée, mais le diam nonumy qu&#39;ils envient depuis longtemps, comme avec le travail et la douleur c&#39;était grand pour certains, mais le plaisir du diam.</p>
+        <p></p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mb-4">
         <h6 class="mb-4 fw-semibold">Liens rapides</h6>

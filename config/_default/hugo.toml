@@ -11,7 +11,7 @@ summaryLength = 50 # see https://gohugo.io/content-management/excerpts/
 # google analytics
 googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+# disqusShortname = "jonimofo" # get your shortname form here : https://disqus.com
 # disable language
 defaultContentLanguage = "fr"
 disableLanguages = ["en"] # disable language from here
