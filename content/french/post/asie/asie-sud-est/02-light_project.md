@@ -20,9 +20,21 @@ draft: false
 <br>
 Le rendez-vous était donc pris.
 
-## GALLERY
+## GALLERY 250
 
 {{< gallery dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01" width="250" height="190" zoomable="true" >}}
+
+## GALLERY NORMALE
+
+{{< gallery 
+  dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01" 
+  zoomable="true" >}}
+
+  {{< gallery 
+  dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01" 
+  zoomable="true" >}}
+
+
 
 ## SLIDER
 
@@ -38,10 +50,14 @@ Le rendez-vous était donc pris.
 
 ## IMAGE
 
+### Image où on peut zoomer
+
 {{< image src="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_01.jpg" 
-  caption="" alt="alter-text" 
+  alt="quand je clique ça donne çz" 
+  caption="ceci est une légende" 
   width="600" height="450"
   position="center"
+  zoomable="true"
   command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}}
 
 
@@ -51,12 +67,13 @@ Nous arrivons enfin dans la commune de Đồng Nai Thượng, située dans la pr
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_31.png" 
-  caption="CECI EST UNE LEGENDE"
+  caption="IMAGE A GAUCHE"
   alt="alter-text" 
   resize="80x"
   position="center"
-  command="fill" option="q100" class="img-fluid" title="image title"  webp="true">}}
-
+  zoomable="true"
+  command="fill" option="q100" class="img-fluid" title=""
+  webp="true">}}
 
 
 Quand nous arrivons, je peux remarquer que des membres d’autres chapitres sont présents : c’est facile, vous pouvez les reconnaitre à leurs polos. Le chapitre de Đà Lạt porte des polos verts, celui de East Saigon des bleus, une membre d’Hanoi qui est en visite arbore un violet et moi-même je porte le polo JCI national à la couleur rouge et l’étoile jaune.
