@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Mon Périple</title>
-    <link>http://localhost:1313/author/</link>
+    <link>http://192.168.1.249:1313/mon-periple/author/</link>
     <description>Recent content in Authors on Mon Périple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <atom:link href="http://localhost:1313/author/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.249:1313/mon-periple/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>John Doe</title>
-      <link>http://localhost:1313/author/john-doe/</link>
+      <link>http://192.168.1.249:1313/mon-periple/author/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/author/john-doe/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/author/john-doe/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
     </item>
   </channel>

@@ -47,6 +47,9 @@ target = '(css|styles|scss|sass)'
 source = 'assets/.*\.(.*)$'
 target = '$1'
 
+
+timeout = 90
+
 ############################# Outputs ##############################
 [outputs]
 home = ["HTML", "RSS", "JSON", "WebAppManifest", "SearchIndex"]
