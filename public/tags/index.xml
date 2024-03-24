@@ -43,40 +43,5 @@
       <guid>http://192.168.1.249:1313/mon-periple/tags/photo/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Booth</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/booth/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/booth/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>City</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/city/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/city/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>New</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/new/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/new/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seasone</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/seasone/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/seasone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Video</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/video/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/video/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
