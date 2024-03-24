@@ -35,28 +35,20 @@ Le rendez-vous était donc pris.
 ## GALLERY 2
 
 <!-- 30 -->
-{{< gallery 
+<!-- {{< gallery 
 dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-30" 
-zoomable="true" >}}
+zoomable="true" >}} -->
 
 ## GALLERY 3
 <!-- SIZE ORIG -->
-{{< gallery 
+<!-- {{< gallery 
 dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-orig-size" 
-zoomable="true" >}}
+zoomable="true" >}} -->
 
 
 
 ## SLIDER
 
-
-{{< slider 
-  dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01"
-  Webp="true"
-  zoomable="true">}}
-
-
-<br><br><br>
 
 
 ## IMAGE
