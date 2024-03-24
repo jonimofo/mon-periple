@@ -20,65 +20,12 @@ draft: false
 <br>
 Le rendez-vous était donc pris.
 
-## GALLERY 250
 
-{{< gallery dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01" width="250" height="190" zoomable="true" >}}
-
-
-
-## GALLERY 1
-<!-- 20 -->
-{{< gallery 
-  dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-20" 
-  zoomable="true" >}}
-
-## GALLERY 2
-
-<!-- 30 -->
-<!-- {{< gallery 
-dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-30" 
-zoomable="true" >}} -->
-
-## GALLERY 3
-<!-- SIZE ORIG -->
-<!-- {{< gallery 
-dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-orig-size" 
-zoomable="true" >}} -->
-
-
-
-## SLIDER
-
-
-
-## IMAGE
-
-### Image où on peut zoomer
-
-
-<!-- todo align text caption center -->
-{{< image src="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_01.jpg" 
-  alt="quand je clique ça donne çz" 
-  caption="ceci est une légende" 
-  width="600" height="450"
-  position="center"
-  zoomable="true"
-  command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}}
 
 
 Etant donné que tout le monde parle anglais (ce qui n’arrivera pas tout le temps pendant mon voyage au Vietnam), on peut parler de tout et de rien et échanger autour de nos vies respectives. La chose que j’ai retenue c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement, il faut faire gaffe aux policiers sur la route. Apparemment ces derniers aiment bien arrêter les automobilistes pour trouver n’importe quoi à leur reprocher. Nha et Giang me racontent qu’il leur est arrivé une fois d’être retenu par des policiers. Ce qu’ils ont alors fait c’est de communiquer entre eux uniquement en anglais. Au bout d’une demi-heure les policiers ont abandonné et les ont laissé partir. J’essaierais de m’en souvenir même si pour sûr je ne veux aucun ennui ici avec la police ni l’armée : ils ont une allure qui me fait flipper, je dois bien l’avouer.
 
 Nous arrivons enfin dans la commune de Đồng Nai Thượng, située dans la province de Lâm Đồng. Quand on regarde la carte c’est assez loin, suffisamment loin pour qu’en fait ce soit le JCI East Saigon qui pilote et soit à l’origine de ce projet. Le JCI Đà Lạt est venu se greffer par la suite.
-
-{{< 
-  image src="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_31.png" 
-  caption="IMAGE A GAUCHE"
-  alt="alter-text" 
-  resize="80x"
-  position="center"
-  zoomable="true"
-  command="fill" option="q100" class="img-fluid" title=""
-  webp="true">}}
 
 
 Quand nous arrivons, je peux remarquer que des membres d’autres chapitres sont présents : c’est facile, vous pouvez les reconnaitre à leurs polos. Le chapitre de Đà Lạt porte des polos verts, celui de East Saigon des bleus, une membre d’Hanoi qui est en visite arbore un violet et moi-même je porte le polo JCI national à la couleur rouge et l’étoile jaune.
