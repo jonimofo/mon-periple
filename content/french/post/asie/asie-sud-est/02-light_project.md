@@ -24,15 +24,26 @@ Le rendez-vous était donc pris.
 
 {{< gallery dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01" width="250" height="190" zoomable="true" >}}
 
-## GALLERY NORMALE
 
+
+## GALLERY 1
+<!-- 20 -->
 {{< gallery 
-  dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01" 
+  dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-20" 
   zoomable="true" >}}
 
-  {{< gallery 
-  dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/01" 
-  zoomable="true" >}}
+## GALLERY 2
+
+<!-- 30 -->
+{{< gallery 
+dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-30" 
+zoomable="true" >}}
+
+## GALLERY 3
+<!-- SIZE ORIG -->
+{{< gallery 
+dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light-orig-size" 
+zoomable="true" >}}
 
 
 
@@ -52,6 +63,8 @@ Le rendez-vous était donc pris.
 
 ### Image où on peut zoomer
 
+
+<!-- todo align text caption center -->
 {{< image src="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_01.jpg" 
   alt="quand je clique ça donne çz" 
   caption="ceci est une légende" 

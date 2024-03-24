@@ -2,111 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/asie/</loc>
+    <loc>http://localhost:1313/tags/asie/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/asie-sud-est/</loc>
+    <loc>http://localhost:1313/tags/asie-sud-est/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/</loc>
+    <loc>http://localhost:1313/post/asie/asie-sud-est/02-light_project/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/vietnam/</loc>
+    <loc>http://localhost:1313/tags/vietnam/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/categories/vietnam/</loc>
+    <loc>http://localhost:1313/categories/vietnam/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/</loc>
+    <loc>http://localhost:1313/post/asie/asie-sud-est/01-dalat/</loc>
     <lastmod>2022-09-04T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-3/</loc>
+    <loc>http://localhost:1313/shop/product-3/</loc>
     <lastmod>2020-04-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/</loc>
+    <loc>http://localhost:1313/shop/</loc>
     <lastmod>2020-04-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/post/elements/</loc>
+    <loc>http://localhost:1313/post/elements/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/image/</loc>
+    <loc>http://localhost:1313/tags/image/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/photo/</loc>
+    <loc>http://localhost:1313/tags/photo/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/categories/photography/</loc>
+    <loc>http://localhost:1313/categories/photography/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-7/</loc>
+    <loc>http://localhost:1313/shop/product-7/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-6/</loc>
+    <loc>http://localhost:1313/shop/product-6/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-1/</loc>
+    <loc>http://localhost:1313/shop/product-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-4/</loc>
+    <loc>http://localhost:1313/shop/product-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-2/</loc>
+    <loc>http://localhost:1313/shop/product-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-8/</loc>
+    <loc>http://localhost:1313/shop/product-8/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/shop/product-5/</loc>
+    <loc>http://localhost:1313/shop/product-5/</loc>
     <lastmod>2020-02-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/author/</loc>
+    <loc>http://localhost:1313/author/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/elements/</loc>
+    <loc>http://localhost:1313/elements/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/full/</loc>
+    <loc>http://localhost:1313/homepage/full/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/full-left/</loc>
+    <loc>http://localhost:1313/homepage/full-left/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/full-right/</loc>
+    <loc>http://localhost:1313/homepage/full-right/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/grid/</loc>
+    <loc>http://localhost:1313/homepage/grid/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/grid-left/</loc>
+    <loc>http://localhost:1313/homepage/grid-left/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/grid-right/</loc>
+    <loc>http://localhost:1313/homepage/grid-right/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/list/</loc>
+    <loc>http://localhost:1313/homepage/list/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/list-left/</loc>
+    <loc>http://localhost:1313/homepage/list-left/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/list-right/</loc>
+    <loc>http://localhost:1313/homepage/list-right/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/homepage/</loc>
+    <loc>http://localhost:1313/homepage/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/author/john-doe/</loc>
+    <loc>http://localhost:1313/author/john-doe/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/404/</loc>
+    <loc>http://localhost:1313/404/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/privacy-policy/</loc>
+    <loc>http://localhost:1313/privacy-policy/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/terms-conditions/</loc>
+    <loc>http://localhost:1313/terms-conditions/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url>
 </urlset>
