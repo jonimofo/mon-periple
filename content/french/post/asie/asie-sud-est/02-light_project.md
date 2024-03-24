@@ -25,6 +25,10 @@ Le rendez-vous était donc pris.
 
 
 
+{{< gallery dir="images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30" class="" webp="true" command="Fit" option="" zoomable="true" >}}
+
+
+
 
 Etant donné que tout le monde parle anglais (ce qui n’arrivera pas tout le temps pendant mon voyage au Vietnam), on peut parler de tout et de rien et échanger autour de nos vies respectives. La chose que j’ai retenue c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement, il faut faire gaffe aux policiers sur la route. Apparemment ces derniers aiment bien arrêter les automobilistes pour trouver n’importe quoi à leur reprocher. Nha et Giang me racontent qu’il leur est arrivé une fois d’être retenu par des policiers. Ce qu’ils ont alors fait c’est de communiquer entre eux uniquement en anglais. Au bout d’une demi-heure les policiers ont abandonné et les ont laissé partir. J’essaierais de m’en souvenir même si pour sûr je ne veux aucun ennui ici avec la police ni l’armée : ils ont une allure qui me fait flipper, je dois bien l’avouer.
 
