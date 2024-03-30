@@ -781,7 +781,9 @@ p a:hover {
 }
 
 
-
+// -----------------------------------------------------------------------------
+// SHORTCODE INFO TOOLTIP
+// -----------------------------------------------------------------------------
 .infotooltip {
   margin-bottom: 1.5rem;
   border: 1px solid #1b83e2;
@@ -818,4 +820,24 @@ p a:hover {
 .infotooltip.note {
   color: #1b83e2;
   border-color: #1b83e2;
+}
+
+
+
+// -----------------------------------------------------------------------------
+// BLOCK QUOTE
+// -----------------------------------------------------------------------------
+.content blockquote {
+  background-color: rgba(255, 255, 255, 0.657);
+  border-left: 10px solid $color-primary; /* Assuming $color-primary is defined in your preprocessor */
+  margin-top: 0.75rem;
+  margin-bottom: 2.2rem; /* Increased bottom margin */
+  padding: 1rem 1rem 1rem 2rem; /* Padding: top, right, bottom, and increased left */
+  position: relative;
+  font-style: italic;
+}
+
+.content blockquote p {
+  margin: 0;
+  font-size: 1.1rem !important; /* Font size remains unchanged */
 }

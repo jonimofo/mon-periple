@@ -21318,14 +21318,48 @@ p a:hover {
   color: #FFFFFF !important;
   /* Changes text color to white on hover */ }
 
-.notice {
-  border: 3px solid #317b9f;
-  /* Example: 3px thick, solid, #317b9f colored border */
-  padding: 10px;
-  /* Adds some spacing inside the border */
-  margin-bottom: 15px;
-  /* Adds some space below each notice */
-  /* Additional styling here */ }
+.infotooltip {
+  margin-bottom: 1.5rem;
+  border: 1px solid #1b83e2;
+  padding: 1.5rem;
+  border-radius: 8px; }
+
+.infotooltip-head {
+  display: flex;
+  align-items: center; }
+
+.infotooltip-head svg {
+  margin-right: 0.75rem; }
+
+.infotooltip-head p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1b83e2;
+  margin: 0;
+  line-height: 1; }
+
+.infotooltip-body {
+  margin-top: 0.75rem; }
+
+.infotooltip-body p {
+  margin: 0; }
+
+.infotooltip.note {
+  color: #1b83e2;
+  border-color: #1b83e2; }
+
+.content blockquote {
+  background-color: transparent;
+  border-left: 10px solid #ce8460;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  position: relative;
+  font-family: "Georgia", serif;
+  font-style: italic; }
+
+.content blockquote p {
+  margin: 0;
+  font-size: 0.85rem !important; }
 
 .notice {
   margin-bottom: 1.5rem;
