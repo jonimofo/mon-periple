@@ -244,7 +244,7 @@ if (!doNotTrack) {
   let indexURL = "http://192.168.1.249:1313/mon-periple/searchindex.json";
   let includeSectionsInSearch = ["post","shop"];
   let no_results_for = "Aucun résultat pour";
-  let empty_search_results_placeholder = "Tapez quelque chose à rechercher..";
+  let empty_search_results_placeholder = "empty_search_results_placeholder";
 </script>
 
 
@@ -21257,32 +21257,24 @@ body {
 .post-navigation {
   display: flex;
   justify-content: space-between;
-  /* Adjusted for better spacing between the items */
+  /* Keeps items on opposite ends */
   align-items: flex-start;
   /* Align items at the top */
-  gap: 10px;
-  flex-wrap: nowrap;
-  /* Ensure they stay in one line */
   margin-top: 2rem; }
-
-.small-nav {
-  font-style: italic; }
 
 .nav-previous, .nav-next {
   flex: 1;
-  /* Allow these items to grow */
-  text-align: center; }
+  /* Allow flex items to grow to fill the space */
+  flex-basis: 0;
+  /* Start with 0 width, but allow growth */
+  text-align: center;
+  box-sizing: border-box;
+  /* Ensures padding and border are included in the element's total width and height */ }
 
-.next-title, .prev-title {
-  color: #ce8460; }
-  .next-title:hover, .prev-title:hover {
-    color: #1c1d1f; }
-
-.flex-spacer {
-  flex: 1;
-  /* Takes up the same amount of space as one of the nav items */
-  visibility: hidden;
-  /* Makes the spacer invisible */ }
+/* If you want strictly equal widths and no growth beyond a certain point, set a specific max-width */
+.nav-previous, .nav-next {
+  max-width: 50%;
+  /* Ensures neither can become larger than half the container's width */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22071,7 +22063,7 @@ body.dark .tab-content {
       class="img"
       width="150"
       height="28"
-      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q90_h2_lanczos_3.webp"
+      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q75_h2_lanczos_3.webp"
       alt="LogBook"
       onerror="this.onerror=null;this.src='\/mon-periple\/images\/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_lanczos_3.png'" />
   
@@ -22319,8 +22311,6 @@ body.dark .tab-content {
 
 
 
-  
-
 
 
 
@@ -22328,77 +22318,6 @@ body.dark .tab-content {
   
 
   
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/covers/vietnam_hu7182f44237c7a2b44a039492e47bd32c_3846723_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/covers/vietnam_hu7182f44237c7a2b44a039492e47bd32c_3846723_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/covers/vietnam_hu7182f44237c7a2b44a039492e47bd32c_3846723_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/covers/vietnam_hu7182f44237c7a2b44a039492e47bd32c_3846723_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/covers/vietnam_hu7182f44237c7a2b44a039492e47bd32c_3846723_1110x0_resize_q90_lanczos.jpg"
-            class="  img"
-            alt=""
-            width="4032"
-            height="3024" />
-        </picture>
-      
-      
-    
-    
   
 
 
@@ -22409,6 +22328,7 @@ body.dark .tab-content {
       </div>
     </div>
 
+
     <div class="category-text">
       <i class="fas fa-quote-left category-quote-left"></i>
       
@@ -22418,9 +22338,7 @@ body.dark .tab-content {
         
         
         
-        <div class="category-markdown-content">Etant donné que tout le monde parle anglais (ce qui n’arrivera pas tout le temps pendant mon voyage au Vietnam),
-on peut parler de tout et de rien et échanger autour de nos vies respectives. La chose que j’ai retenue
-c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement, il faut faire gaffe aux policiers sur la route.</div>
+        <div class="category-markdown-content">Au pays des magiciens du riz.<br>Dans les rues ça grouille de vie : des stands de nourriture partout, <br>des deux-roues klaxonnant par milliers et des gens qui parlent fort.<br>Aucun doute, vous êtes bien arrivés au Vietnam.</div>
 
         <i class="fas fa-quote-right category-quote-right"></i>
       
@@ -22544,27 +22462,27 @@ c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement,
         <picture>
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_545x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_545x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_600x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_600x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_700x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_700x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q75_h2_lanczos_2.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q90_h2_lanczos_2.webp"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q75_h2_lanczos_2.webp"
             class=" w-100 img"
             alt="post-thumb"
             width="1536"
@@ -22727,27 +22645,27 @@ c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement,
         <picture>
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_545x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_545x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_600x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_600x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_700x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_700x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q75_h2_lanczos_2.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q90_h2_lanczos_2.webp"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q75_h2_lanczos_2.webp"
             class=" w-100 img"
             alt="post-thumb"
             width="1536"
@@ -22799,18 +22717,6 @@ c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement,
                         
                         
                           <a
-                            href="/mon-periple/tags/asie/"
-                            class="ms-1"
-                            >Asie
-                          </a>
-                        
-                          ,<a
-                            href="/mon-periple/tags/asie-sud-est/"
-                            class="ms-1"
-                            >Asie sud est
-                          </a>
-                        
-                          ,<a
                             href="/mon-periple/tags/vietnam/"
                             class="ms-1"
                             >Vietnam
@@ -22927,27 +22833,27 @@ c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement,
         <picture>
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_545x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_545x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_600x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_600x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_700x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_700x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q75_h2_lanczos_2.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q90_h2_lanczos_2.webp"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q75_h2_lanczos_2.webp"
             class=" me-3 img"
             alt="post-thumb"
             width="1536"
@@ -23054,27 +22960,27 @@ c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement,
         <picture>
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_545x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_545x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_600x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_600x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_700x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_700x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q75_h2_lanczos_2.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q90_h2_lanczos_2.webp"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q75_h2_lanczos_2.webp"
             class=" me-3 img"
             alt="post-thumb"
             width="1536"
@@ -23102,147 +23008,12 @@ c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement,
         </div>
       </li>
     
-      <li class="d-flex widget-post align-items-start">
-        <a href="http://192.168.1.249:1313/mon-periple/post/elements/">
-          
-            
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_1110x0_resize_q90_lanczos.jpg"
-            class=" me-3 img"
-            alt="post-thumb"
-            width="1200"
-            height="545" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-            
-          
-        </a>
-        <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/elements/">Elements That You Can Use To Create A New Post On This Template.</a></h5>
-          
-
-<span>15 mars 2020</span>
-
-        </div>
-      </li>
-    
   </ul>
 </div>
 <!-- categories -->
 <div class="widget">
   <h5 class="widget-title"><span>Catégories</span></h5>
       <ul class="list-unstyled widget-list">
-          <li>
-            <a
-              href="/mon-periple/categories/photography/"
-              class="d-flex"
-              >Photography
-              <small class="ms-auto">(1)</small></a
-            >
-          </li>
           <li>
             <a
               href="/mon-periple/categories/vietnam/"
@@ -23265,16 +23036,6 @@ c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement,
           <li class="list-inline-item">
             <a href="/mon-periple/tags/asie-sud-est/"
               >Asie sud est</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/image/"
-              >Image</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/photo/"
-              >Photo</a
             >
           </li>
           <li class="list-inline-item">

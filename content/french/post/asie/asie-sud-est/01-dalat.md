@@ -10,7 +10,7 @@ author: "Benji"
 description: "This is meta description"
 # Taxonomies
 categories: ["vietnam"]
-tags: ["asie", "asie sud-est", "vietnam"]
+tags: ["vietnam"]
 type: "regular"
 draft: false
 ---

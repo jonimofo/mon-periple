@@ -23,7 +23,7 @@ purge_css = true
 mainSections = ["post"]
 
 # featured post
-featured_post = true
+featured_post = false
 
 # layout
 post_layout = "grid" # layout value (full, grid or list)

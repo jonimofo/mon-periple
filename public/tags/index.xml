@@ -29,19 +29,5 @@
       <guid>http://192.168.1.249:1313/mon-periple/tags/vietnam/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Image</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/image/</link>
-      <pubDate>Sun, 15 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/image/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Photo</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/photo/</link>
-      <pubDate>Sun, 15 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/photo/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

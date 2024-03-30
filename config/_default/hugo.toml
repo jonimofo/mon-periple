@@ -48,7 +48,7 @@ source = 'assets/.*\.(.*)$'
 target = '$1'
 
 
-timeout = 9000000000
+timeout = 90000
 
 ############################# Outputs ##############################
 [outputs]
@@ -58,7 +58,7 @@ home = ["HTML", "RSS", "JSON", "WebAppManifest", "SearchIndex"]
 [imaging]
 # See https://github.com/disintegration/imaging
 # Default JPEG or WebP quality setting. Default is 75.
-quality = 90
+quality = 75
 resampleFilter = "lanczos"
 
 
