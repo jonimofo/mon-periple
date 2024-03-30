@@ -21279,26 +21279,34 @@ body {
 p a {
   text-decoration: none;
   color: #000000;
+  /* Normal text color */
   font-weight: 700;
   position: relative; }
 
 p a::before {
   content: '';
-  background-color: #317b9f;
+  background-color: #2aacec;
+  /* Color of the underline/background on hover */
   position: absolute;
   left: 0;
   bottom: -3px;
+  /* Initial position of the pseudo-element */
   width: 100%;
   height: 4px;
+  /* Initial height of the pseudo-element */
   z-index: -1;
-  transition: all .2s ease-in-out; }
+  transition: all .2s ease-in-out;
+  /* Smooth transition for hover effects */ }
 
 p a:hover::before {
   bottom: 0;
-  height: 100%; }
+  /* Changes position to cover the text */
+  height: 100%;
+  /* Expands the pseudo-element to cover the text area */ }
 
-p a::hover {
-  color: white; }
+p a:hover {
+  color: #FFFFFF !important;
+  /* Changes text color to white on hover */ }
 
 .notice {
   margin-bottom: 1.5rem;

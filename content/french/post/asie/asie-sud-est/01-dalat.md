@@ -90,8 +90,10 @@ En parlant de la France, Trâm me demande si je connais le mot « Gạc-măng-r�
 <hr>
 
 
-
+{{< notice "note" >}}
 J’apprends alors avec beaucoup d’amusement que l’héritage colonial de notre cher pays des droits de l’homme a laissé tout un tas de mots français disséminés dans le vocabulaire vietnamien. Par exemple, si vous vous faites arrêter en voiture par un policier au Vietnam, celui-ci va apparemment vous demander votre « cạc vẹc », pour “carte verte”, le nom officiel du document.
+{{< /notice >}}
+
 
 Parmi ces mots là, mes préférés sont :
 

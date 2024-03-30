@@ -21285,7 +21285,7 @@ p a {
 
 p a::before {
   content: '';
-  background-color: #317b9f;
+  background-color: #2aacec;
   /* Color of the underline/background on hover */
   position: absolute;
   left: 0;
@@ -21305,8 +21305,38 @@ p a:hover::before {
   /* Expands the pseudo-element to cover the text area */ }
 
 p a:hover {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   /* Changes text color to white on hover */ }
+
+.infotooltip {
+  margin-bottom: 1.5rem;
+  border: 1px solid #1b83e2;
+  padding: 1.5rem;
+  border-radius: 8px; }
+
+.infotooltip-head {
+  display: flex;
+  align-items: center; }
+
+.infotooltip-head svg {
+  margin-right: 0.75rem; }
+
+.infotooltip-head p {
+  font-size: 1.20rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+  line-height: 1; }
+
+.infotooltip-body {
+  margin-top: 0.75rem; }
+
+.infotooltip-body p {
+  margin: 0; }
+
+.infotooltip.note {
+  color: #1b83e2;
+  border-color: currentColor; }
 
 .notice {
   margin-bottom: 1.5rem;
