@@ -21327,14 +21327,17 @@ p a:hover {
   font-weight: 600;
   color: #1b83e2;
   margin: 0;
-  line-height: 1; }
+  line-height: 1;
+  text-transform: lowercase !important; }
+
+.infotooltip-head p::first-letter {
+  text-transform: uppercase !important; }
 
 .infotooltip-body {
   margin-top: 0.75rem; }
 
 .infotooltip-body p {
-  margin: 0;
-  text-transform: none; }
+  margin: 0; }
 
 .infotooltip.note {
   color: #1b83e2;

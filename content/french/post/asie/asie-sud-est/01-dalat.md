@@ -3,7 +3,7 @@ title: "Da Lat : arrivée en douceur"
 date: 2022-09-04T15:40:24+06:00
 # post thumb
 images:
-  - "images/post/asie/asie-sud-est/01-vietnam/dalat_cover.webp"
+  - "images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_cover.webp"
 #author
 author: "Benji"
 description: "Début de Mon Périple dans la ville fraiche et reposante de Đà Lạt."
