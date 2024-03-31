@@ -14,7 +14,7 @@ description: "This is meta description"
 categories: ["photography"]
 tags: ["photo", "image"]
 type: "regular" # available type (regular or featured)
-draft: false
+draft: true
 ---
 
 #### Heading example

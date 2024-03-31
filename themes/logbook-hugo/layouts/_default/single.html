@@ -70,7 +70,26 @@
         </div>
         {{end}}
         <div class="{{if not (or (eq $sidebar `left`) (eq $sidebar `right`))}}col-lg-10 mx-auto{{end}}">
-          <div class="content">{{.Content}}</div>
+          <div class="content">
+            {{.Content}}
+
+            <!-- Boutons Articles Précédents / Suivants -->
+            <div class="post-navigation">
+              {{ if .Prev }}
+              <div class="nav-previous">
+                <small class="small-nav">Article Précédent</small>
+                <h6 class="prev-title"><a class="prev-title" href="{{ .Prev.Permalink }}">&larr; {{ .Prev.Title }}</a></h4>
+              </div>
+              {{ end }}
+              {{ if .Next }}
+              <div class="nav-next">
+                <small class="small-nav">Article Suivant</small>
+                <h6 class="next-title"><a class="next-title" href="{{ .Next.Permalink }}">{{ .Next.Title }}</a>&rarr;</h4>
+              </div>
+              {{ end }}
+            </div>
+          
+          </div>
         </div>
         {{if or (eq $sidebar `left`) (eq $sidebar `right`)}}
       </div>{{end}}
@@ -84,22 +103,6 @@
       </aside>
       {{ end }}
       <!-- /right sidebar -->
-
-      <!-- Boutons Articles Précédents / Suivants -->
-      <div class="post-navigation">
-        {{ if .Prev }}
-        <div class="nav-previous">
-          <small class="small-nav">Article Précédent</small>
-          <h6 class="prev-title"><a class="prev-title" href="{{ .Prev.Permalink }}">&larr; {{ .Prev.Title }}</a></h4>
-        </div>
-        {{ end }}
-        {{ if .Next }}
-        <div class="nav-next">
-          <small class="small-nav">Article Suivant</small>
-          <h6 class="next-title"><a class="next-title" href="{{ .Next.Permalink }}">{{ .Next.Title }}</a>&rarr;</h4>
-        </div>
-        {{ end }}
-      </div>
       
   </div>
   </article>

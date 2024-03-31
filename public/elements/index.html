@@ -245,7 +245,7 @@ if (!doNotTrack) {
   let indexURL = "http://192.168.1.249:1313/mon-periple/searchindex.json";
   let includeSectionsInSearch = ["post","shop"];
   let no_results_for = "Aucun résultat pour";
-  let empty_search_results_placeholder = "Tapez quelque chose à rechercher..";
+  let empty_search_results_placeholder = "empty_search_results_placeholder";
 </script>
 
 
@@ -21258,32 +21258,103 @@ body {
 .post-navigation {
   display: flex;
   justify-content: space-between;
-  /* Adjusted for better spacing between the items */
+  /* Keeps items on opposite ends */
   align-items: flex-start;
   /* Align items at the top */
-  gap: 10px;
-  flex-wrap: nowrap;
-  /* Ensure they stay in one line */
   margin-top: 2rem; }
-
-.small-nav {
-  font-style: italic; }
 
 .nav-previous, .nav-next {
   flex: 1;
-  /* Allow these items to grow */
-  text-align: center; }
+  /* Allow flex items to grow to fill the space */
+  flex-basis: 0;
+  /* Start with 0 width, but allow growth */
+  text-align: center;
+  box-sizing: border-box;
+  /* Ensures padding and border are included in the element's total width and height */ }
 
-.next-title, .prev-title {
-  color: #ce8460; }
-  .next-title:hover, .prev-title:hover {
-    color: #1c1d1f; }
+/* If you want strictly equal widths and no growth beyond a certain point, set a specific max-width */
+.nav-previous, .nav-next {
+  max-width: 50%;
+  /* Ensures neither can become larger than half the container's width */ }
 
-.flex-spacer {
-  flex: 1;
-  /* Takes up the same amount of space as one of the nav items */
-  visibility: hidden;
-  /* Makes the spacer invisible */ }
+p a {
+  text-decoration: none;
+  color: #000000;
+  /* Normal text color */
+  font-weight: 700;
+  position: relative; }
+
+p a::before {
+  content: '';
+  background-color: #2aacec;
+  /* Color of the underline/background on hover */
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  /* Initial position of the pseudo-element */
+  width: 100%;
+  height: 4px;
+  /* Initial height of the pseudo-element */
+  z-index: -1;
+  transition: all .2s ease-in-out;
+  /* Smooth transition for hover effects */ }
+
+p a:hover::before {
+  bottom: 0;
+  /* Changes position to cover the text */
+  height: 100%;
+  /* Expands the pseudo-element to cover the text area */ }
+
+p a:hover {
+  color: #FFFFFF !important;
+  /* Changes text color to white on hover */ }
+
+.infotooltip {
+  margin-bottom: 1.5rem;
+  border: 1px solid #1b83e2;
+  padding: 1.5rem;
+  border-radius: 8px; }
+
+.infotooltip-head {
+  display: flex;
+  align-items: center; }
+
+.infotooltip-head svg {
+  margin-right: 0.75rem; }
+
+.infotooltip-head p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1b83e2;
+  margin: 0;
+  line-height: 1; }
+
+.infotooltip-body {
+  margin-top: 0.75rem; }
+
+.infotooltip-body p {
+  margin: 0; }
+
+.infotooltip.note {
+  color: #1b83e2;
+  border-color: #1b83e2; }
+
+.content blockquote {
+  background-color: rgba(255, 255, 255, 0.657);
+  border-left: 10px solid #ce8460;
+  /* Assuming $color-primary is defined in your preprocessor */
+  margin-top: 0.75rem;
+  margin-bottom: 2.2rem;
+  /* Increased bottom margin */
+  padding: 1rem 1rem 1rem 2rem;
+  /* Padding: top, right, bottom, and increased left */
+  position: relative;
+  font-style: italic; }
+
+.content blockquote p {
+  margin: 0;
+  font-size: 1.1rem !important;
+  /* Font size remains unchanged */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22072,7 +22143,7 @@ body.dark .tab-content {
       class="img"
       width="150"
       height="28"
-      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q90_h2_lanczos_3.webp"
+      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q75_h2_lanczos_3.webp"
       alt="LogBook"
       onerror="this.onerror=null;this.src='\/mon-periple\/images\/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_lanczos_3.png'" />
   
@@ -22499,7 +22570,64 @@ example.com (but not on Github, for example).</p>
   <div class="notice-body"><p>This is a simple note.</p></div>
 </div>
 
+<!-- 
 
+
+
+  
+
+
+
+<div class="notice note">
+  <div class="notice-head">
+    
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      </svg>
+    
+    <p>Note</p>
+  </div>
+  <div class="notice-body"><p>This is a simple note.</p></div>
+</div>
+ -->
+
+
+
+<div class="infotooltip">
+  <div class="infotooltip-head">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#1b83e2"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+    <circle cx="12" cy="12" r="10"></circle>
+    <line x1="12" y1="16" x2="12" y2="12"></line>
+    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+  
+    
+    <p>BATAILLE POUR L&#39;AME</p>
+  </div>
+  <div class="infotooltip-body"><p>This is a simple note.</p></div>
+</div>
+
+<!-- 
 
 
   
@@ -22526,6 +22654,7 @@ example.com (but not on Github, for example).</p>
   </div>
   <div class="notice-body"><p>This is a simple tip.</p></div>
 </div>
+
 
 
 
@@ -22559,6 +22688,7 @@ example.com (but not on Github, for example).</p>
 
 
 
+
   
 
 
@@ -22583,7 +22713,7 @@ example.com (but not on Github, for example).</p>
   </div>
   <div class="notice-body"><p>This is a simple warning.</p></div>
 </div>
-
+ -->
 <hr>
 <h3 id="tab">Tab</h3>
 
@@ -22937,484 +23067,12 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
 
 
 
-  
-  <div
-    class=" gallery 
-      zoomable
-    ">
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/01.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/01.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/02.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/02.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/03.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/03.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/04.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/04.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/05.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/05.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/06.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/06.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-    
-  </div>
-
-  
+  <strong style="display: inline-block; margin-top:15px">
+    Nothing to show in [http://192.168.1.249:1313/mon-periple/<span style="color:red">
+      images/gallery
+    </span>
+    ] or folder does not exist
+  </strong>
 
 
 <hr>

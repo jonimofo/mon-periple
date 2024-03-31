@@ -8,7 +8,6 @@
     {{ partialCached "featured-post.html" . }}
   {{ end }}
 
-
   <section class="section">
     <div class="container">
       <div class="row">
@@ -29,7 +28,9 @@
             {{ if eq $layout `grid` }}col-12{{ else }}col-lg-9 mx-auto{{ end }}
           {{ end }}
            {{ if eq $sidebar `left` }}order-1 order-lg-2{{ end }} mb-5 mb-lg-0">
-          {{ if eq $layout "list" }}
+          
+          
+           {{ if eq $layout "list" }}
             <!-- list article -->
             {{ range where site.RegularPages "Section" "in" site.Params.mainSections }}
               <article class="row mb-5">
@@ -67,7 +68,6 @@
                     {{ end }}
                   </div>
                 {{ end }}
-
 
                 <div
                   class="{{ if .Params.Images }}

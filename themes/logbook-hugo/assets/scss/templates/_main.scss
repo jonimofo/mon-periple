@@ -725,35 +725,124 @@ body {
 
 // -----------------------------------------------------------------------------
 // POST NAVIGATION
-// ---------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+
 .post-navigation {
   display: flex;
-  justify-content: space-between; /* Adjusted for better spacing between the items */
+  justify-content: space-between; /* Keeps items on opposite ends */
   align-items: flex-start; /* Align items at the top */
-  gap: 10px;
-  flex-wrap: nowrap; /* Ensure they stay in one line */
   margin-top: 2rem;
-  // margin-bottom: -2rem;
-}
-
-.small-nav {
-  font-style: italic;
 }
 
 .nav-previous, .nav-next {
-  flex: 1; /* Allow these items to grow */
+  flex: 1; /* Allow flex items to grow to fill the space */
+  flex-basis: 0; /* Start with 0 width, but allow growth */
   text-align: center;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
-.next-title, .prev-title {
-  color: $color-primary;
-  
-  &:hover {
-    color:  $text-dark;
-  }
-}
-.flex-spacer {
-  flex: 1; /* Takes up the same amount of space as one of the nav items */
-  visibility: hidden; /* Makes the spacer invisible */
+/* If you want strictly equal widths and no growth beyond a certain point, set a specific max-width */
+.nav-previous, .nav-next {
+  max-width: 50%; /* Ensures neither can become larger than half the container's width */
 }
 
+
+
+// -----------------------------------------------------------------------------
+// LINK
+// -----------------------------------------------------------------------------
+// Source : https://codepen.io/team/css-tricks/pen/xxPORam
+p a {
+  text-decoration: none;
+  color: #000000; /* Normal text color */
+  font-weight: 700;
+  position: relative;
+}
+
+p a::before {
+  content: '';
+  background-color: #2aacec; /* Color of the underline/background on hover */
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Initial position of the pseudo-element */
+  width: 100%;
+  height: 4px; /* Initial height of the pseudo-element */
+  z-index: -1;
+  transition: all .2s ease-in-out; /* Smooth transition for hover effects */
+}
+
+p a:hover::before {
+  bottom: 0; /* Changes position to cover the text */
+  height: 100%; /* Expands the pseudo-element to cover the text area */
+}
+
+p a:hover {
+  color: #FFFFFF !important; /* Changes text color to white on hover */
+}
+
+
+// -----------------------------------------------------------------------------
+// SHORTCODE INFO TOOLTIP
+// -----------------------------------------------------------------------------
+.infotooltip {
+  margin-bottom: 1.5rem;
+  border: 1px solid #1b83e2;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.infotooltip-head {
+  display: flex;
+  align-items: center;
+}
+
+.infotooltip-head svg {
+  margin-right: 0.75rem;
+}
+
+.infotooltip-head p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1b83e2;
+  // color: #1f2937;
+  margin: 0;
+  line-height: 1;
+  text-transform: lowercase !important;
+}
+
+.infotooltip-head p::first-letter {
+  text-transform: uppercase !important;
+}
+
+.infotooltip-body {
+  margin-top: 0.75rem;
+}
+
+.infotooltip-body p {
+  margin: 0;
+}
+
+.infotooltip.note {
+  color: #1b83e2;
+  border-color: #1b83e2;
+}
+
+
+
+// -----------------------------------------------------------------------------
+// BLOCK QUOTE
+// -----------------------------------------------------------------------------
+.content blockquote {
+  background-color: rgba(255, 255, 255, 0.657);
+  border-left: 10px solid $color-primary; /* Assuming $color-primary is defined in your preprocessor */
+  margin-top: 0.75rem;
+  margin-bottom: 2.2rem; /* Increased bottom margin */
+  padding: 1rem 1rem 1rem 2rem; /* Padding: top, right, bottom, and increased left */
+  position: relative;
+  font-style: italic;
+}
+
+.content blockquote p {
+  margin: 0;
+  font-size: 1.1rem !important; /* Font size remains unchanged */
+}

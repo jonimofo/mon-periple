@@ -94,8 +94,16 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 {{< notice "note" >}}
 This is a simple note.
 {{< /notice >}}
+<!-- 
+{{< notice "note" >}}
+This is a simple note.
+{{< /notice >}} -->
 
-{{< notice "tip" >}}
+{{< infotooltip "BATAILLE POUR L'AME" >}}
+This is a simple note.
+{{< /infotooltip >}}
+
+<!-- {{< notice "tip" >}}
 This is a simple tip.
 {{< /notice >}}
 
@@ -105,7 +113,7 @@ This is a simple info.
 
 {{< notice "warning" >}}
 This is a simple warning.
-{{< /notice >}}
+{{< /notice >}} -->
 
 <hr>
 

@@ -250,7 +250,7 @@ if (!doNotTrack) {
   let indexURL = "http://192.168.1.249:1313/mon-periple/searchindex.json";
   let includeSectionsInSearch = ["post","shop"];
   let no_results_for = "Aucun résultat pour";
-  let empty_search_results_placeholder = "Tapez quelque chose à rechercher..";
+  let empty_search_results_placeholder = "empty_search_results_placeholder";
 </script>
 
 
@@ -21263,32 +21263,103 @@ body {
 .post-navigation {
   display: flex;
   justify-content: space-between;
-  /* Adjusted for better spacing between the items */
+  /* Keeps items on opposite ends */
   align-items: flex-start;
   /* Align items at the top */
-  gap: 10px;
-  flex-wrap: nowrap;
-  /* Ensure they stay in one line */
   margin-top: 2rem; }
-
-.small-nav {
-  font-style: italic; }
 
 .nav-previous, .nav-next {
   flex: 1;
-  /* Allow these items to grow */
-  text-align: center; }
+  /* Allow flex items to grow to fill the space */
+  flex-basis: 0;
+  /* Start with 0 width, but allow growth */
+  text-align: center;
+  box-sizing: border-box;
+  /* Ensures padding and border are included in the element's total width and height */ }
 
-.next-title, .prev-title {
-  color: #ce8460; }
-  .next-title:hover, .prev-title:hover {
-    color: #1c1d1f; }
+/* If you want strictly equal widths and no growth beyond a certain point, set a specific max-width */
+.nav-previous, .nav-next {
+  max-width: 50%;
+  /* Ensures neither can become larger than half the container's width */ }
 
-.flex-spacer {
-  flex: 1;
-  /* Takes up the same amount of space as one of the nav items */
-  visibility: hidden;
-  /* Makes the spacer invisible */ }
+p a {
+  text-decoration: none;
+  color: #000000;
+  /* Normal text color */
+  font-weight: 700;
+  position: relative; }
+
+p a::before {
+  content: '';
+  background-color: #2aacec;
+  /* Color of the underline/background on hover */
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  /* Initial position of the pseudo-element */
+  width: 100%;
+  height: 4px;
+  /* Initial height of the pseudo-element */
+  z-index: -1;
+  transition: all .2s ease-in-out;
+  /* Smooth transition for hover effects */ }
+
+p a:hover::before {
+  bottom: 0;
+  /* Changes position to cover the text */
+  height: 100%;
+  /* Expands the pseudo-element to cover the text area */ }
+
+p a:hover {
+  color: #FFFFFF !important;
+  /* Changes text color to white on hover */ }
+
+.infotooltip {
+  margin-bottom: 1.5rem;
+  border: 1px solid #1b83e2;
+  padding: 1.5rem;
+  border-radius: 8px; }
+
+.infotooltip-head {
+  display: flex;
+  align-items: center; }
+
+.infotooltip-head svg {
+  margin-right: 0.75rem; }
+
+.infotooltip-head p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1b83e2;
+  margin: 0;
+  line-height: 1; }
+
+.infotooltip-body {
+  margin-top: 0.75rem; }
+
+.infotooltip-body p {
+  margin: 0; }
+
+.infotooltip.note {
+  color: #1b83e2;
+  border-color: #1b83e2; }
+
+.content blockquote {
+  background-color: rgba(255, 255, 255, 0.657);
+  border-left: 10px solid #ce8460;
+  /* Assuming $color-primary is defined in your preprocessor */
+  margin-top: 0.75rem;
+  margin-bottom: 2.2rem;
+  /* Increased bottom margin */
+  padding: 1rem 1rem 1rem 2rem;
+  /* Padding: top, right, bottom, and increased left */
+  position: relative;
+  font-style: italic; }
+
+.content blockquote p {
+  margin: 0;
+  font-size: 1.1rem !important;
+  /* Font size remains unchanged */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22077,7 +22148,7 @@ body.dark .tab-content {
       class="img"
       width="150"
       height="28"
-      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q90_h2_lanczos_3.webp"
+      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q75_h2_lanczos_3.webp"
       alt="LogBook"
       onerror="this.onerror=null;this.src='\/mon-periple\/images\/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_lanczos_3.png'" />
   
@@ -22388,7 +22459,7 @@ body.dark .tab-content {
 
         <img
           
-            src="/mon-periple/images/author_hud5ac54a8ad9b9f4abf6483df88269ec8_11176_300x213_resize_q90_h2_lanczos.webp" loading="lazy" decoding="async"
+            src="/mon-periple/images/author_hud5ac54a8ad9b9f4abf6483df88269ec8_11176_300x213_resize_q75_h2_lanczos.webp" loading="lazy" decoding="async"
             alt="author image"
           
 
@@ -22425,425 +22496,6 @@ body.dark .tab-content {
             <h2 class="mb-5 text-center">Publié par cet auteur</h2>
           </div>
         </div>
-        
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <article class="mb-5">
-              
-              
-                
-                  <div class="swiper post-slider slider-sm mb-4">
-                    <div class="swiper-wrapper">
-                      
-                        <div class="swiper-slide">
-                          <a href="/mon-periple/post/elements/">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_1110x0_resize_q90_lanczos.jpg"
-            class="  img"
-            alt="post-thumb"
-            width="1200"
-            height="545" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </a>
-                        </div>
-                      
-                        <div class="swiper-slide">
-                          <a href="/mon-periple/post/elements/">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_lanczos.jpg"
-            class="  img"
-            alt="post-thumb"
-            width="1403"
-            height="638" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </a>
-                        </div>
-                      
-                        <div class="swiper-slide">
-                          <a href="/mon-periple/post/elements/">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_1110x0_resize_q90_lanczos.jpg"
-            class="  img"
-            alt="post-thumb"
-            width="1459"
-            height="663" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </a>
-                        </div>
-                      
-                    </div>
-                    <div class="swiper-navigation">
-                      <button
-                        class="swiper-button-prev"
-                        aria-label="navigation button"></button>
-                      <button
-                        class="swiper-button-next"
-                        aria-label="navigation button"></button>
-                    </div>
-                  </div>
-                
-              
-              <h3 class="h5">
-                <a class="post-title" href="/mon-periple/post/elements/"
-                  >Elements That You Can Use To Create A New Post On This Template.</a
-                >
-              </h3>
-              <ul class="list-inline post-meta mb-2">
-                <li class="list-inline-item">
-                  <i class="fas fa-user me-2"></i
-                  ><a
-                    href="/mon-periple/author/john-doe/"
-                    >John Doe</a
-                  >
-                </li>
-                <li class="list-inline-item">
-                  Publié le :
-                  March 15, 2020
-                </li>
-                <li class="list-inline-item">
-                  Catégories :
-                  
-                    <a
-                      href="/mon-periple/categories/photography/"
-                      class="ms-1"
-                      >Photography
-                    </a>
-                  
-                </li>
-                <li class="list-inline-item">
-                  Mots-clefs :
-                  
-                    <a
-                      href="/mon-periple/tags/photo/"
-                      class="ms-1"
-                      >Photo
-                    </a>
-                  
-                    ,<a
-                      href="/mon-periple/tags/image/"
-                      class="ms-1"
-                      >Image
-                    </a>
-                  
-                </li>
-              </ul>
-              <p>Heading example Here is example of hedings. You can use this heading by following markdownify rules. …</p>
-              <a href="/mon-periple/post/elements/" class="btn btn-outline-primary"
-                >Lire la suite</a
-              >
-            </article>
-          </div>
         
       </div>
     </div>

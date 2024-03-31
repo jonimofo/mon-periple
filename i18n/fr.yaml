@@ -64,10 +64,10 @@
   # translation: Ooops! This Page Is Not Available
 
 - id: search_input_placeholder
-  translation: Recherche Logbook ..
+  translation: Chercher dans mon blog
 
 - id: no_results_for
   translation: Aucun résultat pour
 
 - id: empty_search_results_placeholder
-  translation: Tapez quelque chose à rechercher..
+  translation: empty_search_results_placeholder
