@@ -2,19 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/asie/</loc>
-    <lastmod>2022-09-25T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/tags/asie-sud-est/</loc>
-    <lastmod>2022-09-25T00:00:00+02:00</lastmod>
-  </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/post/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/categories/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light_project/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/</loc>
@@ -29,7 +23,7 @@
     <loc>http://192.168.1.249:1313/mon-periple/categories/vietnam/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</loc>
     <lastmod>2022-09-04T15:40:24+06:00</lastmod>
   </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/shop/product-3/</loc>

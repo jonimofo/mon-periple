@@ -25,7 +25,11 @@ Il est environ 10 heures du matin et bien que mentalement préparé à cela, la 
 
 Il est temps ensuite de prendre mon dernier vol, direction Đà Lạt. Juste avant de monter dans l’avion, une dame vietnamienne me demande d’où je viens. Quand je lui dis que je suis français, elle paraît ravie en me disant que son mari est professeur d’université et qu’il enseigne souvent en France. Je suis un peu surpris que certaines personnes m’abordent juste en remarquant ma tête d’européen mais quand je regarde autour de moi, je constate que je suis le seul représentant du vieux continent dans l’avion.  Ce sentiment de me sentir un peu différent va continuer à m’accompagner pendant la première partie de mon séjour au Vietnam.
 
+
+<div style="margin-top: 30px !important; margin-bottom: 10px !important;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11687429.334949337!2d106.59353266155628!3d15.68456452162562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317112fef20988b1%3A0xad5f228b672bf930!2zxJDDoCBM4bqhdCwgTMOibSDEkOG7k25nLCBWaWV0bmFt!5e0!3m2!1sfr!2sfr!4v1703696882021!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
 
 J’arrive finalement à Đà Lạt pour enfin pouvoir savourer mes vacances. Pour la petite histoire, Đà Lạt est une ville construite par les français. Les autorités françaises cherchaient un endroit plus frais pour que leurs officiers puissent échapper un peu à la chaleur étouffante du Vietnam. Selon Wikipedia :
 > “Đà Lạt est l’une des villes surnommées « ville de l’éternel printemps » ; la température moyenne ne descend jamais au-dessous de 10 °C en hiver, et elle ne dépasse pas 25 °C en été. Ce climat doux et clément permet à la ville d’avoir une grande variété de cultures de fleurs et de fruits. Bien que située dans le sud du Viêt Nam, c’est grâce à son altitude (1 500 m) qu’elle bénéficie de ce climat tempéré. »

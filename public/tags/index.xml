@@ -9,20 +9,6 @@
     <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0200</lastBuildDate>
     <atom:link href="http://192.168.1.249:1313/mon-periple/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Asie</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/asie/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/asie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Asie Sud-Est</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/asie-sud-est/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/asie-sud-est/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Vietnam</title>
       <link>http://192.168.1.249:1313/mon-periple/tags/vietnam/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>

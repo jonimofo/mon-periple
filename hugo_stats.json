@@ -290,18 +290,24 @@
     ],
     "ids": [
       "TableOfContents",
+      "allons-faire-des-emplettes",
       "ask-us-anything-br-or-just-say-hi",
+      "balades-dans-la-ville",
       "blockquote",
       "caption-Et la lumière fut !",
       "caption-LP (Local President) Hoà d’East Saigon en mode multi-tâches",
       "caption-Le chien qui dort à côté de nous accentue encore plus le côté cheap du restaurant !",
+      "caption-Le rayonnement de notre région à travers le vin est décidément mondial",
       "caption-Les fraises sont une des spécialités de Đà Lạt. Là-bas ils aiment bien les déguster en les trempant dans du muối xí muội : mélange de prune séchée, sel, sucre et piment",
+      "caption-Même ici la France n’est jamais loin !",
       "caption-Photo de groupe inévitable pour fêter ça !",
       "caption-Santé !",
       "caption-Tous les membres du JCI écouten les instructions de façon attentive",
-      "caption-Tous les membres du JCI écoutent les instructions de façon attentive",
+      "caption-Un coiffeur en pleine rue",
+      "caption-Un homme qui prie est en train de bruler de la fausse monnaie en guise d’offrande, devant la nuée inéxorable de deux-roues motorisés",
       "caption-bánh bèo chén : mélange de farine de riz, crevettes, oignons, ail et poivre, à déguster avec de la sauce poisson",
       "caption-cơm lam : riz gluant cuit dans du bambou servi dans un restaurant très cheap qui contrastait avec l’hôtel 4 étoiles juste en face où je résidais",
+      "caption-rayonnement",
       "cest-pas-trop-tôt-",
       "chez-chi-tram",
       "code-and-syntax-highlighting",
@@ -336,10 +342,12 @@
       "my-skills--experiences-4",
       "name",
       "navigation",
+      "noix-de-coco-à-gogo",
       "notice",
       "ordered-list",
       "page-en-french",
       "paragraph",
+      "pour-moi-biên-hòa-cest",
       "privacy-policy-changes",
       "protection-of-personal--information",
       "responsibility-of-contributors",
@@ -357,7 +365,8 @@
       "tête-dintrus",
       "unordered-list",
       "voyage-hors-du-temps",
-      "youtube-video"
+      "youtube-video",
+      "à-table-"
     ]
   }
 }
