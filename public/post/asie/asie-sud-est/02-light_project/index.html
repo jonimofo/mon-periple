@@ -21349,16 +21349,21 @@ p a:hover {
   border-color: #1b83e2; }
 
 .content blockquote {
-  background-color: grey;
+  background-color: rgba(255, 255, 255, 0.657);
   border-left: 10px solid #ce8460;
-  margin: 1.5rem 0;
-  padding: 1rem;
+  /* Assuming $color-primary is defined in your preprocessor */
+  margin-top: 0.75rem;
+  margin-bottom: 2.2rem;
+  /* Increased bottom margin */
+  padding: 1rem 1rem 1rem 2rem;
+  /* Padding: top, right, bottom, and increased left */
   position: relative;
   font-style: italic; }
 
 .content blockquote p {
   margin: 0;
-  font-size: 1rem !important; }
+  font-size: 1.1rem !important;
+  /* Font size remains unchanged */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -21987,6 +21992,65 @@ body.dark .tab-content {
 
 .search-page .search-input-body input {
   padding: 0 20px; }
+
+.img {
+  max-width: 100%;
+  height: auto; }
+
+/*!
+ * Justified gallery style
+ */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px; }
+
+.gallery .gallery-item {
+  margin: 0 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  max-width: calc(100% - 20px); }
+
+.gallery .gallery-item img {
+  user-select: none;
+  width: 100%;
+  vertical-align: middle;
+  transition: 0.3s; }
+
+.gallery.zoomable .gallery-item:hover img {
+  transform: scale(1.05);
+  cursor: zoom-in; }
+
+.gallery::after {
+  content: "";
+  flex-grow: 99999;
+  min-width: calc(100vw / 3); }
+
+@media (max-width: 460px) {
+  .gallery {
+    flex-direction: column; }
+  .gallery .gallery-item {
+    width: calc(100% - 20px) !important; } }
+
+.gallery-slider .swiper-slide img {
+  width: 100%; }
+
+.gallery-slider .swiper-button-prev,
+.gallery-slider .swiper-button-next {
+  color: white;
+  opacity: 0;
+  transition: 0.3s; }
+
+.gallery-slider:hover .swiper-button-prev,
+.gallery-slider:hover .swiper-button-next {
+  opacity: 1; }
+
+.gallery-slider:hover .swiper-button-prev {
+  left: 30px; }
+
+.gallery-slider:hover .swiper-button-next {
+  right: 30px; }
 </style>
 
     
@@ -22483,16 +22547,12 @@ Le rendez-vous était donc pris.
 
 
 
-  
-  <div
-    class=" gallery 
-      zoomable
-    ">
-    
-      
-      
-      
-        
+  <strong style="display: inline-block; margin-top:15px">
+    Nothing to show in [http://192.168.1.249:1313/mon-periple/<span style="color:red">
+      images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/01
+    </span>
+    ] or folder does not exist
+  </strong>
 
 
 
@@ -22504,728 +22564,22 @@ Le rendez-vous était donc pris.
 
 
 
-  
-  
-    
-    
-  
-  
-  
 
 
-  
-  
-    
 
-    
-    
 
 
-    
-    
-      
-    
 
 
-    
 
-    
-    
-    
-    
-      
-      
-      
-    
 
 
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/01/light_project_08.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/01/light_project_08_hub23178c0cbdb7211cee8132487901cbe_7556862_4032x3024_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/01/light_project_08.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/01\/light_project_08_hub23178c0cbdb7211cee8132487901cbe_7556862_4032x3024_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/01/light_project_11.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/01/light_project_11_hu26442e0050eb62b8117cc42fe6f16495_3804657_4032x3024_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/01/light_project_11.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/01\/light_project_11_hu26442e0050eb62b8117cc42fe6f16495_3804657_4032x3024_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-    
-  </div>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <div
-    class=" gallery 
-      zoomable
-    ">
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_11.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_11_hub55c0859d72e52f39ec70726c04498d0_606650_4032x3024_fit_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_11.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/light-30\/light_project_11_hub55c0859d72e52f39ec70726c04498d0_606650_4032x3024_fit_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_12.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_12_hu7dd23e9d6b561ba2c1f024851ea7d3fe_917766_4032x3024_fit_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_12.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/light-30\/light_project_12_hu7dd23e9d6b561ba2c1f024851ea7d3fe_917766_4032x3024_fit_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_13.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_13_hu312c79bcd2f401ea830a6580c03259e9_601000_4032x3024_fit_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_13.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/light-30\/light_project_13_hu312c79bcd2f401ea830a6580c03259e9_601000_4032x3024_fit_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_14.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_14_hu390e244ed0a13caa85e47d00bfb4ed98_1012466_4032x3024_fit_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_14.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/light-30\/light_project_14_hu390e244ed0a13caa85e47d00bfb4ed98_1012466_4032x3024_fit_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_15.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_15_hu4cb55da1dd25021a6acf521bf6e93cde_1177786_4032x3024_fit_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_15.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/light-30\/light_project_15_hu4cb55da1dd25021a6acf521bf6e93cde_1177786_4032x3024_fit_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_16.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_16_hu46b581a22d34723bb79c527df5b68e2c_550268_4032x3024_fit_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_16.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/light-30\/light_project_16_hu46b581a22d34723bb79c527df5b68e2c_550268_4032x3024_fit_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_17.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_17_hua650d7e3dee6fc5360c6eb6b39d5f416_756782_4032x3024_fit_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30/light_project_17.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/asie\/asie-sud-est\/01-vietnam\/02-light-project\/light-30\/light_project_17_hua650d7e3dee6fc5360c6eb6b39d5f416_756782_4032x3024_fit_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-    
-  </div>
-
-  
+  <strong style="display: inline-block; margin-top:15px">
+    Nothing to show in [http://192.168.1.249:1313/mon-periple/<span style="color:red">
+      images/gallery/asie/asie-sud-est/01-vietnam/02-light-project/light-30
+    </span>
+    ] or folder does not exist
+  </strong>
 
 
 <p>Etant donné que tout le monde parle anglais (ce qui n’arrivera pas tout le temps pendant mon voyage au Vietnam), on peut parler de tout et de rien et échanger autour de nos vies respectives. La chose que j’ai retenue c’est qu’ils m’ont dit que bien que l’on n’en voit que très rarement, il faut faire gaffe aux policiers sur la route. Apparemment ces derniers aiment bien arrêter les automobilistes pour trouver n’importe quoi à leur reprocher. Nha et Giang me racontent qu’il leur est arrivé une fois d’être retenu par des policiers. Ce qu’ils ont alors fait c’est de communiquer entre eux uniquement en anglais. Au bout d’une demi-heure les policiers ont abandonné et les ont laissé partir. J’essaierais de m’en souvenir même si pour sûr je ne veux aucun ennui ici avec la police ni l’armée : ils ont une allure qui me fait flipper, je dois bien l’avouer.</p>

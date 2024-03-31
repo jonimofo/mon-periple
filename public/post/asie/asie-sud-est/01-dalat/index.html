@@ -21336,7 +21336,11 @@ p a:hover {
   font-weight: 600;
   color: #1b83e2;
   margin: 0;
-  line-height: 1; }
+  line-height: 1;
+  text-transform: lowercase !important; }
+
+.infotooltip-head p::first-letter {
+  text-transform: uppercase !important; }
 
 .infotooltip-body {
   margin-top: 0.75rem; }
@@ -21992,6 +21996,65 @@ body.dark .tab-content {
 
 .search-page .search-input-body input {
   padding: 0 20px; }
+
+.img {
+  max-width: 100%;
+  height: auto; }
+
+/*!
+ * Justified gallery style
+ */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px; }
+
+.gallery .gallery-item {
+  margin: 0 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  max-width: calc(100% - 20px); }
+
+.gallery .gallery-item img {
+  user-select: none;
+  width: 100%;
+  vertical-align: middle;
+  transition: 0.3s; }
+
+.gallery.zoomable .gallery-item:hover img {
+  transform: scale(1.05);
+  cursor: zoom-in; }
+
+.gallery::after {
+  content: "";
+  flex-grow: 99999;
+  min-width: calc(100vw / 3); }
+
+@media (max-width: 460px) {
+  .gallery {
+    flex-direction: column; }
+  .gallery .gallery-item {
+    width: calc(100% - 20px) !important; } }
+
+.gallery-slider .swiper-slide img {
+  width: 100%; }
+
+.gallery-slider .swiper-button-prev,
+.gallery-slider .swiper-button-next {
+  color: white;
+  opacity: 0;
+  transition: 0.3s; }
+
+.gallery-slider:hover .swiper-button-prev,
+.gallery-slider:hover .swiper-button-next {
+  opacity: 1; }
+
+.gallery-slider:hover .swiper-button-prev {
+  left: 30px; }
+
+.gallery-slider:hover .swiper-button-next {
+  right: 30px; }
 </style>
 
     
@@ -22497,11 +22560,204 @@ Il est environ 10 heures du matin et bien que mentalement préparé à cela, la 
 >JCI</a>
  est un véritable réseau international, très (très) présent et actif en Asie. Par exemple, ce sont des jeunes faisant partie de ce réseau qui ont créé l’APCC dont j’ai parlé juste avant.</p>
 <h2 id="la-maison-de-papa">La maison de Papa</h2>
-<p>Le JCI est un réseau humain avant tout, et via cette connexion, nous sommes invités à manger chez le président du chapitre local, c’est à dire celui de Đà Lạt. C’est quoi un chapitre me direz-vous ? On aura l’occasion d’en reparler plus en détail un peu plus tard, dans un article dédié au JCI. En attendant, dites-vous juste qu’un pays est divisé en plusieurs chapitres, selon certaines conditions. Parce que s’il y a bien un truc à retenir en premier lieu vis-à-vis du JCI, c’est que c’est vraiment très protocolaire et que les gens aiment bien s’adresser entre eux par leurs titres. Dans notre cas, nous allons donc manger chez LP Nha (LP pour Local President).
-Et là, on peut dire que je me sens un peu comme au pays puisqu’au portail d’entrée je vois ça :</p>
-<p>IMAGE TODO</p>
-<p>Nha nous explique que cette maison où il vit avec sa mère a été construite par feu son père. Celui-ci aimait beaucoup la France, comme peuvent en attester les 2 photos de la tour Eiffel qui se trouvent dans la cuisine. C’est aujourd’hui une maison d’hôte qu’il a décidé de nommer ainsi en hommage à son père. Comme quoi j’ai beau avoir fait plus de 8000 km pour arriver jusqu’ici, le spectre de Paris me hante toujours. Nha est avenant, bavard et très gentil. Il m’explique un peu comment le JCI fonctionne et je commence petit à petit à y voir un peu plus clair, même si je peux vous assurer au début que j’étais perdu tellement il y a de titres et de positions différentes, rendant le tout très confus.</p>
-<p>Nha me propose de me servir du vin, ce que j’accepte. Il sort donc 2 verres à shooters et une bouteille qui ne ressemble pas du tout à du vin, mais plutôt à un alcool beaucoup plus fort. J’apprends qu’il est de coutume de trinquer avant chaque gorgée, constate que ce “vin” est plutôt fort et décide de m’arrêter au bout de 3 petits verres avant que je ne commence à parler naturellement vietnamien.</p>
+<p>Le JCI est un réseau humain avant tout, et via cette connexion, nous sommes invités à manger chez le président du chapitre local, c’est à dire celui de Đà Lạt. C’est quoi un chapitre me direz-vous ? On aura l’occasion d’en reparler plus en détail un peu plus tard, dans un article dédié au JCI. En attendant, dites-vous juste qu’un pays est divisé en plusieurs chapitres, selon certaines conditions. Parce que s’il y a bien un truc à retenir en premier lieu vis-à-vis du JCI, c’est que c’est vraiment très protocolaire et que les gens aiment bien s’adresser entre eux par leurs titres. Dans notre cas, nous allons donc manger chez LP Nha (LP pour Local President).<br>Et là, on peut dire que je me sens un peu comme au pays puisqu’au portail d’entrée je vois ça :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="1280"
+        height="963"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_maison_papa_hu7d5f605a7125a0dad6dedad419218fdc_68184_1280x963_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_maison_papa"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_maison_papa_hu7d5f605a7125a0dad6dedad419218fdc_68184_1280x963_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+  <script>
+    window.addEventListener("load", (e) => {
+      const lightbox = GLightbox();
+    });
+  </script>
+
+
+<p>Nha nous explique que cette maison où il vit avec sa mère a été construite par feu son père. Celui-ci aimait beaucoup la France, comme peuvent en attester les 2 photos de la tour Eiffel qui se trouvent dans la cuisine. C’est aujourd’hui une maison d’hôte qu’il a décidé de nommer ainsi en hommage à son père. Comme quoi j’ai beau avoir fait plus de 8000 km pour arriver jusqu’ici, le spectre de Paris me hante toujours. Nha est avenant, bavard et très gentil. Il m’explique un peu comment le JCI fonctionne et je commence petit à petit à y voir un peu plus clair, même si je peux vous assurer au début que j’étais perdu tellement il y a de titres et de positions différentes, rendant le tout très confus.<br>Nha me propose de me servir du vin, ce que j’accepte. Il sort donc 2 verres à shooters et une bouteille qui ne ressemble pas du tout à du vin, mais plutôt à un alcool beaucoup plus fort. J’apprends qu’il est de coutume de trinquer avant chaque gorgée, constate que ce “vin” est plutôt fort et décide de m’arrêter au bout de 3 petits verres avant que je ne commence à parler naturellement vietnamien.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="2048"
+        height="1536"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_20_alcool_hu781223d1e62266a5fdb47e7c573702d0_88546_2048x1536_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_20.alcool"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_20_alcool_hu781223d1e62266a5fdb47e7c573702d0_88546_2048x1536_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
 <p>Ce soir-là Nha nous a cuisiné des “mì quảng chay“ : nouilles végétariennes de la province de Quảng, au centre du Vietnam. C’est apparemment là-bas un plat souvent servi à des occasions comme des fêtes de famille ou même le Tết (nouvel an lunaire vietnamien).</p>
 
 
@@ -22560,9 +22816,6 @@ Et là, on peut dire que je me sens un peu comme au pays puisqu’au portail d�
       
 
       
-        
-        
-      
 
 
       
@@ -22570,714 +22823,6 @@ Et là, on peut dire que je me sens un peu comme au pays puisqu’au portail d�
       
       
         
-        
-        
-      
-
-    
-    
-
-    
-    
-      
-      <img
-        title="image title"
-        loading="lazy"
-        decoding="async"
-        class="img img-fluid img-center "
-        width="96"
-        height="96"
-        src="/mon-periple/images/favicon_hu66ba6a6c6a5e8241283a5f4364a46775_1283_96x96_fill_q100_lanczos_smart1_3.png"
-        alt="alter-text"
-        onerror="this.onerror='null';this.src='\/mon-periple\/images\/favicon_hu66ba6a6c6a5e8241283a5f4364a46775_1283_96x96_fill_q100_lanczos_smart1_3.png'" />
-    
-
-  
-  
-
-
-
-
-
-
-  <script>
-    window.addEventListener("load", (e) => {
-      const lightbox = GLightbox();
-    });
-  </script>
-
-
-<hr>
-<h3 id="gallery">Gallery</h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <div
-    class=" gallery 
-      zoomable
-    ">
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/01.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/01.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/02.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/02.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/03.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/03.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/04.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/04.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/05.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/05.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/gallery/06.jpg"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q75_h2_lanczos.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/gallery/06.jpg"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/gallery\/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q75_lanczos.jpg'" />
-            </a>
-          
-        </div>
-      
-    
-    
-  </div>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <div
-    class=" gallery 
-      zoomable
-    ">
-    
-      
-      
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-  
-  
-  
-
-
-  
-  
-    
-
-    
-    
-
-
-    
-    
-      
-    
-
-
-    
-
-    
-    
-    
-    
-      
-      
-    
-
-
-    
-  
-
-
-  
-
-
-        
-        
-
-
-        <div class="gallery-item">
-          
-            <a
-              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover.webp"
-              style="display: block;"
-              class="glightbox">
-              <img
-                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1536x1152_resize_q75_h2_lanczos_2.webp"
-                class="img"
-                style="margin: 0;"
-                alt="/images/post/asie/asie-sud-est/01-vietnam/dalat_cover.webp"
-                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1536x1152_resize_q75_h2_lanczos_2.webp'" />
-            </a>
-          
-        </div>
-      
-    
-    
-  </div>
-
-  
-
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-  
-  
-    
-    
-      
-    
-
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-
-      
-
-
-      
-
-      
-      
         
         
       
@@ -23292,12 +22837,12 @@ Et là, on peut dire que je me sens un peu comme au pays puisqu’au portail d�
         title=""
         loading="lazy"
         decoding="async"
-        class="img   "
-        width="1536"
-        height="1152"
-        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1536x1152_resize_q75_h2_lanczos_2.webp"
-        alt="Full Size Image"
-        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1536x1152_resize_q75_h2_lanczos_2.webp'" />
+        class="img img-fluid img-center "
+        width="1514"
+        height="1428"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_21_noodles_hubfbd66122184a739c252adb66caed1cf_65128_1514x1428_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_21_noodles.webp"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_21_noodles_hubfbd66122184a739c252adb66caed1cf_65128_1514x1428_fill_q100_h2_lanczos_smart1_2.webp'" />
     
 
   
@@ -23309,6 +22854,1707 @@ Et là, on peut dire que je me sens un peu comme au pays puisqu’au portail d�
 
 
 
+<p>Je partage avec Nha mon impression de la ville de Đà Lạt et il me confirme ma vision des choses. Dans cette ville, 1 habitant adulte sur 4 :</p>
+<ul>
+<li>tient un café</li>
+<li>tient un restaurant</li>
+<li>tient un hôtel</li>
+<li>est agriculteur</li>
+</ul>
+<p>Cette vision très philosophique et pas du tout réductrice conclut une super soirée passée en la compagnie de LP Nha, que j’aurais l’occasion de revoir par la suite, pendant des événements du JCI bien entendu.</p>
+<h2 id="tête-dintrus">TÊTE D&rsquo;INTRUS</h2>
+<p>Au fur et à mesure de mes sorties dans Đà Lạt et ses alentours, j’ai quand même l’impression que soit beaucoup des gens qui y vivent n’ont jamais vu de blanc/européen, soit le COVID a fermé les frontières trop longtemps. En tous les cas, je vis souvent des situations où des gens me disent spontanément “Hello !”. Ce sont surtout des enfants, qui bien souvent me fixent longuement en me faisant un grand sourire.<br>Bon j’avoue c’est un peu perturbant des fois comme par exemple quand au supermarché une mère de famille me voit et fait exprès de faire demi-tour avec tous ses enfants dans son caddie pour venir me saluer à grands coups de “Hellooooo !”. Ou bien ces enfants qui me fixaient longuement en s’approchant de plus en plus de moi, alors que je dégustais une glace Kem Tràng Tiền, marque typique de Hanoi, parfum « kem cốm » (<a href="https://fr.wikipedia.org/wiki/C%E1%BB%91m"
+
+
+
+
+ target="_blank"
+ 
+
+
+>jeune riz</a>
+ : type de riz que j’avais déjà eu l’occasion de goûter à Hanoi en 2019). Mais à chaque fois c’est très bienveillant et ça me fait bien rire. La palme de ce genre d’interactions revient à cette dame dans une petite épicerie où nous étions allés acheter de l’eau et qui en me voyant a déclaré :</p>
+
+<div class="quote">
+  <i class="fas fa-quote-left shortcode-quote-icon-left"></i>
+  <div class="shortcode-div">
+    <p class="shortcode-quote-text">Người gì mà đẹp quá vậy!?<br>Quel genre de personne est aussi beau ?</p>
+  </div>
+  <i class="fas fa-quote-right shortcode-quote-icon-right"></i>
+</div>
+
+
+<p>De quoi me donner un petit boost d’égo pendant au moins les 10 jours suivants, vous l’aurez compris.</p>
+<h2 id="chez-chi-tram">CHEZ CHI TRAM</h2>
+<p>Toujours via le JCI, nous rencontrons quelques jours plus tard Trâm, une amie de Giang. Cette dernière l’appelle systématiquement “chị Trâm” en signe de respect : chị veut dire la grande soeur. Les Vietnamiens utilisent principalement les titres familiaux pour s’adresser les uns aux autres, et doivent choisir le titre qui correspond si la personne est plus vieille, plus jeune, etc. Par exemple, si au restaurant je veux remercier un serveur ou une serveuse plus jeune je dois dire “cảm ơn em”. Si en revanche il est plus vieux, alors je dois dire “cảm ơn anh”. Cette coutume fait qu’il est très fréquent de demander son âge à quelqu’un et que là-bas, cette question n’est pas impolie du tout.<br>
+Trâm nous accueille donc dans sa superbe maison. Je fais la connaissance d’Alvin, son fils de quatre ans. Alvin, comme Alvin et les chipmunks, oui oui elle me l’a confirmé elle-même ! C’est un petit garçon adorable et qui comprend bien l’anglais puisqu’il va dans une école internationale. En effet, de nombreux parents vietnamiens qui ont les moyens tiennent absolument à envoyer leurs enfants dans des écoles où ils peuvent très tôt apprendre à parler anglais.<br>
+J’apprends aussi qu’Alvin adore dire “Bon appétit” avant de manger. Trâm a elle aussi un certain goût pour la France, comme le prouve la grande photo de la tour Eiffel dans son salon : décidément c’est une manie à Đà Lạt ?!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="2048"
+        height="1536"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_024_hua1cb215a26de879ecc06a4023e82a749_148454_2048x1536_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_024"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_024_hua1cb215a26de879ecc06a4023e82a749_148454_2048x1536_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>En parlant de la France, Trâm me demande si je connais le mot « Gạc-măng-rê ». Après l’avoir fait répéter plusieurs fois, je ne comprends toujours pas. Enfin elle me montre son téléphone et là je comprends mieux :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="2947"
+        height="2806"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_36_hud46b37d731332b1bb1c264cb70042d03_441470_2947x2806_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_36"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_36_hud46b37d731332b1bb1c264cb70042d03_441470_2947x2806_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+<div class="infotooltip">
+  <div class="infotooltip-head">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#1b83e2"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+    <circle cx="12" cy="12" r="10"></circle>
+    <line x1="12" y1="16" x2="12" y2="12"></line>
+    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+  
+    
+    <p>Un Peu De Vocabulaire...</p>
+  </div>
+  <div class="infotooltip-body"><p>J’apprends alors avec beaucoup d’amusement que l’héritage colonial de notre cher pays des droits de l’homme a laissé tout un tas de mots français disséminés dans le vocabulaire vietnamien. Par exemple, si vous vous faites arrêter en voiture par un policier au Vietnam, celui-ci va apparemment vous demander votre « cạc vẹc », pour “carte verte”, le nom officiel du document.</p></div>
+</div>
+
+<p>Vous pouvez retrouver plus de détails sur cette drôle de liste <a href="http://duhoc.qag.vn/index.php?route=product/product&amp;product_id=367"
+
+
+
+
+ target="_blank"
+ 
+
+
+>ici</a>
+. Et comme je suis (beaucoup) trop sympa, je vous ai fait un petit florilège de mes préférés :</p>
+<ul>
+<li><strong>cà phê </strong>: café</li>
+<li><strong>bu giông </strong>: blouson</li>
+<li><strong>cạc vi zít </strong>: carte de visite</li>
+<li><strong>ghi-đông </strong>: guidon</li>
+<li><strong>phô mát </strong>: fromage</li>
+<li><strong>vô lăng </strong>: volant</li>
+<li><strong>cà-vạt </strong>: cravate</li>
+</ul>
+<p>Je prends un peu l’air avec Trâm, et profite de la vue nocturne splendide sur la ville pour lui demander comment elle a rencontré son mari. Pour résumer l’histoire, cela a eu lieu dans le bar qu’il possédait. Ayant flashé sur elle, il l’avait alors invitée à aller sur le toit terrasse de l’établissement pour aller… boire une bouteille de lait avec lui ! La grande classe de la drague à la vietnamienne y’a pas à dire ! Et dire qu’on nous surnomme le pays de l’amour, alors que nous sommes visiblement bien en retard ah ah ! Bon l’histoire est un peu plus longue que ça, surtout parce qu’elle a refusé l’invitation de la bouteille de lait trouvant cela elle aussi complètement bizarre, mais je ne peux pas m’empêcher de partager un peu cette anecdote tellement j’ai ri.<br>
+Avant de partir, Trâm nous donne un cadeau pour la mère de Giang. Un carton entier… de pommes de terre ! Super pratique quand on voyage, mais apparemment c’est une variété locale et puis bon un cadeau ça ne se refuse pas de toute façon.
+Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beaucoup m’y promener en scooter et apprécier la vue des vallées, malgré la météo un peu maussade :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="4032"
+        height="3024"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_35_hu74990f2e2b8682e05c243e6b1f1c3867_310826_4032x3024_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_35"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_35_hu74990f2e2b8682e05c243e6b1f1c3867_310826_4032x3024_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beaucoup m’y promener en scooter et apprécier la vue des vallée depuis la route :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div
+    class=" gallery 
+      zoomable
+    ">
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_17.webp"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_17_hub9997b9d4e9d394a4faf48441c551863_253610_2048x1536_resize_q75_h2_lanczos_2.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_17.webp"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_environs\/dalat_17_hub9997b9d4e9d394a4faf48441c551863_253610_2048x1536_resize_q75_h2_lanczos_2.webp'" />
+            </a>
+          
+        </div>
+      
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_23.webp"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_23_hu8754c802aa487278d7ef7f9e340c9502_433332_4032x3024_resize_q75_h2_lanczos_2.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_23.webp"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_environs\/dalat_23_hu8754c802aa487278d7ef7f9e340c9502_433332_4032x3024_resize_q75_h2_lanczos_2.webp'" />
+            </a>
+          
+        </div>
+      
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_33.webp"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_33_hu939b5b292e7ad9d8c8e069b203b8c391_663390_4032x3024_resize_q75_h2_lanczos_2.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_33.webp"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_environs\/dalat_33_hu939b5b292e7ad9d8c8e069b203b8c391_663390_4032x3024_resize_q75_h2_lanczos_2.webp'" />
+            </a>
+          
+        </div>
+      
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_34.webp"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_34_hu0ca79a5aa23b159533c49c5f4ba21928_531692_4032x3024_resize_q75_h2_lanczos_2.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs/dalat_34.webp"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_environs\/dalat_34_hu0ca79a5aa23b159533c49c5f4ba21928_531692_4032x3024_resize_q75_h2_lanczos_2.webp'" />
+            </a>
+          
+        </div>
+      
+    
+    
+  </div>
+
+  
+
+
+<p>D’habitude je préfère marcher mais là il n’y a pas d’espace dédié pour marcher et de surcroît Trâm nous a prêté un magnifique scooter ! De quoi pouvoir m’acclimater en douceur au chaos routier vietnamien.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="2048"
+        height="1536"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_19_huaaceaaa38e7e02e97d6bdf016a59b4bd_414108_2048x1536_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_19"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_19_huaaceaaa38e7e02e97d6bdf016a59b4bd_414108_2048x1536_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>Vous pourrez noter que sur cette photo je porte à la fois une veste et un pantalon en pleine journée, témoignage flagrant du climat doux de Đà Lạt. C’est littéralement la seule fois au Vietnam où j’aurais eu besoin de mettre une veste, tellement il faisait chaud partout ailleurs.</p>
+<h2 id="découvertes-culinaires">DÉCOUVERTES CULINAIRES</h2>
+<p>Pendant l’une des dernières soirées en ville à Đà Lạt, nous avons également rencontré un couple d’amis de Giang, accompagné de leur fille, dont je n’ai jamais pu retenir ni comprendre aucun des noms. Ces derniers sont membres… du JCI vous l’aurez déjà deviné !</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="2048"
+        height="1536"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_38_hu90531e4b9b7746e2f0a1194c9305ac33_106598_2048x1536_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_38"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_38_hu90531e4b9b7746e2f0a1194c9305ac33_106598_2048x1536_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>Bien qu’un peu court, nous avons passé un chouette moment en leur compagnie. La dame possède une “boulangerie” et nous a donné tout un tas de snacks à déguster. C’est salé, léger et plutôt bon : j’apprécie beaucoup. De toute façon il n’y a pas un monde où je refuse de la nourriture gratuite en voyage, sauf si c’est trop sucré/gras/salé. Mais là en plus on en a reçu une énorme poche donc bon, je suis roi carotte, ou plutôt roi &ldquo;cà rốt&rdquo; comme on pourrait le dire ici.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center "
+        width="4032"
+        height="3024"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_39_hu38de6a50b5db01bc88998c313eb77f3a_114662_4032x3024_fill_q100_h2_lanczos_smart1_2.webp"
+        alt="dalat_39"
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_39_hu38de6a50b5db01bc88998c313eb77f3a_114662_4032x3024_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>Pendant mon séjour à Đà Lạt, j’ai pu également découvrir :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      <figure
+        class="img-center"
+        role="group"
+        aria-describedby="caption-bánh bèo chén : mélange de farine de riz, crevettes, oignons, ail et poivre, à déguster avec de la sauce poisson">
+        <img
+          title=""
+          loading="lazy"
+          decoding="async"
+          class="img img-fluid 
+            glightbox
+          "
+          width="4032"
+          height="3024"
+          src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_22_hu07c0a2f8dd66f42dedb70141637bdd49_465278_4032x3024_fill_q100_h2_lanczos_smart1_2.webp"
+          alt=""
+          onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_22_hu07c0a2f8dd66f42dedb70141637bdd49_465278_4032x3024_fill_q100_h2_lanczos_smart1_2.webp'" />
+        <figcaption id="caption-bánh bèo chén : mélange de farine de riz, crevettes, oignons, ail et poivre, à déguster avec de la sauce poisson">
+          <strong>bánh bèo chén</strong> : mélange de farine de riz, crevettes, oignons, ail et poivre, à déguster avec de la sauce poisson
+        </figcaption>
+      </figure>
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      <figure
+        class="img-center"
+        role="group"
+        aria-describedby="caption-cơm lam : riz gluant cuit dans du bambou servi dans un restaurant très cheap qui contrastait avec l&rsquo;hôtel 4 étoiles juste en face où je résidais">
+        <img
+          title=""
+          loading="lazy"
+          decoding="async"
+          class="img img-fluid "
+          width="4032"
+          height="2009"
+          src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_26_hu2c06d06c86f2677911426f67d0454788_142306_4032x2009_fill_q100_h2_lanczos_smart1_2.webp"
+          alt=""
+          onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_26_hu2c06d06c86f2677911426f67d0454788_142306_4032x2009_fill_q100_h2_lanczos_smart1_2.webp'" />
+        <figcaption id="caption-cơm lam : riz gluant cuit dans du bambou servi dans un restaurant très cheap qui contrastait avec l&rsquo;hôtel 4 étoiles juste en face où je résidais">
+          <strong>cơm lam</strong> : riz gluant cuit dans du bambou servi dans un restaurant très cheap qui contrastait avec l&rsquo;hôtel 4 étoiles juste en face où je résidais
+        </figcaption>
+      </figure>
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      <figure
+        class="img-center"
+        role="group"
+        aria-describedby="caption-Le chien qui dort à côté de nous accentue encore plus le côté cheap du restaurant !">
+        <img
+          title=""
+          loading="lazy"
+          decoding="async"
+          class="img img-fluid 
+            glightbox
+          "
+          width="4032"
+          height="3024"
+          src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_25_hu711008f2c1841f9c0e6b47620c021a6e_447150_4032x3024_fill_q100_h2_lanczos_smart1_2.webp"
+          alt=""
+          onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_25_hu711008f2c1841f9c0e6b47620c021a6e_447150_4032x3024_fill_q100_h2_lanczos_smart1_2.webp'" />
+        <figcaption id="caption-Le chien qui dort à côté de nous accentue encore plus le côté cheap du restaurant !">
+          Le chien qui dort à côté de nous accentue encore plus le côté cheap du restaurant !
+        </figcaption>
+      </figure>
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      <figure
+        class="img-center"
+        role="group"
+        aria-describedby="caption-Les fraises sont une des spécialités de Đà Lạt. Là-bas ils aiment bien les déguster en les trempant dans du muối xí muội : mélange de prune séchée, sel, sucre et piment">
+        <img
+          title=""
+          loading="lazy"
+          decoding="async"
+          class="img img-fluid 
+            glightbox
+          "
+          width="4008"
+          height="2240"
+          src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_32_hu3db4e2280e102bea327bf7d6d91b67bf_244348_4008x2240_fill_q100_h2_lanczos_smart1_2.webp"
+          alt=""
+          onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_32_hu3db4e2280e102bea327bf7d6d91b67bf_244348_4008x2240_fill_q100_h2_lanczos_smart1_2.webp'" />
+        <figcaption id="caption-Les fraises sont une des spécialités de Đà Lạt. Là-bas ils aiment bien les déguster en les trempant dans du muối xí muội : mélange de prune séchée, sel, sucre et piment">
+          Les fraises sont une des spécialités de Đà Lạt. Là-bas ils aiment bien les déguster en les trempant dans du <strong>muối xí muội</strong> : mélange de prune séchée, sel, sucre et piment
+        </figcaption>
+      </figure>
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>Avec Giang, Nha, Trâm et son mari nous sommes allés dans un délicieux restaurant thailandais.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div
+    class=" gallery 
+      zoomable
+    ">
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_resto_thai/dalat_28.webp"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_resto_thai/dalat_28_hu698500099f07188f1dd9c0e0f81f3d5c_231032_4032x3024_resize_q75_h2_lanczos_2.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_resto_thai/dalat_28.webp"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_resto_thai\/dalat_28_hu698500099f07188f1dd9c0e0f81f3d5c_231032_4032x3024_resize_q75_h2_lanczos_2.webp'" />
+            </a>
+          
+        </div>
+      
+    
+      
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+      
+    
+
+
+    
+
+    
+    
+    
+    
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+        
+        
+
+
+        <div class="gallery-item">
+          
+            <a
+              href="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_resto_thai/dalat_29.webp"
+              style="display: block;"
+              class="glightbox">
+              <img
+                src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_resto_thai/dalat_29_hua97990252ccaf4e3567b9f7d686d1c4f_294292_4032x3024_resize_q75_h2_lanczos_2.webp"
+                class="img"
+                style="margin: 0;"
+                alt="/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_resto_thai/dalat_29.webp"
+                onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_resto_thai\/dalat_29_hua97990252ccaf4e3567b9f7d686d1c4f_294292_4032x3024_resize_q75_h2_lanczos_2.webp'" />
+            </a>
+          
+        </div>
+      
+    
+    
+  </div>
+
+  
+
+
+<p>De quoi découvrir entre autres ce dessert aussi beau que bon : du riz gluant avec de la mangue et du lait de noix de coco sucré. Le riz est bleu car ils y ajoutent une variété spéciale de fleur pendant sa cuisson.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+
+    
+    
+
+    
+    
+      
+      <img
+        title=""
+        loading="lazy"
+        decoding="async"
+        class="img img-fluid img-center 
+          glightbox
+        "
+        width="2815"
+        height="1820"
+        src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_30_hu8516d6058e96f550760a7b46e9ee30ee_260086_2815x1820_fill_q100_h2_lanczos_smart1_2.webp"
+        alt=""
+        onerror="this.onerror='null';this.src='\/mon-periple\/images\/post\/asie\/asie-sud-est\/01-vietnam\/01-dalat\/dalat_30_hu8516d6058e96f550760a7b46e9ee30ee_260086_2815x1820_fill_q100_h2_lanczos_smart1_2.webp'" />
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>En résumé, avec son climat doux et son atmosphère propice à la détente, Đà Lạt c’était vraiment la bonne option pour me ressourcer et commencer Mon Périple dans les meilleures conditions possibles.</p>
 
 
             
