@@ -294,7 +294,8 @@ body {
 
 .title-bordered {
   text-align: center;
-  border: 1px solid $border-color;
+  border: 1.4px solid $color-primary;
+  // border: 1px solid $border-color;
   border-radius: 2.5rem;
   margin-top: -1rem;
   
@@ -846,3 +847,4 @@ p a:hover {
   margin: 0;
   font-size: 1.1rem !important; /* Font size remains unchanged */
 }
+

@@ -4,8 +4,14 @@
 {{ $widget:= site.Params.widgets.sidebar }}
 {{ $paginator := .Paginate (where (.Scratch.Get "where") "Section" "in" site.Params.mainSections) }}
 
-
 <section class="section">
+
+  {{ if .IsHome }}
+  <div style="text-align: center; margin-bottom: 3rem;">
+    <h1>Mon Périple</h1>
+  </div>
+{{ end }}
+
   <div class="container">
     <div class="row">
       <!-- left sidebar -->
