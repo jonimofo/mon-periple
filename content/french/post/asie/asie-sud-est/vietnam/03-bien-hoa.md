@@ -89,7 +89,7 @@ Du coup ma réaction :
   alt="bien_hoa_34" 
   resize=""
   position="center"
-  zoomable="false"
+  zoomable="true"
   command="fill" option="q100" class="img-fluid" title=""
   webp="true">}}
 
@@ -118,7 +118,7 @@ Au fil de mes balades à Bien Hoa j’ai pu voir des choses qui m’ont intrigu�
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_40.webp"
-  caption="Un homme qui prie est en train de bruler de la fausse monnaie en guise d'offrande, devant la nuée inéxorable de deux-roues motorisés"
+  caption="L'homme qui prie est en train de bruler de la fausse monnaie en guise d'offrande, devant la nuée inéxorable de deux-roues motorisés"
   alt="" 
   resize=""
   position="center"
@@ -187,7 +187,7 @@ Petit aperçu de ce que j’ai eu la chance de pouvoir goûter pendant ma tranch
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_19.webp"
-  caption="rayonnement"
+  caption="Déjeuner typique avec l'incontournable riz, du bouillon (appelé cánh), des concombres, du tofu frit et... des bols et des baguettes bien sûr !"
   alt="" 
   resize=""
   position="center"
@@ -197,7 +197,7 @@ Petit aperçu de ce que j’ai eu la chance de pouvoir goûter pendant ma tranch
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_44.webp"
-  caption="rayonnement"
+  caption="<strong>Miến gà</strong> : nouilles de verre au poulet et aux champignons"
   alt="" 
   resize=""
   position="center"
@@ -205,11 +205,9 @@ Petit aperçu de ce que j’ai eu la chance de pouvoir goûter pendant ma tranch
   command="fill" option="q100" class="img-fluid" title=""
   webp="true">}}
 
-
-
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_32.webp"
-  caption="rayonnement"
+  caption="<strong>Bánh cuốn</strong> (en bas à droite) : des galettes de riz à la vapeur, fourrées à la viande et aux champignons noirs. Un de mes mets vietnamiens préférés de tous les temps !"
   alt="" 
   resize=""
   position="center"
@@ -219,7 +217,7 @@ Petit aperçu de ce que j’ai eu la chance de pouvoir goûter pendant ma tranch
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_50.webp"
-  caption="rayonnement"
+  caption="<strong>Cơm tấm đặc biệt</strong> : riz brisé avec des oeufs. Quand on commande à emporter les liquides sont souvent conditionés dans des sacs plastiques								"
   alt="" 
   resize=""
   position="center"
@@ -229,7 +227,7 @@ Petit aperçu de ce que j’ai eu la chance de pouvoir goûter pendant ma tranch
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_57.webp"
-  caption="rayonnement"
+  caption="<strong>Canh bí thịt băm</strong> : soupe de gourd avec du porc haché"
   alt="" 
   resize=""
   position="center"
@@ -239,7 +237,7 @@ Petit aperçu de ce que j’ai eu la chance de pouvoir goûter pendant ma tranch
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_51.webp"
-  caption="rayonnement"
+  caption="<strong>Cơm tấm đặc biệt</strong> : riz dit brisé avec des oeufs et de la viande grillée"
   alt="" 
   resize=""
   position="center"
@@ -249,7 +247,7 @@ Petit aperçu de ce que j’ai eu la chance de pouvoir goûter pendant ma tranch
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_56.webp"
-  caption="rayonnement"
+  caption="<strong>Bánh xèo </strong>: pancakes vietnamiens	"
   alt="" 
   resize=""
   position="center"
@@ -262,7 +260,7 @@ Et du côté des fruits/légumes/plantes :
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_53.webp"
-  caption="rayonnement"
+  caption="<strong>Quả mâyw</strong> (le salacca)"
   alt="" 
   resize=""
   position="center"
@@ -272,7 +270,7 @@ Et du côté des fruits/légumes/plantes :
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_04.webp"
-  caption="rayonnement"
+  caption="Des oranges... vertes !"
   alt="" 
   resize=""
   position="center"
@@ -282,7 +280,7 @@ Et du côté des fruits/légumes/plantes :
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_99.webp"
-  caption="rayonnement"
+  caption="Bambou séché, généralement utilisé dans les bouillons (comme les nouilles de verre ci-dessus)"
   alt="" 
   resize=""
   position="center"
@@ -292,7 +290,7 @@ Et du côté des fruits/légumes/plantes :
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_41.webp"
-  caption="rayonnement"
+  caption="<strong>Na</strong> : un fruit très sucré, à la texture épaisse et... qui a un littéralement un goût de bonbon"
   alt="" 
   resize=""
   position="center"
@@ -302,8 +300,8 @@ Et du côté des fruits/légumes/plantes :
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_007.webp"
-  caption="rayonnement"
-  alt="" 
+  caption="<strong>Bánh bò</strong> : génoise sucrée et moelleuse, fabriquée à partir de farine de riz, d'eau, de sucre et de levure"
+  alt=""
   resize=""
   position="center"
   zoomable="true"
@@ -314,7 +312,7 @@ Puisqu’on en est à parler nourriture (sujet profond et sérieux vous l’aure
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_02.webp"
-  caption="rayonnement"
+  caption=""
   alt="" 
   resize=""
   position="center"
@@ -326,7 +324,7 @@ Une autre fois, on m’a emmené dans un boui-boui un peu secret. Je dis un peu 
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_22.webp"
-  caption="rayonnement"
+  caption=""
   alt="" 
   resize=""
   position="center"
@@ -339,7 +337,7 @@ Mais Benji, mais pourquoi donc choisis-tu de parler spécialement de cet endroit
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_23.webp"
-  caption="rayonnement"
+  caption=""
   alt="" 
   resize=""
   position="center"

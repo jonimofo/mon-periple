@@ -166,7 +166,7 @@ D’habitude je préfère marcher mais là il n’y a pas d’espace dédié pou
   alt="dalat_19" 
   resize=""
   position="center"
-  zoomable="false"
+  zoomable="true"
   command="fill" option="q100" class="img-fluid" title=""
   webp="true">}}
   
@@ -180,10 +180,10 @@ Pendant l’une des dernières soirées en ville à Đà Lạt, nous avons égal
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_38.webp"
   caption=""
-  alt="dalat_38" 
+  alt="" 
   resize=""
   position="center"
-  zoomable="false"
+  zoomable="true"
   command="fill" option="q100" class="img-fluid" title=""
   webp="true">}}
 
@@ -192,10 +192,10 @@ Bien qu’un peu court, nous avons passé un chouette moment en leur compagnie. 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_39.webp"
   caption=""
-  alt="dalat_39" 
+  alt="" 
   resize=""
   position="center"
-  zoomable="false"
+  zoomable="true"
   command="fill" option="q100" class="img-fluid" title=""
   webp="true">}}
 
@@ -217,7 +217,7 @@ Pendant mon séjour à Đà Lạt, j’ai pu également découvrir :
   alt="" 
   resize=""
   position="center"
-  zoomable="false"
+  zoomable="true"
   command="fill" option="q100" class="img-fluid" title=""
   webp="true">}}
 

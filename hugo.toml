@@ -80,3 +80,4 @@ attributes = "async"
 link = "plugins/glightbox/glightbox.js"
 [[params.plugins.js]]
 link = "js/gallery-slider.js"
+

@@ -26,7 +26,7 @@ mainSections = ["post"]
 featured_post = false
 
 # layout
-post_layout = "grid" # layout value (full, grid or list)
+post_layout = "full" # layout value (full, grid or list)
 # Sidebar
 sidebar = "right" # sidebar value (left, right or false)
 
@@ -113,8 +113,8 @@ enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
-description = "This is meta description"
-author = "Themefisher"
+description = "Suivez Mon Périple à travers le Monde ! Embarquez avec moi pour des aventures riches en jolies paysages, rencontres et découvertes étonnantes !"
+author = "Benji"
 image = "images/favicon.png"      # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
@@ -150,8 +150,8 @@ mastodon = "" # Your verification code
 [cookies]
 enable = false
 expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+content = "Ce site utilise des cookies (miam miam !). En continuant sur ce site, vous acceptez leur utilisation (non commerciale z'inquiétez pas !)"
+button = "J'accepte"
 
 ######################## sidebar widgets #########################
 [widgets]

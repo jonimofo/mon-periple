@@ -294,7 +294,8 @@ body {
 
 .title-bordered {
   text-align: center;
-  border: 1px solid $border-color;
+  border: 1.4px solid $color-primary;
+  // border: 1px solid $border-color;
   border-radius: 2.5rem;
   margin-top: -1rem;
   
