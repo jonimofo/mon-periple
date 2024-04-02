@@ -8,10 +8,10 @@ description: "On se pose le temps d'un séjour en famille dans la ville de Biên
 categories: ["vietnam"]
 tags: ["vietnam"]
 type: "regular"
-draft: true
+draft: false
 ---
 
-<!-- {{%bigletter color="#ce8460"%}}U{{%/bigletter %}}ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.<br>
+{{%bigletter color="#ce8460"%}}U{{%/bigletter %}}ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.<br>
 
 <div style="margin-top: 30px !important; margin-bottom: 10px !important;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7951584.4801790835!2d103.88729553124998!3d13.312309686223127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d952b84aea25%3A0x2111cd93cb5263cb!2sBien%20Hoa%2C%20Dong%20Nai%2C%20Vietnam!5e0!3m2!1sen!2sus!4v1711890496581!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -102,7 +102,7 @@ Bửu Long vous souhaite la bienvenue !
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/parc" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 Au fil de mes balades à Bien Hoa j’ai pu voir des choses qui m’ont intrigué ou amusé :
 
@@ -155,28 +155,28 @@ Nous partons donc de bonne heure et je retrouve une Mai habillée typiquement à
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/marche" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 Une fois nos produits achetés, nous pouvons alors les utiliser pour en faire de délicieux petits plats. Cette fois-ci au menu du jour : des Bò lá lốt. Traduisez par bœuf aux feuilles de vigne. Une farce de boeuf émincé, ail, poivre, sel, sauce de poisson, le tout roulée dans une feuille de vigne, que l’on fait ensuite frire. L’huile n’y reste pas accrochée et ce n’est pas vraiment gras. Une de mes meilleures découvertes culinaires dans ce pays, à coup sûr !
 
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bo-la-lo" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 D’ailleurs les feuilles de vignes proviennent directement du jardin sur le balcon de la maison. Climat tropical oblige, toute une variété de plantes vertes est cultivée par la famille sur le balcon et dans la petite arrière-cour.
 
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/balcony" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 Une fois j’ai chopé des gros coups de soleil aux cuisses parce que je n’avais pas anticipé que le soleil taperait si fort dessus pendant une longue balade en scooter. Pas de problème, il n’y a qu’à se servir en aloe vera dans le jardin ! Terriblement pratique et la première fois pour moi que je vois cette plante.
 
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/aloe-vera" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 
 ## À TABLE !
@@ -357,7 +357,7 @@ Un marchand ambulant de noix de coco ! Les marchands ambulants, c’est vraiment
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/coconut-1" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 
 Une fois le marchandage et la transaction effectués, il est temps pour nous de se rendre dans l’arrière-cour et  de faire parler le coupe-coupe. La mission consiste à trancher les noix de coco en deux, puis à curer les vertes à la cuillère pour en extraire la partie blanche. On peut ensuite se faire un petit cocktail tropical à base de jus de coco, de la partie blanche et de bloc de glace.
@@ -365,10 +365,10 @@ Délicieux !
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/coconut-2" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 ## POUR MOI BIÊN HÒA C'EST...
 - La gentillesse et l’attention de tout le monde au sein du foyer qui tenait absolument à ce que non seulement je sois le plus à l’aise possible, mais aussi à ce que je goûte à un maximum de plats typiques
 - La tête surprise et interloquée des amis ou voisins de la famille quand ils passaient à l’improviste et me voyaient dans la maison, couplée avec l’air surexcité à mon égard des enfants qui jouaient en permanence devant la maison
 - La découverte pour Mai de l’application Google Translate qui permet de parler dans le téléphone pour que ce dernier affiche la traduction : elle ne parlant pas anglais et moi très peu vietnamien, ça nous a permis de communiquer tous les deux. D’ailleurs anecdote amusante à ce sujet : elle a partagé sa découverte avec une marchande de fruits. Cette dernière a un beau-fils Malaysien et se désespérait de ne pouvoir communiquer facilement avec ce dernier. Quand elle a découvert Google Translate, elle était tellement contente qu’elle en a offert tout plein des fruits à Mai. Comme quoi la technologie ça a aussi du bon.
- -->
+
