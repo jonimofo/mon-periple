@@ -2,7 +2,7 @@
 title: "Light Project : et la lumière fut !"
 date: 2022-09-25
 images:
-  - "images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover.webp"
+  # - "images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover.webp"
 author: "Benji"
 description: "Une mission JCI de pose de panneaux solaires qui s'est transformée en voyage dans un autre monde/temps..."
 categories: ["vietnam"]
@@ -11,7 +11,8 @@ type: "regular"
 draft: false
 ---
 
-{{%bigletter color="#ce8460"%}}Q{{%/bigletter %}}uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
+Quand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
+<!-- {{%bigletter color="#ce8460"%}}Q{{%/bigletter %}}uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement. -->
 <br>
 Le rendez-vous était donc pris.
 
