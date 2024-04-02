@@ -156,7 +156,7 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_environs" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 D’habitude je préfère marcher mais là il n’y a pas d’espace dédié pour marcher et de surcroît Trâm nous a prêté un magnifique scooter ! De quoi pouvoir m’acclimater en douceur au chaos routier vietnamien.
 
@@ -246,7 +246,7 @@ Avec Giang, Nha, Trâm et son mari nous sommes allés dans un délicieux restaur
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_resto_thai" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 De quoi découvrir entre autres ce dessert aussi beau que bon : du riz gluant avec de la mangue et du lait de noix de coco sucré. Le riz est bleu car ils y ajoutent une variété spéciale de fleur pendant sa cuisson.
 
