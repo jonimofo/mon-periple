@@ -8,10 +8,10 @@ description: "Une mission JCI de pose de panneaux solaires qui s'est transformé
 categories: ["vietnam"]
 tags: ["vietnam"]
 type: "regular"
-draft: true
+draft: false
 ---
 
-<!-- {{%bigletter color="#ce8460"%}}Q{{%/bigletter %}}uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
+{{%bigletter color="#ce8460"%}}Q{{%/bigletter %}}uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
 <br>
 Le rendez-vous était donc pris.
 
@@ -45,10 +45,10 @@ Nous arrivons enfin dans la commune de Đồng Nai Thượng, située dans la pr
 
 Quand nous arrivons, je peux remarquer que des membres d’autres chapitres sont présents : c’est facile, vous pouvez les reconnaitre à leurs polos. Le chapitre de Đà Lạt porte des polos verts, celui de East Saigon des bleus, une membre d’Hanoi qui est en visite arbore un violet et moi-même je porte le polo JCI national à la couleur rouge et l’étoile jaune.
 
-{{< 
+<!-- {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/community_center" 
-  zoomable="true" Command="" width="" webp="true">}}
+  zoomable="true" Command="" width="" webp="true">}} -->
 
 
 ## THE LIGHT PROJECT
@@ -121,10 +121,10 @@ Nous atteignons finalement la maison des gens chez qui nous devons installer le 
 
 Je pense ne pas me tromper en affirmant que ce sont véritablement les gens les plus pauvres chez lesquels je ne sois jamais allé jusque-là.
 
-{{< 
+<!-- {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/outside_house" 
-  zoomable="true" Command="" width="" webp="true">}}
+  zoomable="true" Command="" width="" webp="true">}} -->
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_22.webp"
@@ -267,4 +267,4 @@ Ce qu’ils trouvent dans le JCI au bout du compte :
 - Cela permet aussi de gagner de la confiance en soi et de l’expérience aux plus jeunes : s’exprimer en public, gérer des groupes, démarcher des sociétés et banques pour obtenir des fonds et du matériel, etc.
 - Ils peuvent aider leur communauté de façon concrète
 
-Finalement même si le trajet était 1000 fois plus long que l’action elle-même, chaque minute de cette journée en aura assurément valu la peine ! -->
+Finalement même si le trajet était 1000 fois plus long que l’action elle-même, chaque minute de cette journée en aura assurément valu la peine !
