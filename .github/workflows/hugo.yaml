@@ -30,7 +30,9 @@ defaults:
 jobs:
   # Build job
   build:
+    # runs-on: ubuntu-latest
     runs-on: ubuntu-latest
+    container: ubuntu:22.04
     env:
       HUGO_VERSION: 0.124.1
     steps:
@@ -82,7 +84,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    # runs-on: ubuntu-latest
     runs-on: ubuntu-latest
+    container: ubuntu:22.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
