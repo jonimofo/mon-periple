@@ -6,7 +6,7 @@ images:
   - "images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_cover.webp"
 #author
 author: "Benji"
-description: "Début de Mon Périple dans la ville fraiche et reposante de Đà Lạt."
+description: "Arrivée en douceur pour le début de Mon Périple dans la ville fraiche et reposante de Đà Lạt."
 # Taxonomies
 categories: ["vietnam"]
 tags: ["vietnam"]
