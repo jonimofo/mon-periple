@@ -48,7 +48,7 @@ Quand nous arrivons, je peux remarquer que des membres d’autres chapitres sont
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/community_center" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 
 ## THE LIGHT PROJECT
@@ -124,7 +124,7 @@ Je pense ne pas me tromper en affirmant que ce sont véritablement les gens les 
 {{< 
   gallery 
   dir="images/post/asie/asie-sud-est/01-vietnam/02-light-project/outside_house" 
-  zoomable="true" Command="" width="" >}}
+  zoomable="true" Command="" width="" webp="true">}}
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_22.webp"
