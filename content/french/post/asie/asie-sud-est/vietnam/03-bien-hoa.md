@@ -11,7 +11,7 @@ type: "regular"
 draft: false
 ---
 
-{{%bigletter color="#ce8460"%}}U{{%/bigletter %}}ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.<br>
+<!-- {{%bigletter color="#ce8460"%}}U{{%/bigletter %}}ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.<br>
 
 <div style="margin-top: 30px !important; margin-bottom: 10px !important;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7951584.4801790835!2d103.88729553124998!3d13.312309686223127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d952b84aea25%3A0x2111cd93cb5263cb!2sBien%20Hoa%2C%20Dong%20Nai%2C%20Vietnam!5e0!3m2!1sen!2sus!4v1711890496581!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -371,4 +371,4 @@ Délicieux !
 - La gentillesse et l’attention de tout le monde au sein du foyer qui tenait absolument à ce que non seulement je sois le plus à l’aise possible, mais aussi à ce que je goûte à un maximum de plats typiques
 - La tête surprise et interloquée des amis ou voisins de la famille quand ils passaient à l’improviste et me voyaient dans la maison, couplée avec l’air surexcité à mon égard des enfants qui jouaient en permanence devant la maison
 - La découverte pour Mai de l’application Google Translate qui permet de parler dans le téléphone pour que ce dernier affiche la traduction : elle ne parlant pas anglais et moi très peu vietnamien, ça nous a permis de communiquer tous les deux. D’ailleurs anecdote amusante à ce sujet : elle a partagé sa découverte avec une marchande de fruits. Cette dernière a un beau-fils Malaysien et se désespérait de ne pouvoir communiquer facilement avec ce dernier. Quand elle a découvert Google Translate, elle était tellement contente qu’elle en a offert tout plein des fruits à Mai. Comme quoi la technologie ça a aussi du bon.
-
+ -->
