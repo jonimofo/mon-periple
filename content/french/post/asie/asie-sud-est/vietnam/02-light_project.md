@@ -8,10 +8,10 @@ description: "Une mission JCI de pose de panneaux solaires qui s'est transformé
 categories: ["vietnam"]
 tags: ["vietnam"]
 type: "regular"
-draft: true
+draft: false
 ---
 
-<!-- {{%bigletter color="#ce8460"%}}Q{{%/bigletter %}}uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
+{{%bigletter color="#ce8460"%}}Q{{%/bigletter %}}uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
 <br>
 Le rendez-vous était donc pris.
 
@@ -267,4 +267,4 @@ Ce qu’ils trouvent dans le JCI au bout du compte :
 - Cela permet aussi de gagner de la confiance en soi et de l’expérience aux plus jeunes : s’exprimer en public, gérer des groupes, démarcher des sociétés et banques pour obtenir des fonds et du matériel, etc.
 - Ils peuvent aider leur communauté de façon concrète
 
-Finalement même si le trajet était 1000 fois plus long que l’action elle-même, chaque minute de cette journée en aura assurément valu la peine ! -->
+Finalement même si le trajet était 1000 fois plus long que l’action elle-même, chaque minute de cette journée en aura assurément valu la peine !
