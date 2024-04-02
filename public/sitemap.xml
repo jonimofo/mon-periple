@@ -2,93 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://monperiple.com/post/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/categories/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/post/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/post/asie/asie-sud-est/vietnam/02-light_project/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/categories/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/tags/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/tags/vietnam/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/categories/vietnam/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/tags/</loc>
     <lastmod>2022-09-25T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/post/asie/asie-sud-est/vietnam/01-dalat/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/tags/vietnam/</loc>
+    <lastmod>2022-09-25T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.249:1313/mon-periple/categories/vietnam/</loc>
+    <lastmod>2022-09-25T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</loc>
     <lastmod>2022-09-04T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-3/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-3/</loc>
     <lastmod>2020-04-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/</loc>
     <lastmod>2020-04-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-7/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-7/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-6/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-6/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-1/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-4/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-2/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-8/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-8/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/shop/product-5/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/shop/product-5/</loc>
     <lastmod>2020-02-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://monperiple.com/author/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/author/</loc>
   </url><url>
-    <loc>https://monperiple.com/elements/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/elements/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/full/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/full/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/full-left/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/full-left/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/full-right/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/full-right/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/grid/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/grid/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/grid-left/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/grid-left/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/grid-right/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/grid-right/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/list/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/list/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/list-left/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/list-left/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/list-right/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/list-right/</loc>
   </url><url>
-    <loc>https://monperiple.com/homepage/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/homepage/</loc>
   </url><url>
-    <loc>https://monperiple.com/author/john-doe/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/author/john-doe/</loc>
   </url><url>
-    <loc>https://monperiple.com/404/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/404/</loc>
   </url><url>
-    <loc>https://monperiple.com/privacy-policy/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/privacy-policy/</loc>
   </url><url>
-    <loc>https://monperiple.com/terms-conditions/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/terms-conditions/</loc>
   </url><url>
-    <loc>https://monperiple.com/search/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/search/</loc>
   </url><url>
-    <loc>https://monperiple.com/about/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/about/</loc>
   </url><url>
-    <loc>https://monperiple.com/contact/</loc>
+    <loc>http://192.168.1.249:1313/mon-periple/contact/</loc>
   </url>
 </urlset>

@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Mon Périple</title>
-    <link>https://monperiple.com/post/</link>
+    <link>http://192.168.1.249:1313/mon-periple/post/</link>
     <description>Recent content in Blogs on Mon Périple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="https://monperiple.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.249:1313/mon-periple/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bien Hoa : séjour en famille</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/</guid>
+      <description>U ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.&#xA;De quoi expérimenter véritablement la vie à la vietnamienne. Le moins que l’on puisse dire c’est que cela aura été une tranche de vie unique, riche en expériences culinaires et pendant laquelle j’ai été (trop ?</description>
+    </item>
+    <item>
+      <title>Da Nang : JCI et abus de protocole</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/</guid>
+      <description> U </description>
+    </item>
     <item>
       <title>Light Project : et la lumière fut !</title>
-      <link>https://monperiple.com/post/asie/asie-sud-est/vietnam/02-light_project/</link>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
-      <guid>https://monperiple.com/post/asie/asie-sud-est/vietnam/02-light_project/</guid>
-      <description>Quand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.</description>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/</guid>
+      <description>Q uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.</description>
     </item>
     <item>
       <title>Da Lat : arrivée en douceur</title>
-      <link>https://monperiple.com/post/asie/asie-sud-est/vietnam/01-dalat/</link>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</link>
       <pubDate>Sun, 04 Sep 2022 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/post/asie/asie-sud-est/vietnam/01-dalat/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</guid>
       <description>C&amp;rsquo;est pas trop tôt ! A près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de Mon Périple.</description>
     </item>
   </channel>

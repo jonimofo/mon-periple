@@ -2,199 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mon Périple</title>
-    <link>https://monperiple.com/</link>
+    <link>http://192.168.1.249:1313/mon-periple/</link>
     <description>Recent content on Mon Périple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="https://monperiple.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2022 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://192.168.1.249:1313/mon-periple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Da Nang : JCI et abus de protocole</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/</link>
+      <pubDate>Sat, 08 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/</guid>
+      <description>N ul n’est sans ignorer que j’aime bien battre le fer tant qu’il est chaud, tel ce bon vieux Cétautomatix. Giang m’informe qu’elle va prochainement participer en tant que Speaker à un « Training » JCI sur le sujet du Leardership, dans la ville de Đà Nẵng, à environ à 870 km de Biên Hòa.</description>
+    </item>
+    <item>
+      <title>Bien Hoa : séjour en famille</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/</guid>
+      <description>U ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.&#xA;De quoi expérimenter véritablement la vie à la vietnamienne. Le moins que l’on puisse dire c’est que cela aura été une tranche de vie unique, riche en expériences culinaires et pendant laquelle j’ai été (trop ?</description>
+    </item>
     <item>
       <title>Light Project : et la lumière fut !</title>
-      <link>https://monperiple.com/post/asie/asie-sud-est/vietnam/02-light_project/</link>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
-      <guid>https://monperiple.com/post/asie/asie-sud-est/vietnam/02-light_project/</guid>
-      <description>Quand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.</description>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/</guid>
+      <description>Q uand j’étais chez Nha, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.</description>
     </item>
     <item>
       <title>Da Lat : arrivée en douceur</title>
-      <link>https://monperiple.com/post/asie/asie-sud-est/vietnam/01-dalat/</link>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</link>
       <pubDate>Sun, 04 Sep 2022 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/post/asie/asie-sud-est/vietnam/01-dalat/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</guid>
       <description>C&amp;rsquo;est pas trop tôt ! A près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de Mon Périple.</description>
     </item>
     <item>
       <title>School Bag</title>
-      <link>https://monperiple.com/shop/product-3/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-3/</link>
       <pubDate>Tue, 14 Apr 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-3/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-3/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Blue Jacket</title>
-      <link>https://monperiple.com/shop/product-7/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-7/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-7/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-7/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Cotton T-Shirt</title>
-      <link>https://monperiple.com/shop/product-6/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-6/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-6/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-6/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Linen Bag</title>
-      <link>https://monperiple.com/shop/product-1/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-1/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-1/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-1/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Pink T-Shirt</title>
-      <link>https://monperiple.com/shop/product-4/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-4/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-4/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-4/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Side Bag</title>
-      <link>https://monperiple.com/shop/product-2/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-2/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-2/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-2/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Travel Carrier</title>
-      <link>https://monperiple.com/shop/product-8/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-8/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-8/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-8/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Travel Bag</title>
-      <link>https://monperiple.com/shop/product-5/</link>
+      <link>http://192.168.1.249:1313/mon-periple/shop/product-5/</link>
       <pubDate>Fri, 14 Feb 2020 15:40:24 +0600</pubDate>
-      <guid>https://monperiple.com/shop/product-5/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/shop/product-5/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
       <title>Elements</title>
-      <link>https://monperiple.com/elements/</link>
+      <link>http://192.168.1.249:1313/mon-periple/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/elements/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/elements/</guid>
       <description>Table Of Contents Heading 2 Heading 3 Emphasis Link Paragraph Ordered List Unordered List Notice Tab Collapse Code and Syntax Highlighting Blockquote Inline HTML Codepen Tables Image Gallery Youtube video Custom video Here is an example of headings. You can use this heading by the following markdown rules. For example: use # for heading 1 and use ###### for heading 6.</description>
     </item>
     <item>
       <title>Homepage Full</title>
-      <link>https://monperiple.com/homepage/full/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/full/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/full/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/full/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage Full Left</title>
-      <link>https://monperiple.com/homepage/full-left/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/full-left/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/full-left/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/full-left/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage Full Right</title>
-      <link>https://monperiple.com/homepage/full-right/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/full-right/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/full-right/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/full-right/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage Grid</title>
-      <link>https://monperiple.com/homepage/grid/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/grid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/grid/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/grid/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage Grid Left</title>
-      <link>https://monperiple.com/homepage/grid-left/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/grid-left/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/grid-left/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/grid-left/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage Grid Right</title>
-      <link>https://monperiple.com/homepage/grid-right/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/grid-right/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/grid-right/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/grid-right/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage List</title>
-      <link>https://monperiple.com/homepage/list/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/list/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/list/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage List Left</title>
-      <link>https://monperiple.com/homepage/list-left/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/list-left/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/list-left/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/list-left/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage List Right</title>
-      <link>https://monperiple.com/homepage/list-right/</link>
+      <link>http://192.168.1.249:1313/mon-periple/homepage/list-right/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/homepage/list-right/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/homepage/list-right/</guid>
       <description></description>
     </item>
     <item>
       <title>John Doe</title>
-      <link>https://monperiple.com/author/john-doe/</link>
+      <link>http://192.168.1.249:1313/mon-periple/author/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/author/john-doe/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/author/john-doe/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
     </item>
     <item>
       <title>No Search Found</title>
-      <link>https://monperiple.com/404/</link>
+      <link>http://192.168.1.249:1313/mon-periple/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/404/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/404/</guid>
       <description></description>
     </item>
     <item>
       <title>Our Privacy Policy</title>
-      <link>https://monperiple.com/privacy-policy/</link>
+      <link>http://192.168.1.249:1313/mon-periple/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/privacy-policy/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/privacy-policy/</guid>
       <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.</description>
     </item>
     <item>
       <title>Our Terms And Conditions</title>
-      <link>https://monperiple.com/terms-conditions/</link>
+      <link>http://192.168.1.249:1313/mon-periple/terms-conditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/terms-conditions/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/terms-conditions/</guid>
       <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.</description>
     </item>
     <item>
       <title>Search Results</title>
-      <link>https://monperiple.com/search/</link>
+      <link>http://192.168.1.249:1313/mon-periple/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/search/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/search/</guid>
       <description></description>
     </item>
     <item>
       <title>Suivez Mon Périple à travers le monde !</title>
-      <link>https://monperiple.com/about/</link>
+      <link>http://192.168.1.249:1313/mon-periple/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/about/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/about/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum in urna justo elit turpis risus vitae viverra enim. Augue quis vitae in non nisi, posuere ultrices tempus. Feugiat consequat suspendisse laoreet vitae enim adipiscing cursus. Duis nunc vitae tincidunt sed nibh id. Egestas erat consequat, ornare etiam donec faucibus. Lorem ut enim nunc, senectus adipiscing sed.</description>
     </item>
     <item>
       <title>Talk To Me Anytime :)</title>
-      <link>https://monperiple.com/contact/</link>
+      <link>http://192.168.1.249:1313/mon-periple/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://monperiple.com/contact/</guid>
+      <guid>http://192.168.1.249:1313/mon-periple/contact/</guid>
       <description>PAGE EN FRENCH Ask Us Anything Or just Say Hi, Rather than just filling out a form, Sleeknote also offers help to the user with links directing them to find additional information or take popular actions.</description>
     </item>
   </channel>
