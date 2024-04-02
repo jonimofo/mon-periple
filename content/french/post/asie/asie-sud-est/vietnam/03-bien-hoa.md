@@ -8,7 +8,7 @@ description: "On se pose le temps d'un séjour en famille dans la ville de Biên
 categories: ["vietnam"]
 tags: ["vietnam"]
 type: "regular"
-draft: true
+draft: false
 ---
 
 {{%bigletter color="#ce8460"%}}U{{%/bigletter %}}ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.<br>
