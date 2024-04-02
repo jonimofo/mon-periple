@@ -848,3 +848,22 @@ p a:hover {
   font-size: 1.1rem !important; /* Font size remains unchanged */
 }
 
+
+// -----------------------------------------------------------------------------
+// SPOILER ALERT
+// -----------------------------------------------------------------------------
+.accordion-button {
+  font-weight: bold !important;
+  color: #1b83e2;
+}
+
+/* Style for the collapsed state to ensure consistency */
+.accordion-button.collapsed {
+  font-weight: bold;
+  color: #1b83e2;
+}
+
+.accordion-body {
+  font-weight: bold !important;
+  color: #1b83e2;
+}

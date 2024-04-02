@@ -21046,6 +21046,19 @@ p a:hover {
   font-size: 1.1rem !important;
   /* Font size remains unchanged */ }
 
+.accordion-button {
+  font-weight: bold !important;
+  color: #1b83e2; }
+
+/* Style for the collapsed state to ensure consistency */
+.accordion-button.collapsed {
+  font-weight: bold;
+  color: #1b83e2; }
+
+.accordion-body {
+  font-weight: bold !important;
+  color: #1b83e2; }
+
 .notice {
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;

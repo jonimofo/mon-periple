@@ -1,64 +1,64 @@
 ############### French navigation ################
 
 # Dropdown menu
-[[main]]
-weight = 1
-name = "homepage"
-hasChildren = true
+# [[main]]
+# weight = 1
+# name = "homepage"
+# hasChildren = true
 
-[[main]]
-parent = "homepage"
-name = "Homepage Full Width"
-url = "homepage/full/"
-weight = 1
+# [[main]]
+# parent = "homepage"
+# name = "Homepage Full Width"
+# url = "homepage/full/"
+# weight = 1
 
-[[main]]
-parent = "homepage"
-name = "Homepage Full With Left Sidebar"
-url = "homepage/full-left/"
-weight = 2
+# [[main]]
+# parent = "homepage"
+# name = "Homepage Full With Left Sidebar"
+# url = "homepage/full-left/"
+# weight = 2
 
-[[main]]
-parent = "homepage"
-name = "Homepage Full With Right Sidebar"
-url = "homepage/full-right/"
-weight = 3
+# [[main]]
+# parent = "homepage"
+# name = "Homepage Full With Right Sidebar"
+# url = "homepage/full-right/"
+# weight = 3
 
-[[main]]
-parent = "homepage"
-name = "Homepage List Style"
-url = "homepage/list/"
-weight = 4
+# [[main]]
+# parent = "homepage"
+# name = "Homepage List Style"
+# url = "homepage/list/"
+# weight = 4
 
-[[main]]
-parent = "homepage"
-name = "Homepage List With Left Sidebar"
-url = "homepage/list-left/"
-weight = 5
+# [[main]]
+# parent = "homepage"
+# name = "Homepage List With Left Sidebar"
+# url = "homepage/list-left/"
+# weight = 5
 
-[[main]]
-parent = "homepage"
-name = "Homepage List With Right Sidebar"
-url = "homepage/list-right/"
-weight = 6
+# [[main]]
+# parent = "homepage"
+# name = "Homepage List With Right Sidebar"
+# url = "homepage/list-right/"
+# weight = 6
 
-[[main]]
-parent = "homepage"
-name = "Homepage Grid Style"
-url = "homepage/grid/"
-weight = 7
+# [[main]]
+# parent = "homepage"
+# name = "Homepage Grid Style"
+# url = "homepage/grid/"
+# weight = 7
 
-[[main]]
-parent = "homepage"
-name = "Homepage Grid With Left Sidebar"
-url = "homepage/grid-left/"
-weight = 8
+# [[main]]
+# parent = "homepage"
+# name = "Homepage Grid With Left Sidebar"
+# url = "homepage/grid-left/"
+# weight = 8
 
-[[main]]
-parent = "homepage"
-name = "Homepage Grid With Right Sidebar"
-url = "homepage/grid-right/"
-weight = 9
+# [[main]]
+# parent = "homepage"
+# name = "Homepage Grid With Right Sidebar"
+# url = "homepage/grid-right/"
+# weight = 9
 
 
 [[main]]
@@ -76,46 +76,46 @@ weight = 2
 # ----------------------------------------------------------------------
 # Dropdown menu
 # ----------------------------------------------------------------------
-[[main]]
-weight = 3
-name = "Pages"
-hasChildren = true
+# [[main]]
+# weight = 3
+# name = "Pages"
+# hasChildren = true
 
-[[main]]
-parent = "Pages"
-name = "Author"
-url = "author/john-doe/"
-weight = 1
+# [[main]]
+# parent = "Pages"
+# name = "Author"
+# url = "author/john-doe/"
+# weight = 1
 
-[[main]]
-parent = "Pages"
-name = "Category"
-url = "categories/photography/"
-weight = 2
+# [[main]]
+# parent = "Pages"
+# name = "Category"
+# url = "categories/photography/"
+# weight = 2
 
-[[main]]
-parent = "Pages"
-name = "Tags"
-url = "tags/photo/"
-weight = 3
+# [[main]]
+# parent = "Pages"
+# name = "Tags"
+# url = "tags/photo/"
+# weight = 3
 
-[[main]]
-parent = "Pages"
-name = "Search"
-url = "https://demo.gethugothemes.com/logbook/site/search/?s=coffee"
-weight = 4
+# [[main]]
+# parent = "Pages"
+# name = "Search"
+# url = "https://demo.gethugothemes.com/logbook/site/search/?s=coffee"
+# weight = 4
 
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
-weight = 5
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# url = "404/"
+# weight = 5
 
-[[main]]
-parent = "Pages"
-name = "Elements"
-url = "elements/"
-weight = 6
+# [[main]]
+# parent = "Pages"
+# name = "Elements"
+# url = "elements/"
+# weight = 6
 
 
 # ----------------------------------------------------------------------
