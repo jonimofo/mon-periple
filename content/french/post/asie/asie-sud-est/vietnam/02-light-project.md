@@ -11,8 +11,7 @@ type: "regular"
 draft: false
 ---
 
-<!-- TODO -->
-{{%bigletter color="#ce8460"%}}Q{{%/bigletter%}}uand j’étais [chez Nha]({{% ref "/01-dalat.md" %}}), je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
+<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">Q</span>uand j’étais [chez Nha]({{% ref "/01-dalat.md" %}}), je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
 <br>
 Le rendez-vous était donc pris.
 

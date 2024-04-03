@@ -7,10 +7,18 @@
 <section class="section">
 
   {{ if .IsHome }}
-  <div style="text-align: center; margin-bottom: 3rem;">
-    <h1>Mon Périple</h1>
-  </div>
-{{ end }}
+    <div style="text-align: center; margin-bottom: 6rem;">
+      <!-- ; margin-top: -2rem; /* margin-bottom: 1rem; */ ">" -->
+      <h1>Mon Périple</h1>
+      
+      <div>
+        <p style="text-align: center; font-size: 1.8rem !important;">Suivez mes aventures à travers la planète !<br>
+          Pour suivre mon récit depuis le début, <a href="https://google.fr">cliquez ici</a></p>
+      </div>
+
+    </div>
+    
+  {{ end }}
 
   <div class="container">
     <div class="row">
@@ -92,7 +100,7 @@
                     > -->
                   </li>
                   <li class="list-inline-item">
-                    <i class="fas fa-calendar calendar-icon " style="color: blue;"></i>&nbsp;{{ partial "french-date.html" . }}</li>
+                    <i class="fas fa-calendar calendar-icon"></i>&nbsp;{{ partial "french-date.html" . }}</li>
                      <!-- {{ i18n "date" }} : -->
                   <li class="list-inline-item">
                     <i class="fas fa-globe "></i>
@@ -117,10 +125,10 @@
                     {{ end }}
                   </li>
                 </ul>
-                <!-- <p>
+                <p>
                   {{ if .Params.Images }}
                     {{ if or (eq $sidebar `left`) (eq $sidebar `right`) }}
-                      {{ .Summary | truncate 100 }}
+                      {{ .Summary | truncate 170 }}
                     {{ else }}
                       {{ .Summary |
                         truncate 200
@@ -130,7 +138,7 @@
                     {{ .Summary | truncate 300 }}
                   {{ end }}
                 </p>
-                <a href="{{ .RelPermalink }}" class="btn btn-outline-primary" >
+                <!-- <a href="{{ .RelPermalink }}" class="btn btn-outline-primary" >
                   {{ i18n "continue_reading" }}</a> -->
               </div>
             </article>
@@ -221,9 +229,8 @@
                         {{ end }}
                       </li>
                     </ul>
-                    <!-- <p>{{ .Summary | truncate 150 }}</p>
-                    <a
-                      href="{{ .RelPermalink }}"
+                    <p>{{ .Summary | truncate 170 }}</p>
+                    <!-- <a href="{{ .RelPermalink }}"
                       class="btn btn-outline-primary" >{{ i18n "continue_reading" }}
                     </a> -->
                   </div>
@@ -296,8 +303,8 @@
                     {{ end }}
                   </li>
                 </ul>
-                <!-- <p>{{ .Summary }}</p>
-                <a href="{{ .RelPermalink }}" class="btn btn-outline-primary"
+                <p>{{ .Summary | truncate 170 }}</p>
+                <!-- <a href="{{ .RelPermalink }}" class="btn btn-outline-primary"
                   >{{ i18n "continue_reading" }}
                 </a> -->
               </div>

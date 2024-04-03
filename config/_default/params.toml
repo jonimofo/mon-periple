@@ -25,6 +25,7 @@ mainSections = ["post"]
 # featured post
 featured_post = false
 
+# TODO
 # layout
 post_layout = "full" # layout value (full, grid or list)
 # Sidebar

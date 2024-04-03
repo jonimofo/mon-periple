@@ -9,6 +9,7 @@ $border-color: {{.border_color}};
 $black: {{.black}};
 $white: {{.white}};
 $light: {{.light}};
+$color-dark-blue: {{.color_dark_blue}};
 
 // Font Variables
 $font-size: {{.font_size | default "16px"}};

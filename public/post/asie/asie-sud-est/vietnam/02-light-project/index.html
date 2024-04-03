@@ -19993,6 +19993,12 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
+p::selection {
+  color: #fff;
+  /* Text color of the selected text */
+  background-color: #1b83e2;
+  /* Background color of the selection */ }
+
 h1, .h1,
 h2,
 .h2,
@@ -21368,18 +21374,19 @@ p a:hover {
   font-size: 1.1rem !important;
   /* Font size remains unchanged */ }
 
+/* Style for the non-collapsed (expanded) state */
 .accordion-button {
   font-weight: bold !important;
-  color: #1b83e2; }
+  /* Maintain bold font weight */
+  color: #ff2414 !important;
+  /* Set the text color and make it important */ }
 
-/* Style for the collapsed state to ensure consistency */
+/* Style for the collapsed state - ensuring it doesn't change color */
 .accordion-button.collapsed {
-  font-weight: bold;
-  color: #1b83e2; }
-
-.accordion-body {
   font-weight: bold !important;
-  color: #1b83e2; }
+  /* Keep font weight consistent */
+  color: #ff2414 !important;
+  /* Maintain the same text color as the expanded state */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22442,13 +22449,19 @@ body.dark .tab-content {
         
         <div class="">
           <div class="content">
-            <!-- TODO -->
-<span class="bigletter" style="color: #ce8460; font-family: ;">
-    Q
-</span>
-uand j’étais [chez Nha](http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/), je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
+            <p><span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">Q</span>uand j’étais <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/"
+
+
+
+
+ target="_blank"
+ 
+
+
+>chez Nha</a>
+, je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.
 <br>
-Le rendez-vous était donc pris.
+Le rendez-vous était donc pris.</p>
 <h2 id="la-lumière-au-bout-du-long-chemin">LA LUMIÈRE AU BOUT DU (LONG) CHEMIN</h2>
 <p>Samedi matin, 5 heures, nous attendons donc autour du lac de Đà Lạt que Nha vienne nous chercher en voiture. C’est avec environ 30 minutes de retard que Nha arrive, non sans s’excuser encore et encore. La voiture est conduite et appartient à Dung (à prononcer Yung), ou plutôt Director Dung, du titre JCI de ce dernier. A ma petite surprise il s’agit d’une Peugeot. Ici j’ai constaté que Peugeot est une marque assez répandue. Le seul hic est qu’il est un peu difficile de trouver des pièces détachées et qu’apparemment les finitions ne sont pas aussi bonnes que les modèles vendus en Europe.<br>S’ensuit un trajet en voiture qui me parait interminable, même si je parviens quand même un peu à dormir. Je n’avais en fait pas percuté mais il y en avait pour presque 4h30 de trajet ALLER. C’est donc ça qu’ils appellent « communautés locales »… Je vois. Après un arrêt petit-déjeuner histoire de couper le voyage en deux et de manger un phô Bô (nouilles phô au bœuf), nous reprenons la route. Je suis suffisamment réveillé pour discuter avec les occupants du véhicule.</p>
 
@@ -24840,7 +24853,7 @@ Ce qu’ils trouvent dans le JCI au bout du compte :</p>
       <aside class="col-lg-4 mt-5 mt-lg-0">
         <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers Articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     
