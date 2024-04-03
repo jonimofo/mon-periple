@@ -19983,6 +19983,12 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
+p::selection {
+  color: #fff;
+  /* Text color of the selected text */
+  background-color: #1b83e2;
+  /* Background color of the selection */ }
+
 h1, .h1,
 h2,
 .h2,
@@ -21358,19 +21364,19 @@ p a:hover {
   font-size: 1.1rem !important;
   /* Font size remains unchanged */ }
 
+/* Style for the non-collapsed (expanded) state */
 .accordion-button {
-  font-weight: bold;
-  /* Makes the text bold */
-  color: #1b83e2; }
-
-/* Style for the collapsed state to ensure consistency */
-.accordion-button.collapsed {
-  font-weight: bold;
-  color: #1b83e2; }
-
-.accordion-body {
   font-weight: bold !important;
-  color: #1b83e2; }
+  /* Maintain bold font weight */
+  color: #ff2414 !important;
+  /* Set the text color and make it important */ }
+
+/* Style for the collapsed state - ensuring it doesn't change color */
+.accordion-button.collapsed {
+  font-weight: bold !important;
+  /* Keep font weight consistent */
+  color: #ff2414 !important;
+  /* Maintain the same text color as the expanded state */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22281,8 +22287,6 @@ body.dark .tab-content {
   
 
 
-
-
   <section class="section">
     <div class="container">
       <div class="row">
@@ -22291,7 +22295,7 @@ body.dark .tab-content {
           <aside class="col-lg-4 order-2 order-lg-1">
             <div class="pr-0 pr-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers Articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     
@@ -23119,17 +23123,12 @@ body.dark .tab-content {
                     col-md-8
                   ">
                   <h3 class="h5">
-                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/05-hue-1-2/"
-                      >Hue 1/2 : Keep calm and take pictures</a
-                    >
+                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/05-hue-1-2/" >Hue 1/2 : Keep calm and take pictures</a>
                   </h3>
                   <ul class="list-inline post-meta mb-2">
                     <li class="list-inline-item">
-                      <i class="fas fa-user me-2"></i
-                      ><a
-                        href="/mon-periple/author/benji/"
-                        >Benji</a
-                      >
+                      <i class="fas fa-user me-2"></i>
+                      <a href="/mon-periple/author/benji/" >Benji</a>
                     </li>
                     <li class="list-inline-item">
                       Publié le :
@@ -23300,17 +23299,12 @@ body.dark .tab-content {
                     col-md-8
                   ">
                   <h3 class="h5">
-                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/"
-                      >Da Nang : JCI et abus de protocole</a
-                    >
+                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/" >Da Nang : JCI et abus de protocole</a>
                   </h3>
                   <ul class="list-inline post-meta mb-2">
                     <li class="list-inline-item">
-                      <i class="fas fa-user me-2"></i
-                      ><a
-                        href="/mon-periple/author/benji/"
-                        >Benji</a
-                      >
+                      <i class="fas fa-user me-2"></i>
+                      <a href="/mon-periple/author/benji/" >Benji</a>
                     </li>
                     <li class="list-inline-item">
                       Publié le :
@@ -23481,17 +23475,12 @@ body.dark .tab-content {
                     col-md-8
                   ">
                   <h3 class="h5">
-                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/"
-                      >Bien Hoa : séjour en famille</a
-                    >
+                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/" >Bien Hoa : séjour en famille</a>
                   </h3>
                   <ul class="list-inline post-meta mb-2">
                     <li class="list-inline-item">
-                      <i class="fas fa-user me-2"></i
-                      ><a
-                        href="/mon-periple/author/benji/"
-                        >Benji</a
-                      >
+                      <i class="fas fa-user me-2"></i>
+                      <a href="/mon-periple/author/benji/" >Benji</a>
                     </li>
                     <li class="list-inline-item">
                       Publié le :
@@ -23662,17 +23651,12 @@ body.dark .tab-content {
                     col-md-8
                   ">
                   <h3 class="h5">
-                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/"
-                      >Light Project : et la lumière fut !</a
-                    >
+                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/" >Light Project : et la lumière fut !</a>
                   </h3>
                   <ul class="list-inline post-meta mb-2">
                     <li class="list-inline-item">
-                      <i class="fas fa-user me-2"></i
-                      ><a
-                        href="/mon-periple/author/benji/"
-                        >Benji</a
-                      >
+                      <i class="fas fa-user me-2"></i>
+                      <a href="/mon-periple/author/benji/" >Benji</a>
                     </li>
                     <li class="list-inline-item">
                       Publié le :
@@ -23702,7 +23686,7 @@ body.dark .tab-content {
                   <p>
                     
                       
-                        Q uand j’étais [chez …
+                        Quand j’étais chez Nha , je lui avais fait part pendant le dîner de ma curiosité concernant le JCI …
                       
                     
                   </p>
@@ -23843,17 +23827,12 @@ body.dark .tab-content {
                     col-md-8
                   ">
                   <h3 class="h5">
-                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/"
-                      >Da Lat : arrivée en douceur</a
-                    >
+                    <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/" >Da Lat : arrivée en douceur</a>
                   </h3>
                   <ul class="list-inline post-meta mb-2">
                     <li class="list-inline-item">
-                      <i class="fas fa-user me-2"></i
-                      ><a
-                        href="/mon-periple/author/benji/"
-                        >Benji</a
-                      >
+                      <i class="fas fa-user me-2"></i>
+                      <a href="/mon-periple/author/benji/" >Benji</a>
                     </li>
                     <li class="list-inline-item">
                       Publié le :

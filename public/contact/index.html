@@ -19984,6 +19984,12 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
+p::selection {
+  color: #fff;
+  /* Text color of the selected text */
+  background-color: #1b83e2;
+  /* Background color of the selection */ }
+
 h1, .h1,
 h2,
 .h2,
@@ -21359,19 +21365,19 @@ p a:hover {
   font-size: 1.1rem !important;
   /* Font size remains unchanged */ }
 
+/* Style for the non-collapsed (expanded) state */
 .accordion-button {
-  font-weight: bold;
-  /* Makes the text bold */
-  color: #1b83e2; }
+  font-weight: bold !important;
+  /* Maintain bold font weight */
+  color: #ff2414 !important;
+  /* Set the text color and make it important */ }
 
-/* Style for the collapsed state to ensure consistency */
+/* Style for the collapsed state - ensuring it doesn't change color */
 .accordion-button.collapsed {
   font-weight: bold !important;
-  color: #1b83e2; }
-
-.accordion-body {
-  font-weight: bold !important;
-  color: #1b83e2; }
+  /* Keep font weight consistent */
+  color: #ff2414 !important;
+  /* Maintain the same text color as the expanded state */ }
 
 .notice {
   margin-bottom: 1.5rem;

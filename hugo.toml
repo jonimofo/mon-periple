@@ -17,6 +17,8 @@ border_color = "#ddd"
 black = "#000"
 white = "#fff"
 light = "#f0f0f0"
+color_dark_blue = "#1b83e2"
+
 
 # font variables
 # base font size for full website, 
@@ -80,4 +82,3 @@ attributes = "async"
 link = "plugins/glightbox/glightbox.js"
 [[params.plugins.js]]
 link = "js/gallery-slider.js"
-

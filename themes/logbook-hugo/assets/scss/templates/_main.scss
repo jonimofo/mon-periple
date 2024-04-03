@@ -787,7 +787,7 @@ p a:hover {
 // -----------------------------------------------------------------------------
 .infotooltip {
   margin-bottom: 1.5rem;
-  border: 1px solid #1b83e2;
+  border: 1px solid $color-dark-blue;
   padding: 1.5rem;
   border-radius: 8px;
 }
@@ -804,7 +804,7 @@ p a:hover {
 .infotooltip-head p {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #1b83e2;
+  color: $color-dark-blue;
   // color: #1f2937;
   margin: 0;
   line-height: 1;
@@ -824,8 +824,8 @@ p a:hover {
 }
 
 .infotooltip.note {
-  color: #1b83e2;
-  border-color: #1b83e2;
+  color: $color-dark-blue;
+  border-color: $color-dark-blue;
 }
 
 
@@ -852,18 +852,23 @@ p a:hover {
 // -----------------------------------------------------------------------------
 // SPOILER ALERT
 // -----------------------------------------------------------------------------
+/* Style for the non-collapsed (expanded) state */
 .accordion-button {
-  font-weight: bold !important;
-  color: #1b83e2;
+  font-weight: bold !important; /* Maintain bold font weight */
+  color: #ff2414 !important; /* Set the text color and make it important */
 }
-
-/* Style for the collapsed state to ensure consistency */
+/* Style for the collapsed state - ensuring it doesn't change color */
 .accordion-button.collapsed {
-  font-weight: bold;
-  color: #1b83e2;
+  font-weight: bold !important; /* Keep font weight consistent */
+  color: #ff2414 !important; /* Maintain the same text color as the expanded state */
 }
 
-.accordion-body {
-  font-weight: bold !important;
-  color: #1b83e2;
-}
+
+// .article p:first-of-type::first-letter {
+//   font-size: 60px;
+//   display: inline-block; /* Changed from block to inline-block */
+//   float: left;
+//   line-height: 0.5;
+//   margin: 15px 15px 15px 0;
+//   color: $color-primary;
+// }

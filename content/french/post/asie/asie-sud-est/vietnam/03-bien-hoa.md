@@ -11,7 +11,7 @@ type: "regular"
 draft: false
 ---
 
-{{%bigletter color="#ce8460"%}}U{{%/bigletter %}}ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.<br>
+<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">U</span>ne fois rentré de Đà Lạt, j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.<br>
 
 <div style="margin-top: 30px !important; margin-bottom: 10px !important;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7951584.4801790835!2d103.88729553124998!3d13.312309686223127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d952b84aea25%3A0x2111cd93cb5263cb!2sBien%20Hoa%2C%20Dong%20Nai%2C%20Vietnam!5e0!3m2!1sen!2sus!4v1711890496581!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

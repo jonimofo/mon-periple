@@ -19993,6 +19993,12 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
+p::selection {
+  color: #fff;
+  /* Text color of the selected text */
+  background-color: #1b83e2;
+  /* Background color of the selection */ }
+
 h1, .h1,
 h2,
 .h2,
@@ -21368,18 +21374,19 @@ p a:hover {
   font-size: 1.1rem !important;
   /* Font size remains unchanged */ }
 
+/* Style for the non-collapsed (expanded) state */
 .accordion-button {
   font-weight: bold !important;
-  color: #1b83e2; }
+  /* Maintain bold font weight */
+  color: #ff2414 !important;
+  /* Set the text color and make it important */ }
 
-/* Style for the collapsed state to ensure consistency */
+/* Style for the collapsed state - ensuring it doesn't change color */
 .accordion-button.collapsed {
-  font-weight: bold;
-  color: #1b83e2; }
-
-.accordion-body {
   font-weight: bold !important;
-  color: #1b83e2; }
+  /* Keep font weight consistent */
+  color: #ff2414 !important;
+  /* Maintain the same text color as the expanded state */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22443,10 +22450,7 @@ body.dark .tab-content {
         <div class="">
           <div class="content">
             <h2 id="cest-pas-trop-tôt-">C&rsquo;est pas trop tôt !</h2>
-<span class="bigletter" style="color: ; font-family: ;">
-    A
-</span>
-près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de Mon Périple.
+<p><span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">A</span>près un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de Mon Périple.</p>
 <p>Je ne suis pas encore descendu de l’avion fraîchement atterri à l’aéroport d’Hô Chi Minh Ville que mon voisin de siège me demande d’où je viens. Quand je lui réponds que je suis Français, ce dernier se met alors à me parler en français. Il s’appelle Théo (en tout cas j’imagine que c’est le nom qu’il utilise en Europe vu que les prénoms vietnamiens sont vachement compliqués à prononcer et à retenir pour nous), vit et travaille en Belgique depuis une trentaine d’années environ. Nous discutons longuement tous les deux (en français) et vu que je n’ai rien à faire d’autre qu’attendre plus de trois heures supplémentaires à l’aéroport, je reste avec lui et patiente même quand il se fait longuement arrêter par les douanes vietnamiennes : chose qu’il avait prédite par ailleurs, sachant qu’il avait embarqué tout un tas de montres “toutes pourries” selon ses termes. Nous continuons à discuter et il propose de m’offrir un café à la sortie de l’aéroport.
 Il est environ 10 heures du matin et bien que mentalement préparé à cela, la chaleur est tout simplement étouffante. Je sirote mon café tout en continuant de papoter avec Théo, en attendant que son cousin vienne le chercher. Théo m’explique que cela fait plus de trois ans qu’il n’est pas rentré au VIetnam à cause du COVID. Son cousin arrive enfin et nous discutons un peu tous les trois avant qu’il soit temps de se séparer. Nous échangeons nos numéros : je me suis déjà fait un pote vietnamien, le voyage commence très bien !</p>
 <p>Il est temps ensuite de prendre mon dernier vol, direction Đà Lạt. Juste avant de monter dans l’avion, une dame vietnamienne me demande d’où je viens. Quand je lui dis que je suis français, elle paraît ravie en me disant que son mari est professeur d’université et qu’il enseigne souvent en France. Je suis un peu surpris que certaines personnes m’abordent juste en remarquant ma tête d’européen mais quand je regarde autour de moi, je constate que je suis le seul représentant du vieux continent dans l’avion.  Ce sentiment de me sentir un peu différent va continuer à m’accompagner pendant la première partie de mon séjour au Vietnam.</p>
@@ -24511,7 +24515,7 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
       <aside class="col-lg-4 mt-5 mt-lg-0">
         <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers Articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     

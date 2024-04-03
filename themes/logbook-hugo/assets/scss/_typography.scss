@@ -18,6 +18,11 @@ p,
   text-align: justify;
 }
 
+p::selection {
+  color: $white; /* Text color of the selected text */
+  background-color: $color-dark-blue; /* Background color of the selection */
+}
+
 h1,
 h2,
 h3,
@@ -163,3 +168,5 @@ h2 {
     height: calc(100% - 0.4em);
   }
 }
+
+

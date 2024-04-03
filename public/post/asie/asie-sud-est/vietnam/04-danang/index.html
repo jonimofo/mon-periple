@@ -19993,6 +19993,12 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
+p::selection {
+  color: #fff;
+  /* Text color of the selected text */
+  background-color: #1b83e2;
+  /* Background color of the selection */ }
+
 h1, .h1,
 h2,
 .h2,
@@ -21368,18 +21374,19 @@ p a:hover {
   font-size: 1.1rem !important;
   /* Font size remains unchanged */ }
 
+/* Style for the non-collapsed (expanded) state */
 .accordion-button {
-  font-weight: bold;
-  /* Makes the text bold */
-  color: #1b83e2; }
+  font-weight: bold !important;
+  /* Maintain bold font weight */
+  color: #ff2414 !important;
+  /* Set the text color and make it important */ }
 
-/* Style for the collapsed state to ensure consistency */
+/* Style for the collapsed state - ensuring it doesn't change color */
 .accordion-button.collapsed {
   font-weight: bold !important;
-  color: #1b83e2; }
-
-.accordion-body {
-  color: #1b83e2; }
+  /* Keep font weight consistent */
+  color: #ff2414 !important;
+  /* Maintain the same text color as the expanded state */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22442,10 +22449,7 @@ body.dark .tab-content {
         
         <div class="">
           <div class="content">
-            <span class="bigletter" style="color: #ce8460; font-family: ;">
-    N
-</span>
-ul n’est sans ignorer que j’aime bien battre le fer tant qu’il est chaud, tel ce bon vieux Cétautomatix. Giang m’informe qu’elle va prochainement participer en tant que Speaker à un « Training » JCI sur le sujet du Leardership, dans la ville de Đà Nẵng, à environ à 870 km de Biên Hòa. Quoi de mieux donc pour continuer sur ma lancée de découverte du monde de JCI ? Je vais pouvoir ainsi aborder une autre facette du JCI : après un projet à destination de la communauté, voici venu le temps des réunions et formations pour ses membres.
+            <p><span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">N</span>ul n’est sans ignorer que j’aime bien battre le fer tant qu’il est chaud, tel ce bon vieux Cétautomatix. Giang m’informe qu’elle va prochainement participer en tant que Speaker à un « Training » JCI sur le sujet du Leardership, dans la ville de Đà Nẵng, à environ à 870 km de Biên Hòa. Quoi de mieux donc pour continuer sur ma lancée de découverte du monde de JCI ? Je vais pouvoir ainsi aborder une autre facette du JCI : après un projet à destination de la communauté, voici venu le temps des réunions et formations pour ses membres.</p>
 <div style="margin-top: 30px !important; margin-bottom: 10px !important;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12150920.97257609!2d102.88247799547021!3d16.778588807647424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0xfc14e3a044436487!2zRGEgTmFuZywgSOG6o2kgQ2jDonUsIMSQw6AgTuG6tW5nLCBWaWV0bmFt!5e0!3m2!1sfr!2s!4v1712057042226!5m2!1sfr!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -24053,7 +24057,7 @@ D’abord, avec le groupe de LP Mỹ (la Local President de South-East Saigon), 
       <aside class="col-lg-4 mt-5 mt-lg-0">
         <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers Articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     

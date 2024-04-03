@@ -19993,6 +19993,12 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
+p::selection {
+  color: #fff;
+  /* Text color of the selected text */
+  background-color: #1b83e2;
+  /* Background color of the selection */ }
+
 h1, .h1,
 h2,
 .h2,
@@ -21368,18 +21374,19 @@ p a:hover {
   font-size: 1.1rem !important;
   /* Font size remains unchanged */ }
 
+/* Style for the non-collapsed (expanded) state */
 .accordion-button {
   font-weight: bold !important;
-  color: #1b83e2; }
+  /* Maintain bold font weight */
+  color: #ff2414 !important;
+  /* Set the text color and make it important */ }
 
-/* Style for the collapsed state to ensure consistency */
+/* Style for the collapsed state - ensuring it doesn't change color */
 .accordion-button.collapsed {
-  font-weight: bold;
-  color: #1b83e2; }
-
-.accordion-body {
   font-weight: bold !important;
-  color: #1b83e2; }
+  /* Keep font weight consistent */
+  color: #ff2414 !important;
+  /* Maintain the same text color as the expanded state */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22443,10 +22450,7 @@ body.dark .tab-content {
         <div class="">
           <div class="content">
             <!-- TODO LINK -->
-<span class="bigletter" style="color: #ce8460; font-family: ;">
-    A
-</span>
-près quelques jours passés à Đà Nẵng, il est temps de se tourner vers une nouvelle destination. Le choix est porté sur Huế, ville située à 90 km plus au nord de Đà Nẵng.
+<p><span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">A</span>près quelques jours passés à Đà Nẵng, il est temps de se tourner vers une nouvelle destination. Le choix est porté sur Huế, ville située à 90 km plus au nord de Đà Nẵng.</p>
 <div style="margin-top: 30px !important; margin-bottom: 10px !important;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11890799.978348315!2d101.73901986003986!3d15.450707538972727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a115e1a7935f%3A0xbf3b50af70b5c7b7!2zSHXhur8sIFRo4burYSBUaGnDqm4gSHXhur8!5e0!3m2!1sfr!2s!4v1712064368326!5m2!1sfr!2s"  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -24004,7 +24008,7 @@ Ceux qui ont déjà vu des touristes asiatiques devant un monument français dev
       <aside class="col-lg-4 mt-5 mt-lg-0">
         <div class="ps-0 ps-lg-4"><!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers Articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     

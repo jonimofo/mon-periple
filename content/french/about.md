@@ -1,6 +1,6 @@
 ---
 title: "Suivez Mon Périple à travers le monde !"
-image: "images/moi.png"
+image: "images/about.webp"
 # description
 description: "À propos de moi"
 layout: "about"

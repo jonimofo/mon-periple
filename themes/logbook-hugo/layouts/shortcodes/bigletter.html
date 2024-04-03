@@ -1,3 +1,2 @@
-<span class="bigletter" style="color: {{ with .Get "color" }}{{ . }}{{ else }}{{ $.Site.Params.color_primary }}{{ end }}; font-family: {{ $.Site.Params.font_primary }};">
-    {{ .Inner }}
-</span>
+<!-- /layouts/shortcodes/firstLetter.html -->
+<span style="font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0;">{{ .Get 0 }}</span>{{ .Inner }}
