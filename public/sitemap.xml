@@ -62,6 +62,8 @@
     <loc>http://192.168.1.249:1313/mon-periple/shop/product-5/</loc>
     <lastmod>2020-02-14T15:40:24+06:00</lastmod>
   </url><url>
+    <loc>http://192.168.1.249:1313/mon-periple/about/</loc>
+  </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/author/</loc>
   </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/elements/</loc>
@@ -95,8 +97,6 @@
     <loc>http://192.168.1.249:1313/mon-periple/terms-conditions/</loc>
   </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/search/</loc>
-  </url><url>
-    <loc>http://192.168.1.249:1313/mon-periple/about/</loc>
   </url><url>
     <loc>http://192.168.1.249:1313/mon-periple/contact/</loc>
   </url>

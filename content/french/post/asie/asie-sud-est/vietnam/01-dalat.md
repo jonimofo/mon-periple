@@ -159,6 +159,7 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
   zoomable="true" Command="" width="" webp="true">}}
 
 D’habitude je préfère marcher mais là il n’y a pas d’espace dédié pour marcher et de surcroît Trâm nous a prêté un magnifique scooter ! De quoi pouvoir m’acclimater en douceur au chaos routier vietnamien.
+<!-- TODO insert link later -->
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_19.webp"

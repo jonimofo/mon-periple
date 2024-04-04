@@ -7,14 +7,16 @@
     <div class="row">
       <div class="col-12">
         <!-- <div class="title"> -->
-        <div class="title-bordered">
-          <h1 class="" style="font-size: 2.6rem;">
-          <!-- <h1 class="h4 fw-normal"> -->
+        <!-- <div class="title-bordered"> -->
+        <div style="text-align: center;">
+          <h1>
+            <!-- <h1 class="" style="font-size: 2.6rem;"> -->
+            <!-- <h1 class="h4 fw-normal"> -->
             <!-- Showing items from -->
             <span class="text-primary">{{ .Title }}</span>
           </h1>
         </div container-flex>
-        <div class="category-cover-image">
+        <div class="category-cover-image" style="margin-top: -2rem; margin-bottom: 1.2rem;">
           {{ $imagePath := printf "/images/covers/%s.jpg" (urlize .Title) }}
           {{ partial "image.html" (dict "Src" $imagePath "Context" .Page ) }}
         </div>
@@ -28,12 +30,12 @@
       <!-- Determine the file path based on the category title -->
       {{ $filePath := printf "static/countries/%s.txt" (urlize .Title) }}
       {{ if (fileExists $filePath) }}
-        <!-- {{ $text := readFile $filePath }} -->
-        {{ $text := readFile $filePath | markdownify }}
-        <!-- <div>{{ $text | safeHTML }}</div> -->
-        <div class="category-markdown-content">{{ $text | markdownify }}</div>
+      <!-- {{ $text := readFile $filePath }} -->
+      {{ $text := readFile $filePath | markdownify }}
+      <!-- <div>{{ $text | safeHTML }}</div> -->
+      <div class="category-markdown-content">{{ $text | markdownify }}</div>
 
-        <i class="fas fa-quote-right category-quote-right"></i>
+      <i class="fas fa-quote-right category-quote-right"></i>
       {{ else }}
       <div>No content available for this category.</div>
       {{ end }}
