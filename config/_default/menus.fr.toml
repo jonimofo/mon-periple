@@ -121,17 +121,17 @@ weight = 2
 # ----------------------------------------------------------------------
 # Dropdown menu
 # ----------------------------------------------------------------------
-[[main]]
-name = "Kit du Voyageur"
-weight = 3
-hasChildren = true
+# [[main]]
+# name = "Kit du Voyageur"
+# weight = 3
+# hasChildren = true
 
 
-[[main]]
-parent = "Kit du Voyageur"
-name = "Shop"
-url = "shop/"
-weight = 5
+# [[main]]
+# parent = "Kit du Voyageur"
+# name = "Shop"
+# url = "shop/"
+# weight = 5
 
 
 

@@ -91,7 +91,7 @@
 
 
 
-  <meta name="keywords" content="Boilerplate, Hugo, Themefisher, GetHugoThemes" />
+  <meta name="keywords" content="voyage, asie, vietnam, découverte, paysage" />
 
 
 
@@ -100,7 +100,7 @@
 
 
 
-  <meta name="author" content="Themefisher" />
+  <meta name="author" content="Benji" />
 
 
 
@@ -245,9 +245,8 @@ if (!doNotTrack) {
   let indexURL = "http://192.168.1.249:1313/mon-periple/searchindex.json";
   let includeSectionsInSearch = ["post","shop"];
   let no_results_for = "Aucun résultat pour";
-  let empty_search_results_placeholder = "Tapez quelque chose à rechercher..";
+  let empty_search_results_placeholder = "empty_search_results_placeholder";
 </script>
-
 
 
 
@@ -19985,6 +19984,12 @@ p,
   font-family: "Open Sans", sans-serif;
   text-align: justify; }
 
+p::selection {
+  color: #fff;
+  /* Text color of the selected text */
+  background-color: #1b83e2;
+  /* Background color of the selection */ }
+
 h1, .h1,
 h2,
 .h2,
@@ -20934,7 +20939,7 @@ body {
 
 .title-bordered {
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1.4px solid #ce8460;
   border-radius: 2.5rem;
   margin-top: -1rem; }
   .title-bordered h1, .title-bordered .h1,
@@ -21258,32 +21263,121 @@ body {
 .post-navigation {
   display: flex;
   justify-content: space-between;
-  /* Adjusted for better spacing between the items */
+  /* Keeps items on opposite ends */
   align-items: flex-start;
   /* Align items at the top */
-  gap: 10px;
-  flex-wrap: nowrap;
-  /* Ensure they stay in one line */
   margin-top: 2rem; }
-
-.small-nav {
-  font-style: italic; }
 
 .nav-previous, .nav-next {
   flex: 1;
-  /* Allow these items to grow */
-  text-align: center; }
+  /* Allow flex items to grow to fill the space */
+  flex-basis: 0;
+  /* Start with 0 width, but allow growth */
+  text-align: center;
+  box-sizing: border-box;
+  /* Ensures padding and border are included in the element's total width and height */ }
 
-.next-title, .prev-title {
-  color: #ce8460; }
-  .next-title:hover, .prev-title:hover {
-    color: #1c1d1f; }
+/* If you want strictly equal widths and no growth beyond a certain point, set a specific max-width */
+.nav-previous, .nav-next {
+  max-width: 50%;
+  /* Ensures neither can become larger than half the container's width */ }
 
-.flex-spacer {
-  flex: 1;
-  /* Takes up the same amount of space as one of the nav items */
-  visibility: hidden;
-  /* Makes the spacer invisible */ }
+p a {
+  text-decoration: none;
+  color: #000000;
+  /* Normal text color */
+  font-weight: 700;
+  position: relative; }
+
+p a::before {
+  content: '';
+  background-color: #2aacec;
+  /* Color of the underline/background on hover */
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  /* Initial position of the pseudo-element */
+  width: 100%;
+  height: 4px;
+  /* Initial height of the pseudo-element */
+  z-index: -1;
+  transition: all .2s ease-in-out;
+  /* Smooth transition for hover effects */ }
+
+p a:hover::before {
+  bottom: 0;
+  /* Changes position to cover the text */
+  height: 100%;
+  /* Expands the pseudo-element to cover the text area */ }
+
+p a:hover {
+  color: #FFFFFF !important;
+  /* Changes text color to white on hover */ }
+
+.infotooltip {
+  margin-bottom: 1.5rem;
+  border: 1px solid #1b83e2;
+  padding: 1.5rem;
+  border-radius: 8px; }
+
+.infotooltip-head {
+  display: flex;
+  align-items: center; }
+
+.infotooltip-head svg {
+  margin-right: 0.75rem; }
+
+.infotooltip-head p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1b83e2;
+  margin: 0;
+  line-height: 1;
+  text-transform: lowercase !important; }
+
+.infotooltip-head p::first-letter {
+  text-transform: uppercase !important; }
+
+.infotooltip-body {
+  margin-top: 0.75rem; }
+
+.infotooltip-body p {
+  margin: 0; }
+
+.infotooltip.note {
+  color: #1b83e2;
+  border-color: #1b83e2; }
+
+.content blockquote {
+  background-color: rgba(255, 255, 255, 0.657);
+  border-left: 10px solid #ce8460;
+  /* Assuming $color-primary is defined in your preprocessor */
+  margin-top: 0.75rem;
+  margin-bottom: 2.2rem;
+  /* Increased bottom margin */
+  padding: 1rem 1rem 1rem 2rem;
+  /* Padding: top, right, bottom, and increased left */
+  position: relative;
+  font-style: italic; }
+
+.content blockquote p {
+  margin: 0;
+  font-size: 1.1rem !important;
+  /* Font size remains unchanged */ }
+
+/* Style for the non-collapsed (expanded) state */
+.accordion-button {
+  font-weight: bold !important;
+  /* Maintain bold font weight */
+  color: #ff2414 !important;
+  /* Set the text color and make it important */ }
+
+/* Style for the collapsed state - ensuring it doesn't change color */
+.accordion-button.collapsed {
+  font-weight: bold !important;
+  /* Keep font weight consistent */
+  color: #ff2414 !important;
+  /* Maintain the same text color as the expanded state */ }
 
 .notice {
   margin-bottom: 1.5rem;
@@ -22072,7 +22166,7 @@ body.dark .tab-content {
       class="img"
       width="150"
       height="28"
-      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q90_h2_lanczos_3.webp"
+      src="/mon-periple/images/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_q75_h2_lanczos_3.webp"
       alt="LogBook"
       onerror="this.onerror=null;this.src='\/mon-periple\/images\/logo_hu2cb6455ce0a49f3032faf3196889ca84_2598_300x0_resize_lanczos_3.png'" />
   
@@ -22111,125 +22205,10 @@ body.dark .tab-content {
             <ul class="navbar-nav ms-auto">
               
                 
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false">
-                      homepage <i class="fas fa-angle-down ms-1"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/full/"
-                          >Homepage Full Width</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/full-left/"
-                          >Homepage Full With Left Sidebar</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/full-right/"
-                          >Homepage Full With Right Sidebar</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/list/"
-                          >Homepage List Style</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/list-left/"
-                          >Homepage List With Left Sidebar</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/list-right/"
-                          >Homepage List With Right Sidebar</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/grid/"
-                          >Homepage Grid Style</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/grid-left/"
-                          >Homepage Grid With Left Sidebar</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/homepage/grid-right/"
-                          >Homepage Grid With Right Sidebar</a
-                        >
-                      
-                    </div>
-                  </li>
-                
-              
-                
                   <li class="nav-item">
                     <a class="nav-link" href="http://192.168.1.249:1313/mon-periple/about/"
                       >À propos</a
                     >
-                  </li>
-                
-              
-                
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false">
-                      Kit du Voyageur <i class="fas fa-angle-down ms-1"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/shop/"
-                          >Shop</a
-                        >
-                      
-                    </div>
-                  </li>
-                
-              
-                
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false">
-                      Pages <i class="fas fa-angle-down ms-1"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/author/john-doe/"
-                          >Author</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/categories/photography/"
-                          >Category</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/tags/photo/"
-                          >Tags</a
-                        >
-                      
-                        <a class="dropdown-item" href="https://demo.gethugothemes.com/logbook/site/search/?s=coffee"
-                          >Search</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/404/"
-                          >404 Page</a
-                        >
-                      
-                        <a class="dropdown-item" href="http://192.168.1.249:1313/mon-periple/elements/"
-                          >Elements</a
-                        >
-                      
-                    </div>
                   </li>
                 
               
@@ -22287,13 +22266,16 @@ body.dark .tab-content {
     <div class="row">
       <div class="col-12">
         
-        <div class="title-bordered">
-          <h1 class="h4 fw-normal">
+        
+        <div style="text-align: center;">
+          <h1>
+            
+            
             
             <span class="text-primary">Blogs</span>
           </h1>
         </div container-flex>
-        <div class="category-cover-image">
+        <div class="category-cover-image" style="margin-top: -2rem; margin-bottom: 1.2rem;">
           
           
 
@@ -22337,6 +22319,7 @@ body.dark .tab-content {
       </div>
     </div>
 
+
     <div class="category-text">
       <i class="fas fa-quote-left category-quote-left"></i>
       
@@ -22364,10 +22347,19 @@ body.dark .tab-content {
 
 
 <section class="section">
+
+  
+
+  
+
+ 
   <div class="container">
     <div class="row">
       
       
+
+      
+
       
       
       <div
@@ -22375,22 +22367,17 @@ body.dark .tab-content {
           col-lg-8
           mb-5 mb-lg-0">
         
+
           
-          <div class="row">
-            
-              <div
-                class="
-                  col-md-6
-                ">
-                <article class="card mb-4 border-0">
-                  
-                  
-                  
+          
+            <article class="row mb-5">
+              
+              
+                <div class="col-12 mb-4">
+                  <div class="post-slider">
                     
-                      <div class="post-slider">
+                      <a href="/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/">
                         
-                          <a href="/mon-periple/post/post-3/">
-                            
 
 
 
@@ -22465,31 +22452,31 @@ body.dark .tab-content {
         <picture>
           <source
             
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_545x0_resize_q90_h2_lanczos.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_cover_hu66ef7fc81ed2f5b974fa4d198fb44235_194430_545x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_600x0_resize_q90_h2_lanczos.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_cover_hu66ef7fc81ed2f5b974fa4d198fb44235_194430_600x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_700x0_resize_q90_h2_lanczos.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_cover_hu66ef7fc81ed2f5b974fa4d198fb44235_194430_700x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_1110x0_resize_q90_h2_lanczos.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_cover_hu66ef7fc81ed2f5b974fa4d198fb44235_194430_1110x0_resize_q75_h2_lanczos_2.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-3_hu1141597ca868199d541d6207bd898908_200384_1110x0_resize_q90_lanczos.jpg"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_cover_hu66ef7fc81ed2f5b974fa4d198fb44235_194430_1110x0_resize_q75_h2_lanczos_2.webp"
             class=" w-100 img"
-            alt="post-thumb"
-            width="1459"
-            height="663" />
+            alt=""
+            width="2048"
+            height="1536" />
         </picture>
       
       
@@ -22501,472 +22488,58 @@ body.dark .tab-content {
   
 
 
-                          </a>
-                        
-                      </div>
-                    
-                  
-                  
-                  <div class="card-body">
-                    <h3 class="h4">
-                      <a class="post-title" href="/mon-periple/post/post-3/"
-                        >Joyeux Couple Amoureux Boulangers Boire Du Café</a
-                      >
-                    </h3>
-                    <ul class="list-inline post-meta mb-4">
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-calendar calendar-icon "></i>&nbsp;
-
-<span>14 mars 2020</span>
-</li>
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-globe "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/categories/videography/"
-                            class="ms-1"
-                            >Videography
-                          </a>
-                        
-                      </li>
-                      <li class="list-inline-item">
-                        <i class="fas fa-key "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/tags/video/"
-                            class="ms-1"
-                            >Video
-                          </a>
-                        
-                          ,<a
-                            href="/mon-periple/tags/image/"
-                            class="ms-1"
-                            >Image
-                          </a>
-                        
-                      </li>
-                    </ul>
+                      </a>
                     
                   </div>
-                </article>
-              </div>
-            
+                </div>
+              
+
+
               <div
                 class="
-                  col-md-6
-                ">
-                <article class="card mb-4 border-0">
+                  col-12
+                 mx-auto">
+                <h3>
+                  <a class="post-title" href="/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/"
+                    >Da Lat : arrivée en douceur</a
+                  >
+                </h3>
+                <ul class="list-inline post-meta mb-4">
                   
-                  
-                  
-                    
-                      <div class="post-slider">
-                        
-                          <a href="/mon-periple/post/post-4/">
-                            
+                  <li class="list-inline-item">
+                    <i class="fas fa-calendar calendar-icon "></i>&nbsp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-4_huf10e9f47160d4dcabc8f729ce564018d_334600_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-4_huf10e9f47160d4dcabc8f729ce564018d_334600_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-4_huf10e9f47160d4dcabc8f729ce564018d_334600_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-4_huf10e9f47160d4dcabc8f729ce564018d_334600_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-4_huf10e9f47160d4dcabc8f729ce564018d_334600_1110x0_resize_q90_lanczos.jpg"
-            class=" w-100 img"
-            alt="post-thumb"
-            width="1359"
-            height="618" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </a>
-                        
-                      </div>
-                    
-                  
-                  
-                  <div class="card-body">
-                    <h3 class="h4">
-                      <a class="post-title" href="/mon-periple/post/post-4/"
-                        >Joyeux Couple Amoureux Boulangers Boire Du Café</a
-                      >
-                    </h3>
-                    <ul class="list-inline post-meta mb-4">
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-calendar calendar-icon "></i>&nbsp;
-
-<span>14 mars 2020</span>
+<span>4 septembre 2022</span>
 </li>
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-globe "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/categories/four-seasone/"
-                            class="ms-1"
-                            >Four seasone
-                          </a>
-                        
-                      </li>
-                      <li class="list-inline-item">
-                        <i class="fas fa-key "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/tags/seasone/"
-                            class="ms-1"
-                            >Seasone
-                          </a>
-                        
-                          ,<a
-                            href="/mon-periple/tags/new/"
-                            class="ms-1"
-                            >New
-                          </a>
-                        
-                      </li>
-                    </ul>
                     
-                  </div>
-                </article>
+                  <li class="list-inline-item">
+                    <i class="fas fa-globe "></i>
+                     
+                    
+                      <a
+                        href="/mon-periple/categories/vietnam/"
+                        class="ms-1"
+                        >Vietnam
+                      </a>
+                    
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-key "></i>
+                    
+                    
+                      <a
+                        href="/mon-periple/tags/vietnam/"
+                        class="ms-1"
+                        >Vietnam
+                      </a>
+                    
+                  </li>
+                </ul>
+                <p>C&rsquo;est pas trop tôt ! Après un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet …</p>
+                
               </div>
-            
-              <div
-                class="
-                  col-md-6
-                ">
-                <article class="card mb-4 border-0">
-                  
-                  
-                  
-                    
-                      <div class="post-slider">
-                        
-                          <a href="/mon-periple/post/post-5/">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-5_hu1ec64b1607113a941c6978e228bab314_206096_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-5_hu1ec64b1607113a941c6978e228bab314_206096_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-5_hu1ec64b1607113a941c6978e228bab314_206096_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-5_hu1ec64b1607113a941c6978e228bab314_206096_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-5_hu1ec64b1607113a941c6978e228bab314_206096_1110x0_resize_q90_lanczos.jpg"
-            class=" w-100 img"
-            alt="post-thumb"
-            width="1678"
-            height="763" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </a>
-                        
-                      </div>
-                    
-                  
-                  
-                  <div class="card-body">
-                    <h3 class="h4">
-                      <a class="post-title" href="/mon-periple/post/post-5/"
-                        >Joyeux Couple Amoureux Boulangers Boire Du Café</a
-                      >
-                    </h3>
-                    <ul class="list-inline post-meta mb-4">
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-calendar calendar-icon "></i>&nbsp;
-
-<span>14 mars 2020</span>
-</li>
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-globe "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/categories/newyork-city/"
-                            class="ms-1"
-                            >Newyork city
-                          </a>
-                        
-                      </li>
-                      <li class="list-inline-item">
-                        <i class="fas fa-key "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/tags/city/"
-                            class="ms-1"
-                            >City
-                          </a>
-                        
-                          ,<a
-                            href="/mon-periple/tags/photo/"
-                            class="ms-1"
-                            >Photo
-                          </a>
-                        
-                      </li>
-                    </ul>
-                    
-                  </div>
-                </article>
-              </div>
-            
-              <div
-                class="
-                  col-md-6
-                ">
-                <article class="card mb-4 border-0">
-                  
-                  
-                  
-                  
-                  <div class="card-body">
-                    <h3 class="h4">
-                      <a class="post-title" href="/mon-periple/post/post-6/"
-                        >Joyeux Couple Amoureux Boulangers Boire Du Café</a
-                      >
-                    </h3>
-                    <ul class="list-inline post-meta mb-4">
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-calendar calendar-icon "></i>&nbsp;
-
-<span>14 mars 2020</span>
-</li>
-                      
-                      <li class="list-inline-item">
-                        <i class="fas fa-globe "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/categories/newyork-city/"
-                            class="ms-1"
-                            >Newyork city
-                          </a>
-                        
-                      </li>
-                      <li class="list-inline-item">
-                        <i class="fas fa-key "></i>
-                        
-                        
-                          <a
-                            href="/mon-periple/tags/city/"
-                            class="ms-1"
-                            >City
-                          </a>
-                        
-                          ,<a
-                            href="/mon-periple/tags/photo/"
-                            class="ms-1"
-                            >Photo
-                          </a>
-                        
-                      </li>
-                    </ul>
-                    
-                  </div>
-                </article>
-              </div>
-            
-          </div>
+            </article>
+          
           
         
 
@@ -23030,18 +22603,19 @@ body.dark .tab-content {
         
       </div>
       
-
+      
       
       
         <aside class="col-lg-4">
-          <div class="ps-0 ps-lg-4"><!-- latest post -->
+          <div class="ps-0 ps-lg-4">
+            <!-- latest post -->
 <div class="widget">
-  <h5 class="widget-title"><span>Mes derniers articles</span></h5>
+  <h5 class="widget-title"><span>Mes derniers Articles</span></h5>
   <!-- post-item -->
   <ul class="list-unstyled widget-list mb-0">
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">
+        <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/06-hue-2/">
           
             
               
@@ -23119,31 +22693,31 @@ body.dark .tab-content {
         <picture>
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_545x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/06-hue-2/hue_2_cover_hu8390a04ac8a9f3b5d69b1037fab3c0b7_686516_545x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_600x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/06-hue-2/hue_2_cover_hu8390a04ac8a9f3b5d69b1037fab3c0b7_686516_600x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_700x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/06-hue-2/hue_2_cover_hu8390a04ac8a9f3b5d69b1037fab3c0b7_686516_700x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/06-hue-2/hue_2_cover_hu8390a04ac8a9f3b5d69b1037fab3c0b7_686516_1110x0_resize_q75_h2_lanczos_2.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hu9d67e9c7312803487c7dae00c031f739_225042_1110x0_resize_q90_h2_lanczos_2.webp"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/06-hue-2/hue_2_cover_hu8390a04ac8a9f3b5d69b1037fab3c0b7_686516_1110x0_resize_q75_h2_lanczos_2.webp"
             class=" me-3 img"
             alt="post-thumb"
-            width="1536"
-            height="1152" />
+            width="4032"
+            height="3024" />
         </picture>
       
       
@@ -23159,7 +22733,388 @@ body.dark .tab-content {
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/02-light_project/">Light Project : et la lumière fut !</a></h5>
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/06-hue-2/">Hue 2/2 : Au calme sur les bords du fleuve</a></h5>
+          
+
+<span>10 octobre 2022</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/05-hue-1/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/05-hue-1/hue_cover_hu0fefe49f88aaad892fbc2f03b3b037e1_973964_545x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/05-hue-1/hue_cover_hu0fefe49f88aaad892fbc2f03b3b037e1_973964_600x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/05-hue-1/hue_cover_hu0fefe49f88aaad892fbc2f03b3b037e1_973964_700x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/05-hue-1/hue_cover_hu0fefe49f88aaad892fbc2f03b3b037e1_973964_1110x0_resize_q75_h2_lanczos_2.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/05-hue-1/hue_cover_hu0fefe49f88aaad892fbc2f03b3b037e1_973964_1110x0_resize_q75_h2_lanczos_2.webp"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="4032"
+            height="3024" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/05-hue-1/">Hue 1/2 : Keep calm and take pictures</a></h5>
+          
+
+<span>9 octobre 2022</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_cover_hu7902ca2fd79ff2604db6123cfbdef55b_608180_545x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_cover_hu7902ca2fd79ff2604db6123cfbdef55b_608180_600x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_cover_hu7902ca2fd79ff2604db6123cfbdef55b_608180_700x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_cover_hu7902ca2fd79ff2604db6123cfbdef55b_608180_1110x0_resize_q75_h2_lanczos_2.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_cover_hu7902ca2fd79ff2604db6123cfbdef55b_608180_1110x0_resize_q75_h2_lanczos_2.webp"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="6016"
+            height="4016" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/">Da Nang : JCI et abus de protocole</a></h5>
+          
+
+<span>8 octobre 2022</span>
+
+        </div>
+      </li>
+    
+      <li class="d-flex widget-post align-items-start">
+        <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/">
+          
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_cover_hu0ccb51d15d347e724bf3a87c13756c8e_675058_545x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_cover_hu0ccb51d15d347e724bf3a87c13756c8e_675058_600x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_cover_hu0ccb51d15d347e724bf3a87c13756c8e_675058_700x0_resize_q75_h2_lanczos_2.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_cover_hu0ccb51d15d347e724bf3a87c13756c8e_675058_1110x0_resize_q75_h2_lanczos_2.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_cover_hu0ccb51d15d347e724bf3a87c13756c8e_675058_1110x0_resize_q75_h2_lanczos_2.webp"
+            class=" me-3 img"
+            alt="post-thumb"
+            width="4032"
+            height="3024" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            
+          
+        </a>
+        <div class="media-body">
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/">Bien Hoa : séjour en famille</a></h5>
           
 
 <span>25 septembre 2022</span>
@@ -23168,7 +23123,7 @@ body.dark .tab-content {
       </li>
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/">
+        <a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/">
           
             
               
@@ -23246,31 +23201,31 @@ body.dark .tab-content {
         <picture>
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_545x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hua01e5ee47578c8638188945604044646_556242_545x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_600x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hua01e5ee47578c8638188945604044646_556242_600x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_700x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hua01e5ee47578c8638188945604044646_556242_700x0_resize_q75_h2_lanczos_2.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q90_h2_lanczos_2.webp"
+              srcset="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hua01e5ee47578c8638188945604044646_556242_1110x0_resize_q75_h2_lanczos_2.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/dalat_cover_huf822b85e7c7413b79e2eb51d47bef289_206902_1110x0_resize_q90_h2_lanczos_2.webp"
+              src="/mon-periple/images/post/asie/asie-sud-est/01-vietnam/02-light-project/light_project_cover_hua01e5ee47578c8638188945604044646_556242_1110x0_resize_q75_h2_lanczos_2.webp"
             class=" me-3 img"
             alt="post-thumb"
-            width="1536"
-            height="1152" />
+            width="4032"
+            height="3024" />
         </picture>
       
       
@@ -23286,391 +23241,10 @@ body.dark .tab-content {
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/01-dalat/">Da Lat : arrivée en douceur</a></h5>
+          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/">Light Project : et la lumière fut !</a></h5>
           
 
-<span>4 septembre 2022</span>
-
-        </div>
-      </li>
-    
-      <li class="d-flex widget-post align-items-start">
-        <a href="http://192.168.1.249:1313/mon-periple/post/elements/">
-          
-            
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-6_hue652d174a668504e08bd47e88a7e152b_295919_1110x0_resize_q90_lanczos.jpg"
-            class=" me-3 img"
-            alt="post-thumb"
-            width="1200"
-            height="545" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-            
-          
-        </a>
-        <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/elements/">Elements That You Can Use To Create A New Post On This Template.</a></h5>
-          
-
-<span>15 mars 2020</span>
-
-        </div>
-      </li>
-    
-      <li class="d-flex widget-post align-items-start">
-        <a href="http://192.168.1.249:1313/mon-periple/post/post-1/">
-          
-            
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-1_hu771f7caf30f5a18d8db2d2d1d07622b1_361879_1110x0_resize_q90_lanczos.jpg"
-            class=" me-3 img"
-            alt="post-thumb"
-            width="1403"
-            height="638" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-            
-          
-        </a>
-        <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-1/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
-          
-
-<span>14 mars 2020</span>
-
-        </div>
-      </li>
-    
-      <li class="d-flex widget-post align-items-start">
-        <a href="http://192.168.1.249:1313/mon-periple/post/post-2/">
-          
-            
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_545x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_600x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_700x0_resize_q90_h2_lanczos.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_h2_lanczos.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/mon-periple/images/post/post-2_hu52d922f08eb8074328849650ddc4504d_195923_1110x0_resize_q90_lanczos.jpg"
-            class=" me-3 img"
-            alt="post-thumb"
-            width="1382"
-            height="628" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-            
-          
-        </a>
-        <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://192.168.1.249:1313/mon-periple/post/post-2/">Joyeux Couple Amoureux Boulangers Boire Du Café</a></h5>
-          
-
-<span>14 mars 2020</span>
+<span>25 septembre 2022</span>
 
         </div>
       </li>
@@ -23683,50 +23257,10 @@ body.dark .tab-content {
       <ul class="list-unstyled widget-list">
           <li>
             <a
-              href="/mon-periple/categories/four-seasone/"
-              class="d-flex"
-              >Four seasone
-              <small class="ms-auto">(1)</small></a
-            >
-          </li>
-          <li>
-            <a
-              href="/mon-periple/categories/newyork-city/"
-              class="d-flex"
-              >Newyork city
-              <small class="ms-auto">(2)</small></a
-            >
-          </li>
-          <li>
-            <a
-              href="/mon-periple/categories/photobooth/"
-              class="d-flex"
-              >Photobooth
-              <small class="ms-auto">(1)</small></a
-            >
-          </li>
-          <li>
-            <a
-              href="/mon-periple/categories/photography/"
-              class="d-flex"
-              >Photography
-              <small class="ms-auto">(2)</small></a
-            >
-          </li>
-          <li>
-            <a
-              href="/mon-periple/categories/videography/"
-              class="d-flex"
-              >Videography
-              <small class="ms-auto">(1)</small></a
-            >
-          </li>
-          <li>
-            <a
               href="/mon-periple/categories/vietnam/"
               class="d-flex"
               >Vietnam
-              <small class="ms-auto">(2)</small></a
+              <small class="ms-auto">(6)</small></a
             >
           </li>
       </ul>
@@ -23735,51 +23269,6 @@ body.dark .tab-content {
 <div class="widget">
   <h5 class="widget-title"><span>Mots-clefs</span></h5>
       <ul class="list-inline widget-list-inline">
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/asie/"
-              >Asie</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/asie-sud-est/"
-              >Asie sud est</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/booth/"
-              >Booth</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/city/"
-              >City</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/image/"
-              >Image</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/new/"
-              >New</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/photo/"
-              >Photo</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/seasone/"
-              >Seasone</a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="/mon-periple/tags/video/"
-              >Video</a
-            >
-          </li>
           <li class="list-inline-item">
             <a href="/mon-periple/tags/vietnam/"
               >Vietnam</a
@@ -23803,9 +23292,12 @@ body.dark .tab-content {
     </form>
   </div>
 
-</div>
+
+          </div>
         </aside>
       
+
+
       
     </div>
   </div>
