@@ -42,11 +42,11 @@
       {{ if eq $sidebar "left" }}
       <aside class="col-lg-4">
         <div class="ps-0 ps-lg-4">
-          <!-- {{ if .IsHome }} -->
-            <!-- {{- partialCached "widgets/widget-wrapper" ( dict "Widgets" $widgethome "Scope" . ) -}} -->
-          <!-- {{ else }} -->
+          {{ if .IsHome }}
+            {{- partialCached "widgets/widget-wrapper" ( dict "Widgets" $widgethome "Scope" . ) -}}
+          {{ else }}
             {{- partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) -}}
-          <!-- {{ end }} -->
+          {{ end }}
         </div>
       </aside>
     {{ end }}
@@ -416,11 +416,11 @@
       {{ if eq $sidebar "right" }}
         <aside class="col-lg-4">
           <div class="ps-0 ps-lg-4">
-            <!-- {{ if .IsHome }} -->
-              <!-- {{- partialCached "widgets/widget-wrapper" ( dict "Widgets" $widgethome "Scope" . ) -}} -->
-            <!-- {{ else }} -->
+            {{ if .IsHome }}
+              {{- partialCached "widgets/widget-wrapper" ( dict "Widgets" $widgethome "Scope" . ) -}}
+            {{ else }}
               {{- partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) -}}
-            <!-- {{ end }} -->
+            {{ end }}
           </div>
         </aside>
       {{ end }}
