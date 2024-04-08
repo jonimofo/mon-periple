@@ -255,7 +255,7 @@ En résumé ça aura été un mois bien rempli, où j’aurais appris tout un ta
 Mais on va surtout pas s’arrêter en si bon chemin (sinon ça en fait pas un périple), prochaine destination : la Thaïlande.
 <!-- TODO Link thailande -->
 
-Mais juste avant de partir, j’ai eu l’occasion de revoir Théo, mon pote d’aéroport, rencontré au [tout début de mon voyage]({{% ref 01-dalat %}}).
+Mais juste avant de partir, j’ai eu l’occasion de revoir Théo, mon pote d’aéroport, rencontré au tout [début de mon voyage]({{% ref 01-dalat %}}).
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/10-chau-doc/chau_doc_27.webp"

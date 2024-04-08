@@ -872,3 +872,19 @@ p a:hover {
 //   margin: 15px 15px 15px 0;
 //   color: $color-primary;
 // }
+
+
+// -----------------------------------------------------------------------------
+// PARAGRAPHE PAGE D'ACCUEIL
+// -----------------------------------------------------------------------------
+.center-big-displays {
+  max-width: 100%;
+  margin: 0 auto; /* Center align the content horizontally */
+}
+
+/* Media query for tablets and desktops */
+@media only screen and (min-width: 768px) {
+  .center-big-displays {
+      max-width: 40%;
+  }
+}
