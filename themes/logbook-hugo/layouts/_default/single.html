@@ -30,7 +30,8 @@
             <!-- <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.author }}</a> -->
             <!-- </li> -->
 
-            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>{{ .PublishDate.Format "2 janvier 2006" }}
+            <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>{{ partial "french-date.html" . }}
+            <!-- <li class="list-inline-item"><i class="fas fa-calendar me-2"></i>{{ .PublishDate.Format "2 janvier 2006" }} -->
             </li>
             <!-- <li class="list-inline-item">{{ i18n "date"}} : {{ .PublishDate.Format "January 2, 2006" }}</li> -->
             <li class="list-inline-item"><i class="fas fa-globe "></i>
