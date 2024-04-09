@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thailande on Mon Périple</title>
+    <link>http://192.168.1.249:1313/mon-periple/categories/thailande/</link>
+    <description>Recent content in Thailande on Mon Périple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://192.168.1.249:1313/mon-periple/categories/thailande/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bangkok : un centre-ville moderne et agréable</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/thailande/01-bangkok/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/thailande/01-bangkok/</guid>
+      <description>À</description>
+    </item>
+  </channel>
+</rss>

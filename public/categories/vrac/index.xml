@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vrac on Mon Périple</title>
+    <link>http://192.168.1.249:1313/mon-periple/categories/vrac/</link>
+    <description>Recent content in Vrac on Mon Périple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://192.168.1.249:1313/mon-periple/categories/vrac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La vie à la vietnamienne</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/04-vietnam-vie-1/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/04-vietnam-vie-1/</guid>
+      <description>À</description>
+    </item>
+    <item>
+      <title>Le Vietnam et le café</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/03-vietnam-cafe/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/03-vietnam-cafe/</guid>
+      <description>À</description>
+    </item>
+    <item>
+      <title>Le Vietnam et les deux-roues</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</guid>
+      <description>À</description>
+    </item>
+    <item>
+      <title>Le Vietnam et les services</title>
+      <link>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/02-vietnam-services/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.1.249:1313/mon-periple/post/asie/asie-sud-est/vrac/02-vietnam-services/</guid>
+      <description>À</description>
+    </item>
+  </channel>
+</rss>

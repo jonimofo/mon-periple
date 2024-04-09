@@ -85,6 +85,14 @@ $type-levels: 6, 5, 4, 3, 2, 1;
 h2 {
   margin-top: 3rem; /* or rem */
 }
+h2::after {
+  content: '';
+  flex-grow: 1;
+  height: 10px;
+  background-color: black;
+  margin-left: 15px; /* Adjust the distance between text and bar as needed */
+}
+
 
 // -----------------------------------------------
 // Quote shortcode

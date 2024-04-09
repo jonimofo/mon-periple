@@ -11,7 +11,7 @@ type: "regular"
 draft: false
 ---
 
-<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">À</span>peine remis de notre aventure à Bến Tre lors de notre tour organisé (si décevant fut-il), nous reprenons la route direction Cần Thơ.
+<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">À</span> peine remis de notre aventure à Bến Tre lors de notre tour organisé (si décevant fut-il), nous reprenons la route direction Cần Thơ.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4026312.182107967!2d106.014775!3d9.77068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0629f6de3edb7%3A0x527f09dbfb20b659!2zQ2FuIFRobywgTmluaCBLaeG7gXUsIEPhuqduIFRoxqEsIFZpZXRuYW0!5e0!3m2!1sen!2sus!4v1712477076094!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
