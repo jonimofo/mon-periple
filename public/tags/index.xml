@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mon Périple</title>
-    <link>http://192.168.1.249:1313/mon-periple/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Mon Périple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://192.168.1.249:1313/mon-periple/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thailande</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/thailande/</link>
+      <link>http://localhost:1313/tags/thailande/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/thailande/</guid>
+      <guid>http://localhost:1313/tags/thailande/</guid>
       <description></description>
     </item>
     <item>
       <title>Vietnam</title>
-      <link>http://192.168.1.249:1313/mon-periple/tags/vietnam/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.1.249:1313/mon-periple/tags/vietnam/</guid>
+      <link>http://localhost:1313/tags/vietnam/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/vietnam/</guid>
       <description></description>
     </item>
   </channel>

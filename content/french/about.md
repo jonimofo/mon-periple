@@ -26,3 +26,6 @@ Découvrez les chouettes pays que j'ai eu la chance de visiter et vivez mes aven
 Rien que ça. Un sacrément chouette programme en vue donc, comme vous l'aurez sans doute déjà deviné !
 
 Vous êtes prêt ? Alors [c'est parti mon Benji]({{% ref "/01-dalat.md" %}}) !
+
+<!-- TODO vision biaisé de moi -->
+
