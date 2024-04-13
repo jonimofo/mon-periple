@@ -2,108 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Mon Périple</title>
-    <link>http://localhost:1313/post/</link>
+    <link>http://192.168.100.210:1313/mon-periple/post/</link>
     <description>Recent content in Blogs on Mon Périple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Oct 2022 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://192.168.100.210:1313/mon-periple/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Krabi : entre plages et falaises</title>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/thailande/02-krabi/</link>
+      <pubDate>Sat, 22 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/thailande/02-krabi/</guid>
+      <description>Après la frénésie du centre-ville de Bangkok, il était de bon ton de repartir pour un endroit plus tranquille. Un nouvel avion (aïe aïe aïe l’empreinte carbone qui devient de pire en pire) : direction Krabi, province de la côte ouest du sud de la Thaïlande.&#xA;Là-bas, j’ai surtout séjourné à Ao Nang, une station balnéaire très agréable.</description>
+    </item>
     <item>
       <title>Bangkok : un centre-ville moderne et agréable</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/thailande/01-bangkok/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/thailande/01-bangkok/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/thailande/01-bangkok/</guid>
-      <description>Àvant de commencer le récit de mes aventures en Thaïlande, un petit spoiler s’impose. Faute de possibilité, je n’ai rencontré aucun autochtone là-bas. Je n’ai donc aucune anecdote sympa à partager ni rien véritablement à vous apprendre sur la vie dans ce pays. Je vous le présenterai ainsi que je l’ai vu : comme un pur touriste qui flâne, observe et ne peut pas lire ce qui est écrit (l’alphabet thaïlandais c’est du hiéroglyphe pour moi).</description>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/thailande/01-bangkok/</guid>
+      <description>Àvant de commencer le récit de mes aventures en Thaïlande, une petite précision s’impose. Faute de possibilité, je n’ai rencontré aucun autochtone là-bas (en tout cas lors de mon premier séjour mais chut, le reste c&amp;rsquo;est pour plus tard !). Je n’ai donc aucune anecdote sympa à partager ni rien véritablement à vous apprendre sur la vie des locaux dans ce pays.</description>
     </item>
     <item>
       <title>La vie à la vietnamienne</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vrac/04-vietnam-vie-1/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/04-vietnam-vie-1/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vrac/04-vietnam-vie-1/</guid>
-      <description>Ce petit billet c’est un condensé de tout ce que j’ai pu vivre, ressentir, sentir et observer au Vietnam. Je vais essayer d’y décrire la vie à la vietnamienne telle que je l’ai perçue au fil de mes escapades un peu partout dans le pays. Comme tout le reste de mon blog, il n’a aucune valeur de vérité absolue, juste histoire que vous voyiez un peu ce pays à travers mes yeux (ce qui est pas si ouf après tout puisque vous n’allez pas voir grand chose).</description>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/04-vietnam-vie-1/</guid>
+      <description>Ce petit billet c’est un condensé de tout ce que j’ai pu vivre, ressentir, sentir et observer au Vietnam. Je vais essayer d’y décrire la vie à la vietnamienne telle que je l’ai perçue au fil de mes escapades un peu partout dans le pays. Comme tout le reste de mon blog, il n’a aucune valeur de vérité absolue, juste histoire que vous voyiez un peu ce pays à travers mes yeux (ce qui est pas si ouf après tout puisque vous n’allez pas voir grand chose vu comment je suis bigleux).</description>
     </item>
     <item>
       <title>Le Vietnam et le café</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vrac/03-vietnam-cafe/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/03-vietnam-cafe/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vrac/03-vietnam-cafe/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/03-vietnam-cafe/</guid>
       <description>Pour beaucoup d’asiatiques, et notamment du Sud-Est du continent, le Vietnam est célèbre pour son café. A prononcer « ka-fé », mot héritage de l’occupation française, comme je l’ai découvert pendant mon séjour à Đà Lạt .&#xA;Mais moi, en tant que petit européen, je semble avoir une vision différente de la chose.</description>
     </item>
     <item>
       <title>Le Vietnam : le pays du service</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vrac/02-vietnam-services/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/02-vietnam-services/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vrac/02-vietnam-services/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/02-vietnam-services/</guid>
       <description>Le Vietnam ça a beau être souvent sale, très bruyant dans les grandes villes à cause de tous les véhicules qui klaxonnent en permanence ou encore l’air peut vite être assez désagréable à respirer (toujours à cause des deux roues vous l’aurez deviné j’espère si vous avez lu un peu ce blog), il y a quand même des éléments qui font que c’est un pays très chouette.</description>
     </item>
     <item>
+      <title>Le Vietnam et les deux-roues</title>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0200</pubDate>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</guid>
+      <description>À</description>
+    </item>
+    <item>
       <title>Chau Doc : sillonnons le delta du Mekong</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/10-chau-doc/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/10-chau-doc/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/10-chau-doc/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/10-chau-doc/</guid>
       <description>Dernière étape de notre triptyque dans le Delta du Mekong : la ville de Châu Đốc, située juste à côté de la frontière cambodgienne. Tellement juste à côté que certains hôtels y sont carrément interdits aux étrangers, peut-être de peur qu’on passe la frontière en douce. Pas de quoi s’inquiéter concernant mon matricule, je n’ai pas encore suffisamment exploré le Vietnam, donc on garde le Cambodge pour plus tard.</description>
     </item>
     <item>
       <title>Can Tho : galères et marché flottant</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/09-can-tho/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/09-can-tho/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/09-can-tho/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/09-can-tho/</guid>
       <description>À peine remis de notre aventure à Bến Tre lors de notre tour organisé (si décevant fut-il), nous reprenons la route direction Cần Thơ.&#xA;TUILES EN SÉRIE Et comme on va pas s’arrêter en si bon chemin, on continue un peu plus sur la série des choses dont on aurait pu se passer.</description>
     </item>
     <item>
       <title>Ben Tre : Tour organisé et noix de coco</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/08-ben-tre/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/08-ben-tre/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/08-ben-tre/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/08-ben-tre/</guid>
       <description>Dans les voyages on dit que participer à des tours organisés c’est parfois la seule façon de pouvoir accéder à certains endroits, de pouvoir découvrir certains aspects de la culture locale. On dit aussi qu’il n’y a pas de mauvaise expérience, car cela reste une expérience avant tout. Moi je dirais quand même que payer assez cher pour un truc claqué, ça reste quand même une expérience dont je pourrais me passer.</description>
     </item>
     <item>
       <title>The Blue &amp; Green Project</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/07-blue-green-project/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/07-blue-green-project/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/07-blue-green-project/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/07-blue-green-project/</guid>
       <description>Après un peu de répit à nouveau à Biên Hòa suite à mon séjour à Huế, il est temps de s’embarquer pour un nouveau projet communautaire avec le JCI. Le rendez-vous est pris très tôt à Hô Chi Minh CIty : 5 heures du matin. Au passage, les Vietnamiens appellent souvent cette ville de son ancien nom : Saigon, notamment parce que c’est plus court.</description>
     </item>
     <item>
       <title>Hue 2/2 : Au calme sur les bords du fleuve</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/06-hue-2/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/06-hue-2/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/06-hue-2/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/06-hue-2/</guid>
       <description>Quand j’ai dit à plusieurs Vietnamiens que j’avais passé du temps à Huế, et que de surcroit j’avais beaucoup apprécié la ville, ces derniers avaient du mal à me croire. Et j’avoue ne pas vraiment comprendre pourquoi. Autant lors de mon dernier séjour à Đà Nẵng , je n’étais pas si sûr de savoir pourquoi était une destination balnéaire en vogue (jeu de mot tout à fait intentionnel), mais là je ne comprends vraiment pas le manque d’engouement pour cette ville.</description>
     </item>
     <item>
       <title>Hue 1/2 : Keep calm and take pictures</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/05-hue-1/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/05-hue-1/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/05-hue-1/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/05-hue-1/</guid>
       <description>Après quelques jours passés à Đà Nẵng, il est temps de se tourner vers une nouvelle destination. Le choix est porté sur Huế, ville située à 90 km plus au nord de Đà Nẵng.&#xA;LA VOITURE ÇA RAPPROCHE Ca tombe bien puisque Joe et Velvet (les deux invités malaysiens), veulent aussi s’y rendre.</description>
     </item>
     <item>
       <title>Da Nang : JCI et abus de protocole</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/04-danang/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/</link>
       <pubDate>Sat, 08 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/04-danang/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/04-danang/</guid>
       <description>Nul n’est sans ignorer que j’aime bien battre le fer tant qu’il est chaud, tel ce bon vieux Cétautomatix. Giang m’informe qu’elle va prochainement participer en tant que Speaker à un « Training » JCI sur le sujet du Leardership, dans la ville de Đà Nẵng, à environ à 870 km de Biên Hòa.</description>
     </item>
     <item>
       <title>Bien Hoa : séjour en famille</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/03-bien-hoa/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/03-bien-hoa/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/03-bien-hoa/</guid>
       <description>Une fois rentré de Đà Lạt , j’ai eu la chance de pouvoir séjourner à Biên Hòa chez les parents de mon amie Giang.&#xA;De quoi expérimenter véritablement la vie à la vietnamienne. Le moins que l’on puisse dire c’est que cela aura été une tranche de vie unique, riche en expériences culinaires et pendant laquelle j’ai été (trop ?</description>
     </item>
     <item>
       <title>Light Project : et la lumière fut !</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/02-light-project/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/02-light-project/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/02-light-project/</guid>
       <description>Quand j’étais chez Nha , je lui avais fait part pendant le dîner de ma curiosité concernant le JCI et notamment des actions locales envers la communauté. En tous les cas n’importe quoi tant que cela n’implique pas des réunions : après tout j’étais en vacances à ce moment-là. Il m’avait dit que ça tombait bien puisque le week-end suivant avait justement lieu un événement.</description>
     </item>
     <item>
       <title>Da Lat : arrivée en douceur</title>
-      <link>http://localhost:1313/post/asie/asie-sud-est/vietnam/01-dalat/</link>
+      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</link>
       <pubDate>Sun, 04 Sep 2022 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/post/asie/asie-sud-est/vietnam/01-dalat/</guid>
+      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vietnam/01-dalat/</guid>
       <description>C&amp;rsquo;est pas trop tôt ! Après un train, une file d’attente de plus de 2h30 pour l’enregistrement à Charles de Gaulle et deux avions -soit environ 26 heures de trajet et de transit dans les pattes- me voilà enfin arrivé sur le sol vietnamien pour entamer le début de Mon Périple.</description>
     </item>
   </channel>

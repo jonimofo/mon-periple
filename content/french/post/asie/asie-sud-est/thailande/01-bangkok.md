@@ -11,7 +11,7 @@ type: "regular"
 draft: false
 ---
 
-<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">À</span>vant de commencer le récit de mes aventures en Thaïlande, un petit spoiler s’impose. Faute de possibilité, je n’ai rencontré aucun autochtone là-bas. Je n’ai donc aucune anecdote sympa à partager ni rien véritablement à vous apprendre sur la vie dans ce pays. Je vous le présenterai ainsi que je l’ai vu : comme un pur touriste qui flâne, observe et ne peut pas lire ce qui est écrit (l’alphabet thaïlandais c’est du hiéroglyphe pour moi).<br>De surcroit, à la moitié de mon séjour dans ce pays correspondait également la date de ma reprise du travail.Moins de temps libre = moins d’aventures possibles. Hélas !
+<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">À</span>vant de commencer le récit de mes aventures en Thaïlande, une petite précision s’impose. Faute de possibilité, je n’ai rencontré aucun autochtone là-bas (en tout cas lors de mon premier séjour mais chut, le reste c'est pour plus tard !). Je n’ai donc aucune anecdote sympa à partager ni rien véritablement à vous apprendre sur la vie des locaux dans ce pays. Je vous le présenterai ainsi que je l’ai vu : comme un pur touriste qui flâne, observe et ne peut pas lire ce qui est écrit (l’alphabet thaïlandais c’est du hiéroglyphe pour moi).<br>De surcroit, à la moitié de mon séjour dans ce pays correspondait également la date de ma reprise du travail.Moins de temps libre = moins d’aventures possibles. Hélas !
 
 ## UN CENTRE-VILLE PROPRE
 
@@ -266,4 +266,4 @@ Enfin c’était aussi l’occasion pour moi de découvrir mes premiers plats ty
 
 Bangkok c’était très sympa, beaucoup plus que ce que je ne m’imaginais. Encore une fois je parle bien uniquement du centre-ville. Une fois j’ai pris le BTS (la ligne de train aérien sur rail) et je me suis amusé à descendre bien bien plus loin, à un arrêt au hasard. Là c’était clairement pas la même ambiance : l’odeur, les bâtiments tout délabrés, les trottoirs défoncés et l’absence apparente de choses à faire pour moi ont fait que j’ai fait demi-tour au bout de 2 minutes seulement, histoire de retourer dans le cocon du centre-ville. Des fois il y a des aventures qui n’en valent pas tant la peine !
 
-Bon après passer une semaine tout seul en pleine ville, ça commençait à faire long. Mais cette solitude n’aura été que passagère puisque je fus finalement rejoins par Giang, fidèle compagnonne d’aventure qui a décidé de m’accompagner pour la suite de Mon Périple.
+Bon après passer une semaine tout seul en pleine ville, ça commençait à faire long. Mais cette solitude n’aura été que passagère puisque j'ai finalement été rejoint par Giang, fidèle compagnonne d’aventure qui a décidé de m’accompagner pour la suite de Mon Périple.

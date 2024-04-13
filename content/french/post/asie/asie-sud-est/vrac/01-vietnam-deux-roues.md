@@ -8,7 +8,7 @@ description: "TODO"
 categories: ["vrac"]
 tags: ["vietnam", "transports"]
 type: "regular"
-draft: true
+draft: false
 ---
 
 <span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">À</span> 
