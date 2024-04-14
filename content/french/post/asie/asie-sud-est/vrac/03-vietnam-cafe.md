@@ -11,11 +11,11 @@ type: "regular"
 draft: false
 ---
 
-<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">P</span>our beaucoup d’asiatiques, et notamment du Sud-Est du continent, le Vietnam est célèbre pour son café. A prononcer « ka-fé », mot héritage de l’occupation française, comme je l’ai découvert pendant mon séjour à [Đà Lạt]({{% ref 01-dalat %}}).<br>
+<span style="color:#ce8460; font-size: 60px; display: inline-block; float: left; line-height: 0.5; margin: 15px 15px 15px 0">P</span>our beaucoup d’asiatiques, et notamment du Sud-Est du continent, le Vietnam est célèbre pour son café. A prononcer « cà phê », mot héritage de l’occupation française, comme je l’ai découvert pendant mon séjour à [Đà Lạt]({{% ref 01-dalat %}}).<br>
 Mais moi, en tant que petit européen, je semble avoir une vision différente de la chose. Ce qui me fait dire ça ? 
 
 {{<quote>}}
-Beh je sais pas vous, mais moi ça me fait un peu tiquer quand la première question que me pose le vendeur après ma commande de café c’est : « Avec glaçons ? ».
+Bon je sais pas vous, mais moi ça me fait un peu tiquer quand la première question que me pose le vendeur après ma commande de café c’est : « Avec glaçons ? ».
 {{</quote>}}
 
 Pardon ?! J’ai bien demandé un café mon ami, je sais que mon vietnamien n’est pas encore dingue mais bon quand même, c’est même un mot dit à la française !<br>

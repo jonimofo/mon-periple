@@ -20,7 +20,7 @@ Je m’explique. Après notre repas avec les membres du JCI lors du [Blue & Gree
 A peine sorti de la voiture que des employés du tour, tout de rouge vêtus, nous accueillent et nous ouvrent les portières de la voiture. Chic alors que je me dis, c’est vraiment le pays du service ici. Cette émotion positive retombe vite quand on me présente le prix du tour organisé. Et pour cause, je croyais que c’était le prix par personne, alors qu’en fait on m’a montré le prix pour l’ensemble de notre groupe, mais ça je ne le découvrirai qu’à la toute fin du tour, au moment de payer. Petit lot de consolation en quelque sorte, faut bien essayer de voir le bien là où il est.
 
 {{<quote>}}
-Mais c’était si nul que ça ?<br>Eh bien, oui.
+Mais c’était si nul que ça ?<br>Eh bien oui.
 {{</quote>}}
 
 La visite commence, pour une raison que j’ignore, par un petit trajet dans une carriole tiré par un cheval. Le cheval, en très piteux état, semble être au point de rendre l’âme, premier indice vivant d’une visite tout aussi claquée que ce pauvre équidé.

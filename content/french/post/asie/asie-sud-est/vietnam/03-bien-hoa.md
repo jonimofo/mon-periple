@@ -29,7 +29,7 @@ Au coeur de ce doux foyer, 4 personnes composent la famille de Giang :
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_59.webp"
   caption=""
-  alt="bien_hoa_59" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -43,7 +43,7 @@ La maison comporte des éléments typiques du Vietnam comme par exemple un salon
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_31.webp"
   caption=""
-  alt="bien_hoa_31" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -55,7 +55,7 @@ Les Vietnamiens raffolent tellement des 2 roues qu’on en trouve même… dans 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_30.webp"
   caption=""
-  alt="bien_hoa_30" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -68,7 +68,7 @@ Le salon c’est aussi l’endroit pour se détendre. Et pour cela, pourquoi ne 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_27.webp"
   caption=""
-  alt="bien_hoa_27" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -86,7 +86,7 @@ Du coup ma réaction :
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/03-bien-hoa/bien_hoa_34.webp"
   caption=""
-  alt="bien_hoa_34" 
+  alt="" 
   resize=""
   position="center"
   zoomable="true"

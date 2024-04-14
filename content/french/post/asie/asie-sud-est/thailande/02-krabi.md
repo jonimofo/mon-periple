@@ -215,3 +215,4 @@ En effet, à la même période et à quelques dizaines de kilomètres plus loin,
 
 
 
+<!-- TODO resize images -->

@@ -65,11 +65,17 @@ Par exemple, ci-dessous vous avez les LP (Local President) qui portent les chain
 
 ## TROP DE PROTOCOLE TUE LE PROTOCOLE
 
-Mais vis à vis des protocoles, j’étais encore bien loin d’imaginer jusqu’où les membres du JCI pouvaient pousser le délire. Imaginez-vous ainsi, un week-end principalement rythmé par des réunions et des interventions des différents speakers . Soit. Sauf que j’étais encore bien loin de réaliser quelles proportions ça pouvait prendre. Dites-vous bien que beaucoup de gens différents ont pris la parole. Souvent pour ne pas parler très longtemps. Par contre, à chaque fois, et je dis bien À CHAQUE FOIS, que quelqu’un de différent prend la parole, cette même personne se sent obligée de redonner les noms de tous les invités présents ce jour-là. J’ai même souvent l’impression que dans la plupart des cas les remerciements sont en fait plus courts que l’énumération des différents invités. Au bout de la troisième fois ça me fait toujours un peu rire, mais par contre quand ça dure tout le week-end j’avoue arriver un peu à saturation.
+Mais vis à vis des protocoles, j’étais encore bien loin d’imaginer jusqu’où les membres du JCI pouvaient pousser le délire. Imaginez-vous ainsi, un week-end principalement rythmé par des réunions et des interventions des différents speakers . Soit. Sauf que j’étais encore bien loin de réaliser quelles proportions ça pouvait prendre. Dites-vous bien que beaucoup de gens différents ont pris la parole. Souvent pour ne pas parler très longtemps. 
+
+{{<quote>}}
+Par contre, à chaque fois, et je dis bien À CHAQUE FOIS, que quelqu’un de différent prend la parole, cette même personne se sent obligée de redonner les noms de tous les invités présents ce jour-là.
+{{</quote>}}
+
+J’ai même souvent l’impression que dans la plupart des cas les remerciements sont en fait plus courts que l’énumération des différents invités. Au bout de la troisième fois ça me fait toujours un peu rire, mais par contre quand ça dure tout le week-end j’avoue arriver un peu à saturation.
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_28.webp"
-  caption="A chaque prise de parole, le speaker énumère tous les noms des invités et leurs titres. Ceux-ci doivent alors à chaque fois se lever et saluer"
+  caption="A chaque prise de parole, le speaker énumère tous les titres et noms des invités, qui doivent alors à chaque fois se lever et saluer"
   alt="" 
   resize=""
   position="center"
@@ -78,8 +84,9 @@ Mais vis à vis des protocoles, j’étais encore bien loin d’imaginer jusqu�
   webp="true">}}
 
 Pire encore, il semblerait que toutes les occasions soient bonnes pour prendre la parole et essayer d’entamer un petit discours. J’en veux pour preuve que moi je croyais qu’une fois arrivé au diner, je pourrais enfin commencer à manger une fois assis à table. Que nenni, c’était sans compter les nombreux discours d’avant diner, au cas où ça nous aurait manqué pendant toute la journée !<br>
-Ce repas sera aussi l’occasion pour moi de découvrir que les Vietnamiens ont décidément un truc avec les glaçons. En fait, de nombreux serveurs étaient présents pour assurer le service du repas. La mission d’un petit nombre d’entre eux semblait se concentrer uniquement autour d’un seul objectif : s’assurer qu’un (énorme) glaçon soit constamment présent dans le verre de tous les invités, peu importe s’ils boivent de l’eau ou de la bière, il faut qu’il y ait un glaçon !<br>
-Même si j’ai quitté le monde de l’animation il y a déjà quelques années, et que je n’ai pas participé au Team Building, je n’ai pas pu y chapper et j’ai quand même eu droit aux activités du genre. L’une des missions aura été de construire dans un temps imparti une petite maison uniquement avec du papier journal et du scotch (tel le matériel de base de l’animateur socio-culturel). Une fois construite, la maison doit pouvoir résister aux intempéries : le reste des membres  reproduisent des bourrasques de vent en éventant leurs feuilles devant les maisons. Bon j’avoue que moi j’ai fait un peu overdose de ce genre d’activités. Mais force est de constater que tous les membres font de leur mieux pour m’inclure : on me met à la table de membres qui parlent bien mieux anglais que les autres (les évènements JCI sont un bon entrainement pour les membres pour parfaire leur anglais) ou encore on me demande fréquemment si tout va bien de mon côté, les membres vietnamiens comme les speakers malaysiens. Faut dire qu’une fois encore, je suis vraiment le seul non asiatique de toute la salle, qui compte plus d’une centaine de personnes. Et puis l’ensemble des membres est ravi que je puisse découvrir le JCI.
+Ce repas sera aussi l’occasion pour moi de découvrir que les Vietnamiens ont décidément un truc avec les glaçons. En fait, de nombreux serveurs étaient présents pour assurer le service du repas. La mission d’un petit nombre d’entre eux semblait se concentrer uniquement autour d’un seul objectif : s’assurer qu’un (énorme) glaçon soit constamment présent dans le verre de tous les invités, peu importe s’ils boivent de l’eau ou de la bière, il faut qu’il y ait un glaçon !
+
+Même si j’ai quitté le monde de l’animation il y a déjà quelques années, et que je n’ai pas participé au Team Building, je n’ai pas pu y chapper et j’ai quand même eu droit aux activités du genre. L’une des missions aura été de construire dans un temps imparti une petite maison uniquement avec du papier journal et du scotch (tel le matériel de base de l’animateur socio-culturel). Une fois construite, la maison doit pouvoir résister aux intempéries : le reste des membres  reproduisent des bourrasques de vent en éventant leurs feuilles devant les maisons. Bon j’avoue que moi j’ai fait un peu overdose de ce genre d’activités.<br>Mais force est de constater que tous les membres font de leur mieux pour m’inclure : on me met à la table de membres qui parlent bien mieux anglais que les autres (les évènements JCI sont un bon entrainement pour les membres pour parfaire leur anglais) ou encore on me demande fréquemment si tout va bien de mon côté, les membres vietnamiens comme les speakers malaysiens. Faut dire qu’une fois encore, je suis vraiment le seul non asiatique de toute la salle, qui compte plus d’une centaine de personnes. Et puis l’ensemble des membres est ravi que je puisse découvrir le JCI.
 
 {{< 
   gallery 
@@ -121,7 +128,7 @@ En parlant d’habits traditionnels, petite dédicace à la maitresse de cérém
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_29.webp"
   caption=""
-  alt="danang_29" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -152,7 +159,7 @@ Tout ça pour dire que Đà Nẵng est une destination balnéaire populaire aupr
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/04-danang/danang_42.webp"
   caption=""
-  alt="danang_42" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -172,11 +179,9 @@ D’abord, avec le groupe de LP Mỹ (la Local President de South-East Saigon), 
   dir="images/post/asie/asie-sud-est/01-vietnam/04-danang/food1" 
   zoomable="true" Command="Fit" width="" webp="true">}}
 
- Autre fait marrant, dans le taxi qui nous ramène, Hue, l’un des membres du groupe me dit qu’il a été en classe avec des belges pendant sa scolarité aux Etats-Unis. Il est donc capable de me sortir des (très) grosses et vulgaires insultes en français que je n’oserais pas écrire ici, ce qui m’amuse quand même au plus haut point tellement la situation et son accent français sont improbables.
+Autre fait marrant, dans le taxi qui nous ramène, Hue, l’un des membres du groupe me dit qu’il a été en classe avec des belges pendant sa scolarité aux Etats-Unis. Il est donc capable de me sortir des (très) grosses et vulgaires insultes en français que je n’oserais pas écrire ici, ce qui m’amuse quand même au plus haut point tellement la situation et son accent français sont improbables.
 
- <br>
-
- J’ai aussi été convié à manger au restaurant avec différents invités de l’évènements : les malaisiens et l’invité japonais. Au menu du jour : du mì quảng (le plat que j’avais déjà goûté chez LP Nha mais avec de la viande cette fois-ci), et tout un tas d’autres choses dont j’ai perdu le nom en route. 
+J’ai aussi été convié à manger au restaurant avec différents invités de l’évènements : les malaisiens et l’invité japonais. Au menu du jour : du mì quảng (le plat que j’avais déjà goûté chez LP Nha mais avec de la viande cette fois-ci), et tout un tas d’autres choses dont j’ai perdu le nom en route. 
 
  {{< 
   gallery 

@@ -45,7 +45,7 @@ Le JCI est un réseau humain avant tout, et via cette connexion, nous sommes inv
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_maison_papa.webp"
   caption=""
-  alt="dalat_maison_papa" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -57,7 +57,7 @@ Nha nous explique que cette maison où il vit avec sa mère a été construite p
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_20_alcool.webp"
   caption=""
-  alt="dalat_20.alcool" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -70,7 +70,7 @@ Ce soir-là Nha nous a cuisiné des “mì quảng chay“ : nouilles végétari
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_21_noodles.webp"
   caption=""
-  alt="dalat_21_noodles.webp" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -104,7 +104,7 @@ J’apprends aussi qu’Alvin adore dire “Bon appétit” avant de manger. Tr�
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_024.webp"
   caption=""
-  alt="dalat_024" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -116,7 +116,7 @@ En parlant de la France, Trâm me demande si je connais le mot « Gạc-măng-r�
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_36.webp"
   caption=""
-  alt="dalat_36" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -144,7 +144,7 @@ Les environs de Đà Lạt sont vallonnés, verts et très jolis. J’aime beauc
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_35.webp"
   caption=""
-  alt="dalat_35" 
+  alt="" 
   resize=""
   position="center"
   zoomable="false"
@@ -164,7 +164,7 @@ D’habitude je préfère marcher mais là il n’y a pas d’espace dédié pou
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/01-dalat/dalat_19.webp"
   caption=""
-  alt="dalat_19" 
+  alt="" 
   resize=""
   position="center"
   zoomable="true"

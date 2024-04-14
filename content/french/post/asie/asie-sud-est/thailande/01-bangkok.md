@@ -43,7 +43,7 @@ Une autre chouette découverte pour se déplacer c’est le MRT, le métro de Ba
 {{< 
   image src="images/post/asie/asie-sud-est/02-thailande/01-bangkok/bangkok_049_mrt.webp"
   caption="Un marquage au sol indique où se placer pour que le flux de voyageurs soit fluide. Une fois encore grosse leçon à suivre pour les Bordelais dans le tram..."
-  alt="light_project_31" 
+  alt="" 
   resize=""
   position="center"
   zoomable="true"
@@ -53,7 +53,7 @@ Une autre chouette découverte pour se déplacer c’est le MRT, le métro de Ba
 {{< 
   image src="images/post/asie/asie-sud-est/02-thailande/01-bangkok/bangkok_081.webp"
   caption="Priorité pour les sièges aux femmes, enfants, personnes âgées et... aux moines bouddhistes !"
-  alt="light_project_31" 
+  alt="" 
   resize=""
   position="center"
   zoomable="true"
@@ -65,7 +65,7 @@ L’application Grab (l »équivalent de Uber chez nous) permet aussi de se dép
 {{< 
   image src="images/post/asie/asie-sud-est/02-thailande/01-bangkok/bangkok_021.webp"
   caption="Sur la moto taxi dans le quartier agité de Chinatown"
-  alt="light_project_31" 
+  alt="" 
   resize=""
   position="center"
   zoomable="true"
@@ -267,3 +267,7 @@ Enfin c’était aussi l’occasion pour moi de découvrir mes premiers plats ty
 Bangkok c’était très sympa, beaucoup plus que ce que je ne m’imaginais. Encore une fois je parle bien uniquement du centre-ville. Une fois j’ai pris le BTS (la ligne de train aérien sur rail) et je me suis amusé à descendre bien bien plus loin, à un arrêt au hasard. Là c’était clairement pas la même ambiance : l’odeur, les bâtiments tout délabrés, les trottoirs défoncés et l’absence apparente de choses à faire pour moi ont fait que j’ai fait demi-tour au bout de 2 minutes seulement, histoire de retourer dans le cocon du centre-ville. Des fois il y a des aventures qui n’en valent pas tant la peine !
 
 Bon après passer une semaine tout seul en pleine ville, ça commençait à faire long. Mais cette solitude n’aura été que passagère puisque j'ai finalement été rejoint par Giang, fidèle compagnonne d’aventure qui a décidé de m’accompagner pour la suite de Mon Périple.
+
+
+<!-- todo resize vertical image/crop chinatown -->
+

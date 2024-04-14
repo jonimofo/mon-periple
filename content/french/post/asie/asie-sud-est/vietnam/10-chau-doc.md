@@ -19,10 +19,9 @@ draft: false
 
 Comme tout bon touriste qui se respecte un minimum, on regarde et demande ce qu’il y a comme endroits à visiter à la ronde. Nous partons donc pour une espèce de temple situé au sommet d’une petite colline. La dame de l’hôtel et son fils, qui nous louent les scooters, nous informent que nos bécanes ne sont pas assez puissantes pour gravir la colline : on est bon pour utiliser la télécabine.
 
-Avant d’aller plus loin, petit point pour souligner que c’est quand même toujours drôle de louer des deux-roues au Vietnam. Par exemple, quand on est rentré à l’hôtel pour le midi, le second fils des propriétaires de l’hôtel s’est dirigé vers mon scooter pour prendre le casque que j’utilisais en me précisant : « mon casque ». Eh oui, si jamais l’équipement que l’on prête  n’est pas suffisamment bien pour les standards du client, les Vietnamiens n’hésitent jamais à prêter leurs propres affaires, le pays du service a frappé une fois encore.
-<!-- TODO LIEN SERVICES -->
+Avant d’aller plus loin, petit point pour souligner que c’est quand même toujours drôle de louer des deux-roues au Vietnam. Par exemple, quand on est rentré à l’hôtel pour le midi, le second fils des propriétaires de l’hôtel s’est dirigé vers mon scooter pour prendre le casque que j’utilisais en me précisant : « mon casque ». Eh oui, si jamais l’équipement que l’on prête  n’est pas suffisamment bien pour les standards du client, les Vietnamiens n’hésitent jamais à prêter leurs propres affaires, [le pays du service]({{% ref 02-vietnam-services %}}) a frappé une fois encore.
 
-Dommage, si j’avais su j’aurais directement demandé à ce qu’on me prête ce chouette casque d’un de mes animaux favoris.
+Dommage, si j’avais su j’aurais directement demandé à ce qu’on me prête ce chouette casque qui en jette assurément pas mal :
 
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/10-chau-doc/chau_doc_1.webp"
@@ -252,11 +251,10 @@ Ca c’est pour les aspects qui pourraient être améliorés. Mais sinon :
 - Hormis sa prononciation (parce que c’est une langue tonique), le vietnamien est une langue très facile à apprendre où beaucoup de choses sont bien plus simples que la nôtre :  pas de conjugaison, seulement quatre temps différents, le mot pour pour poser une question est le même que pour exprimer la négation mais placé à un autre endroit. De surcroit, cadeau de l’occupation française, ils utilisent l’alphabet latin que les français ont un peu customisé pour indiquer quelle prononciation utiliser. J’ai commencé à l’apprendre et on me dit que j’ai un bon accent, ça fait plaisir.
 
 En résumé ça aura été un mois bien rempli, où j’aurais appris tout un tas de choses. J’y aurais découvert une culture complétement différente de la nôtre et c’est bien ça que j’étais venu chercher.<br>
-Mais on va surtout pas s’arrêter en si bon chemin (sinon ça en fait pas un périple), prochaine destination : la Thaïlande.
 <!-- TODO Link thailande -->
+Mais on va surtout pas s’arrêter en si bon chemin (sinon ça en fait pas un périple), prochaine destination : la Thaïlande.
 
 Mais juste avant de partir, j’ai eu l’occasion de revoir Théo, mon pote d’aéroport, rencontré au tout [début de mon voyage]({{% ref 01-dalat %}}).
-
 {{< 
   image src="images/post/asie/asie-sud-est/01-vietnam/10-chau-doc/chau_doc_27.webp"
   caption=""
@@ -268,3 +266,5 @@ Mais juste avant de partir, j’ai eu l’occasion de revoir Théo, mon pote d�
   webp="true">}}
 
 Clairement mieux vaut tard que jamais !
+
+<!-- TODO FIX LINK -->

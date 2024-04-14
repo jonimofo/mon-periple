@@ -108,7 +108,7 @@ Tandis que Mai nous observe de loin, toujours protégée intégralement du solei
 Après ce petit laps de temps je réalise qu’en fait l’ensemble des membres a déjà fini de planter tous les arbres que va accueillir la petite parcelle où l’on se trouve. Déjà ?! 
 
 {{<quote>}}
-Encore une fois, comme pour le Light Project, le temps de trajet était infiniment plus long que le temps total d’action !
+Comme pour le Light Project, le temps de trajet était à nouveau infiniment plus long que le temps total des actions !
 {{</quote>}}
 
  En discutant un peu avec les membres du JCI, on m’informe que c’est le lancement du projet, que celui-ci sera poursuivi par une compagnie spécialisée dans ce type d’ouvrage et que c’est un peu à l’image de la première brique posée dans un chantier. Tous ces membres aux couleurs du JCI ça reste une fois encore un bon coup de comm’ pour l’organisation.<br>
