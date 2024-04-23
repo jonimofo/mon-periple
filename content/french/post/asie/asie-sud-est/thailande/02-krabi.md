@@ -17,7 +17,7 @@ Là-bas, j’ai surtout séjourné à Ao Nang, une station balnéaire très agr�
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16193632.6920386!2d98.341879!3d7.734149000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305194991e242f07%3A0x748e13e4d7c99b57!2sKrabi%2C%20Pak%20Nam%2C%20Mueang%20Krabi%20District%2C%20Krabi%2081000%2C%20Thailand!5e0!3m2!1sen!2sus!4v1713012251940!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-## ATTENTION ON ROULE À DROITE
+## ATTENTION ICI ON ROULE À DROITE
 
 Comme au Vietnam, louer un deux-roues c’est bien souvent le meilleur moyen d’explorer les environs. Sauf que là-bas, contrairement à mon [expérience au Vietnam]({{% ref 01-vietnam-deux-roues %}}), il y avait très peu de monde sur la route et chacun conduisait de manière responsable et civilisée. Seule petite différence : la conduite se fait à droite, de quoi m’habituer pour les deux pays que j’ai visités en suivant.
 <!-- TODO LINK VIETNAM -->

@@ -1,20 +1,22 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/favicon_test_3.png"
+#favicon = "images/favicon.png"
 
 # logo
-logo = "images/logo.png"
+logo = "images/logo_test_9.png"
+#logo = "images/logo.png"
 
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "150px"
+logo_width = "180px"
 page_not_found_image = "images/404.png" # 404 error page image
 
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 
 # logo text will only show when logo is missing.
-logo_text = "LogBook"
+logo_text = "Mon Périple"
 
 # purgeCSS
 purge_css = true

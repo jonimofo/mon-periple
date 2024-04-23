@@ -10,6 +10,8 @@ paginate = 8 # see https://gohugo.io/extras/pagination/
 summaryLength = 50 # see https://gohugo.io/content-management/excerpts/
 # google analytics
 googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+
+## TODO
 # disqus short name
 # disqusShortname = "jonimofo" # get your shortname form here : https://disqus.com
 # disable language
@@ -57,6 +59,7 @@ home = ["HTML", "RSS", "JSON", "WebAppManifest", "SearchIndex"]
 
 ############################# Imaging ############################
 [imaging]
+# TODO TO CHECK
 # See https://github.com/disintegration/imaging
 # Default JPEG or WebP quality setting. Default is 75.
 quality = 75
@@ -98,4 +101,5 @@ baseName = "searchindex"
 isPlainText = true
 notAlternative = true
 
-
+# Robot.txt
+enableRobotsTXT = true

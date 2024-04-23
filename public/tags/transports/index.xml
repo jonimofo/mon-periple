@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transports on Mon Périple</title>
-    <link>http://192.168.100.210:1313/mon-periple/tags/transports/</link>
+    <link>http://192.168.100.212:1313/mon-periple/tags/transports/</link>
     <description>Recent content in Transports on Mon Périple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://192.168.100.210:1313/mon-periple/tags/transports/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.100.212:1313/mon-periple/tags/transports/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Le Vietnam et les deux-roues</title>
-      <link>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</link>
+      <link>http://192.168.100.212:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.100.210:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</guid>
+      <guid>http://192.168.100.212:1313/mon-periple/post/asie/asie-sud-est/vrac/01-vietnam-deux-roues/</guid>
       <description>À</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mon Périple</title>
-    <link>http://192.168.100.210:1313/mon-periple/categories/</link>
+    <link>http://192.168.100.212:1313/mon-periple/categories/</link>
     <description>Recent content in Categories on Mon Périple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sat, 22 Oct 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://192.168.100.210:1313/mon-periple/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.100.212:1313/mon-periple/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thailande</title>
-      <link>http://192.168.100.210:1313/mon-periple/categories/thailande/</link>
+      <link>http://192.168.100.212:1313/mon-periple/categories/thailande/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.100.210:1313/mon-periple/categories/thailande/</guid>
+      <guid>http://192.168.100.212:1313/mon-periple/categories/thailande/</guid>
       <description></description>
     </item>
     <item>
       <title>Vrac</title>
-      <link>http://192.168.100.210:1313/mon-periple/categories/vrac/</link>
+      <link>http://192.168.100.212:1313/mon-periple/categories/vrac/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.100.210:1313/mon-periple/categories/vrac/</guid>
+      <guid>http://192.168.100.212:1313/mon-periple/categories/vrac/</guid>
       <description></description>
     </item>
     <item>
       <title>Vietnam</title>
-      <link>http://192.168.100.210:1313/mon-periple/categories/vietnam/</link>
+      <link>http://192.168.100.212:1313/mon-periple/categories/vietnam/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>http://192.168.100.210:1313/mon-periple/categories/vietnam/</guid>
+      <guid>http://192.168.100.212:1313/mon-periple/categories/vietnam/</guid>
       <description></description>
     </item>
   </channel>

@@ -34,7 +34,7 @@ Bon je vais commencer par les trucs que je trouve qui pourraient être amélior�
 - Il y a un truc que j’ai constaté à plusieus endroits, chez les plus jeunes comme chez les plus vieux, c’est que certains n’ont aucun scrupule à me doubler dans les files d’attente. Voire certaines fois j’ai l’impression qu’ils font limite ça exprès, par défi. Et si je peux me permettre de citer Junior Bevil, personnage emblématique de Rasta Rockett qui se proclame être :
 > « Un type fier, un type fort qui peut être très méchant quand il a la haine et qui n’accepte pas qu’on lui marche sur les pieds ! »
 
-vous pensez bien que je ne me suis jamais laissé faire ou à défaut que j’ai balancé mes regards les plus noirs. C’est pas la fin du monde mais faudrait pas non plus prendre trop la confiance, même si ce n’est apparemment pas uniquement propre au Vietnam et que j’ai pu retrouver ce comportement dans d’autres pays d’Asie du Sud-Est.
+vous pensez bien que je ne me suis jamais laissé faire ou à défaut que j’ai balancé mes regards les plus noirs (ouais je sais je suis trop un déglingo !). C’est pas la fin du monde mais faudrait pas non plus prendre trop la confiance, même si ce n’est apparemment pas uniquement propre au Vietnam et que j’ai pu retrouver ce comportement dans d’autres pays d’Asie du Sud-Est.
 
 Mais trèves de choses dont on pourrait bien se passer, le Vietnam ça reste un très chouette pays avec beaucoup d’aspects dont je suis friand.
 
